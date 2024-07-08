@@ -11,8 +11,4 @@
     <ProjectReference Include="..\ApplicationTracker.Repo\ApplicationTracker.Repo.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Common\" />
-  </ItemGroup>
-
 </Project>

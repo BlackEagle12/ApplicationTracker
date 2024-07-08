@@ -16,6 +16,7 @@ namespace ApplicationTracker.Server
         {
             service.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             service.AddScoped<IUserService, UserService>();
+            service.AddScoped<IAuthService, AuthService>();
         }
     }
 }

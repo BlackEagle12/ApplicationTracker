@@ -1,5 +1,7 @@
-﻿using ApplicationTracker.Service;
+﻿using ApplicationTracker.Dto;
+using ApplicationTracker.Service;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace ApplicationTracker.Server.Controllers
 {
@@ -7,18 +9,57 @@ namespace ApplicationTracker.Server.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
+        private readonly IAuthService _authService;
         private readonly IUserService _userService;
-        AuthController(
+        public AuthController(
+                IAuthService authService,
                 IUserService userService
             )
         {
+            _authService = authService;
             _userService = userService;
         }
-        [HttpGet("sendinvitation")]
+
+        [HttpPost("sendinvitation")]
         public async Task<IActionResult> sendInvitationToUser([FromBody] string email)
         {
-            var invitationSent = _userService.SendOtpToUser(email);
-            throw new NotImplementedException();
+            try
+            {
+                var isUserExist = await _userService.IsUserExist(email);
+
+                if (isUserExist)
+                    throw new ApiException(
+                        HttpStatusCode.Conflict,
+                        $"User with Email {email} already exist"
+                    );
+
+                var otp = await _authService.SendOtpToUser(email);
+
+                await _userService.AddUserAsync(new UserDto
+                    {
+                        Email = email,
+                        TempToken = otp
+                    });
+
+                return Ok(new ApiResponce(
+                        HttpStatusCode.OK,
+                        "otp sent successfully"
+                    ));
+            }
+            catch (ApiException ex)
+            {
+                return StatusCode((int)ex.StatusCode, new ApiResponce(
+                        ex.StatusCode, 
+                        ex.ErrorMessage
+                    ));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new ApiException(
+                        HttpStatusCode.InternalServerError,
+                        ex.Message
+                    ));
+            }
         }
 
     }

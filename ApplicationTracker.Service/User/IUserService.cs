@@ -1,12 +1,13 @@
 ﻿
 using ApplicationTracker.Data;
+using ApplicationTracker.Dto;
 
 namespace ApplicationTracker.Service
 {
     public interface IUserService 
     {
-        Task AddUserAsync(User user);
+        Task AddUserAsync(UserDto user);
+        Task<bool> IsUserExist(string email);
         Task<User> getUserByIdAsync(int id);
-        Task<bool> SendOtpToUser(string email);
     }
 }

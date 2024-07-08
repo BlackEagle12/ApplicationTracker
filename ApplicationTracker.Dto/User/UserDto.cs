@@ -12,7 +12,7 @@
 
         public string? LastName { get; set; }
 
-        public string? TempToken { get; set; }
+        public int TempToken { get; set; }
 
         public bool IsVerified { get; set; }
 

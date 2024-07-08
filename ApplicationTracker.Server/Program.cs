@@ -1,3 +1,4 @@
+using ApplicationTracker.Dto;
 using ApplicationTracker.Server;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var emailConfigurationSection = builder.Configuration.GetSection("EmailConfigurations");
+builder.Services.Configure<EmailConfigurations>(emailConfigurationSection);
 
 builder.Services.InjectContextDependencies(builder.Configuration.GetConnectionString("Dev"));
 builder.Services.InjectDenendecies();
