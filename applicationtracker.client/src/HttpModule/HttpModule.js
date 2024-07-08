@@ -9,7 +9,9 @@ const HttpModule = axios.create({
 });
 
 HttpModule.interceptors.request.use((config) => {
-	const token = store.getState().session.token;
+	const token = localStorage.getItem('User').token;
 	config.headers.Authorization = `Bearer ${token}`;
 	return config;
 });
+
+export default HttpModule;
