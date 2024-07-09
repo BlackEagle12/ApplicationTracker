@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApplicationTracker.Dto;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,5 +10,6 @@ namespace ApplicationTracker.Service
     public interface IAuthService
     {
         Task<int> SendOtpToUser(string email);
+        Task<bool> verifyInvitation(VerifyInvitationDto verifyInvitationDto);
     }
 }

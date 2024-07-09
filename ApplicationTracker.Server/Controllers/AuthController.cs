@@ -30,16 +30,16 @@ namespace ApplicationTracker.Server.Controllers
                 if (isUserExist)
                     throw new ApiException(
                         HttpStatusCode.Conflict,
-                        $"User with Email {email} already exist"
+                        "User already registered"
                     );
 
                 var otp = await _authService.SendOtpToUser(email);
 
                 await _userService.AddUserAsync(new UserDto
-                    {
-                        Email = email,
-                        TempToken = otp
-                    });
+                {
+                    Email = email,
+                    TempToken = otp
+                });
 
                 return Ok(new ApiResponce(
                         HttpStatusCode.OK,
@@ -49,7 +49,7 @@ namespace ApplicationTracker.Server.Controllers
             catch (ApiException ex)
             {
                 return StatusCode((int)ex.StatusCode, new ApiResponce(
-                        ex.StatusCode, 
+                        ex.StatusCode,
                         ex.ErrorMessage
                     ));
             }
@@ -62,5 +62,32 @@ namespace ApplicationTracker.Server.Controllers
             }
         }
 
+        [HttpPost("verifyInvitation")]
+        public async Task<IActionResult> verifyInvitation([FromBody] VerifyInvitationDto verifyInvitationDto)
+        {
+            try
+            {
+                await _authService.verifyInvitation(verifyInvitationDto);
+                return Ok(new ApiResponce (
+                                HttpStatusCode.OK,
+                                "Invitation verified sucessfully!!!"
+                            ));
+
+            }
+            catch (ApiException ex)
+            {
+                return StatusCode((int)ex.StatusCode, new ApiResponce(
+                        ex.StatusCode,
+                        ex.ErrorMessage
+                    ));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new ApiException(
+                        HttpStatusCode.InternalServerError,
+                        ex.Message
+                    ));
+            }
+        }
     }
 }

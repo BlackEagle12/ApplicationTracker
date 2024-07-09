@@ -1,4 +1,4 @@
-﻿using ApplicationTracker.Data;
+﻿using ApplicationTracker.Data.Context;
 using ApplicationTracker.Repo;
 using ApplicationTracker.Service;
 using Microsoft.EntityFrameworkCore;

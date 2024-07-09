@@ -4,7 +4,11 @@ import {
 	validateEmail,
 	validatePasswd,
 } from "../../HelperFunctions/CommonHelper";
-import { signup } from "../../Services/Signup.service";
+import {
+	SendOtp,
+	signup,
+	verifyInvitation,
+} from "../../Services/Signup.service";
 
 export default function Signup() {
 	const [showPassword, setShowPassword] = useState(false);
@@ -78,20 +82,31 @@ export default function Signup() {
 		}
 	};
 
-	const setOriginalOTP = () => {
+	const inviteUser = async () => {
 		if (user.isOtpverified) return;
 
 		if (validateEmail(user.Email)) {
-			const otp = Math.trunc(Math.random() * 1000000);
-			alert("otp is : " + otp);
-			setUser({ ...user, originalOTP: otp });
+			let res = await SendOtp(user.Email);
 
-			setValidationErrors((old) => {
-				return {
-					...old,
-					Email: undefined,
-				};
-			});
+			if (res?.status === 200) {
+				user.isOtpSend = true;
+
+				setValidationErrors((old) => {
+					return {
+						...old,
+						Email: undefined,
+					};
+				});
+
+				alert("invitation send sucessfully please check your email");
+			} else {
+				setValidationErrors((old) => {
+					return {
+						...old,
+						Email: res.data,
+					};
+				});
+			}
 		} else {
 			setValidationErrors((old) => {
 				return {
@@ -102,19 +117,25 @@ export default function Signup() {
 		}
 	};
 
-	const handleVerifyOTP = () => {
-		let otpVerifyed = user.originalOTP === Number(user.OTP);
-		if (otpVerifyed) {
-			setUser({ ...user, isOtpverified: otpVerifyed });
+	const handleVerifyOTP = async () => {
+		let res = await verifyInvitation({
+			email: user.Email,
+			token: user.OTP,
+		});
+
+		if (res?.status === 200) {
+			setUser({ ...user, isOtpverified: true });
 			setValidationErrors({
 				...validationErrors,
 				OTP: undefined,
 			});
+			alert(res?.data);
 		} else {
 			setValidationErrors({
 				...validationErrors,
-				OTP: "Invalid OTP!",
+				OTP: res?.data,
 			});
+			alert(res?.data);
 		}
 	};
 
@@ -124,20 +145,25 @@ export default function Signup() {
 			<div className="relative   min-h-screen  sm:flex sm:flex-row  justify-center bg-transparent rounded-3xl shadow-xl">
 				<div className="flex-col flex  self-center lg:px-14 sm:max-w-4xl xl:max-w-md  z-10">
 					<div className="self-start hidden lg:flex flex-col  text-gray-300">
-						<h1 className="my-3 font-semibold text-4xl">Welcome!!</h1>
+						<h1 className="my-3 font-semibold text-4xl">
+							Welcome!!
+						</h1>
 						<p className="pr-3 text-sm opacity-75">
-							We're thrilled to have you on board. Get ready to take control of
-							your job search with ease and efficiency. Track your applications,
-							manage deadlines, and stay organized on your journey to landing
-							your dream job. Let's get started and make your career aspirations
-							a reality!
+							We're thrilled to have you on board. Get ready to
+							take control of your job search with ease and
+							efficiency. Track your applications, manage
+							deadlines, and stay organized on your journey to
+							landing your dream job. Let's get started and make
+							your career aspirations a reality!
 						</p>
 					</div>
 				</div>
 				<div className="flex justify-center self-center  z-10 m-5">
 					<div className="p-12 bg-white mx-auto rounded-3xl w-96 ">
 						<div className="mb-7">
-							<h3 className="font-semibold text-2xl text-gray-800">Register</h3>
+							<h3 className="font-semibold text-2xl text-gray-800">
+								Register
+							</h3>
 						</div>
 						<div className="space-y-3">
 							<div className="">
@@ -156,7 +182,7 @@ export default function Signup() {
 							</div>
 							<div
 								className="text-center cursor-pointer bg-purple-800  hover:bg-purple-700 text-gray-100 duration-1000 rounded aria-disabled:bg-gray-600"
-								onClick={setOriginalOTP}
+								onClick={inviteUser}
 								aria-disabled={user.isOtpverified}
 							>
 								<div className="text-sm ml-auto">
@@ -173,7 +199,9 @@ export default function Signup() {
 											name="OTP"
 											onChange={handleUserChange}
 											disabled={
-												user.originalOTP == undefined || user.isOtpverified
+												user.isOtpSend == undefined ||
+												!user.isOtpSend ||
+												user.isOtpverified
 											}
 											placeholder="Enter 6 digit otp"
 										/>
@@ -182,7 +210,9 @@ export default function Signup() {
 											className='className="w-full flex justify-center disabled:bg-gray-600 disabled:cursor-not-allowed bg-purple-800  hover:bg-purple-700 text-gray-100 p-3  rounded-lg tracking-wide font-semibold  cursor-pointer transition ease-in duration-500"'
 											onClick={handleVerifyOTP}
 											disabled={
-												user.originalOTP == undefined || user.isOtpverified
+												user.isOtpSend == undefined ||
+												!user.isOtpSend ||
+												user.isOtpverified
 											}
 										>
 											<p className="">Verify</p>
@@ -227,7 +257,9 @@ export default function Signup() {
 								/>
 								<div className="flex items-center absolute inset-y-0 right-0 mr-3  text-sm leading-5">
 									<svg
-										onClick={() => setShowPassword(!showPassword)}
+										onClick={() =>
+											setShowPassword(!showPassword)
+										}
 										className={
 											"h-4 text-purple-700 " +
 											(showPassword ? "hidden" : "block")
@@ -243,7 +275,9 @@ export default function Signup() {
 									</svg>
 
 									<svg
-										onClick={() => setShowPassword(!showPassword)}
+										onClick={() =>
+											setShowPassword(!showPassword)
+										}
 										className={
 											"h-4 text-purple-700 " +
 											(showPassword ? "block" : "hidden")
@@ -262,7 +296,9 @@ export default function Signup() {
 							<div>
 								<ul className="list-disc px-2">
 									{validationErrors?.Passwd?.map((err) => (
-										<li className="text-red-600 text-xs mx-2">{err}</li>
+										<li className="text-red-600 text-xs mx-2">
+											{err}
+										</li>
 									))}
 								</ul>
 							</div>
@@ -292,7 +328,9 @@ export default function Signup() {
 							</div>
 							<div className="flex items-center justify-center space-x-2 my-5">
 								<span className="h-px w-16 bg-gray-100"></span>
-								<span className="text-gray-300 font-normal">or</span>
+								<span className="text-gray-300 font-normal">
+									or
+								</span>
 								<span className="h-px w-16 bg-gray-100"></span>
 							</div>
 							<div className="mb-7 text-center">

@@ -1,5 +1,5 @@
 ﻿
-using ApplicationTracker.Data;
+using ApplicationTracker.Data.Models;
 using ApplicationTracker.Dto;
 using ApplicationTracker.Repo;
 using Microsoft.EntityFrameworkCore;
@@ -32,14 +32,15 @@ namespace ApplicationTracker.Service
             await _userRepository.InsertAsync(new User
             {
                 Email = user.Email,
+                Password = user.Password,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
                 TempToken = user.TempToken.ToString(),
                 IsVerified = false,
                 AddedOn = DateTime.UtcNow
             });
 
             await _userRepository.SaveChangesAsync();
-
-            throw new NotImplementedException();
         }
 
         public async Task<bool> IsUserExist(string email)

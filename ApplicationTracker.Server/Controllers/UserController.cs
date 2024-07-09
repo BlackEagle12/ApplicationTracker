@@ -19,12 +19,7 @@ namespace ApplicationTracker.Server.Controllers
         {
             _userService = userService;
         }
-        // GET: api/<UserController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+
 
         // GET api/<UserController>/5
         [HttpGet("{id}")]
@@ -40,7 +35,10 @@ namespace ApplicationTracker.Server.Controllers
             }
             catch(ApiException ex)
             {
-                return BadRequest(ex);
+                return StatusCode((int)ex.StatusCode, new ApiResponce(
+                        ex.StatusCode,
+                        ex.ErrorMessage
+                    ));
             }
             catch (Exception ex)
             {
@@ -49,11 +47,12 @@ namespace ApplicationTracker.Server.Controllers
                         ex.Message
                     ));
             }
+
         }
 
         // POST api/<UserController>
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] User user)
+        public async Task<IActionResult> Post([FromBody] UserDto user)
         {
             try
             {

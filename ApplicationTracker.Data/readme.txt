@@ -1,0 +1,1 @@
+Scaffold-DbContext -Connection "<Connection-string>" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models  -ContextDir Context -Context ApplicationTrackerDBContext
