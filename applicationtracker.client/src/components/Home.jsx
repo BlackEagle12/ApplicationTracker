@@ -9,6 +9,7 @@ export default function Home() {
 	const navigate = useNavigate();
 	const [currentLocation, setCurrentLocation] = useState("");
 	const location = useLocation();
+	const [user, setUser] = useState();
 
 	useEffect(() => {
 		console.log();
@@ -16,15 +17,13 @@ export default function Home() {
 		// Send request to your server to increment page view count
 	}, [location]);
 
-	const [user, setUser] = useState({});
-
 	useEffect(() => {
 		let usr = JSON.parse(localStorage.getItem("User"));
 		setUser((old) => {
 			return { ...old, ...usr };
 		});
-		console.log(usr);
-		if (!usr?.Email) navigate("/login");
+		console.log(user);
+		if (!user || user == null) navigate("/login");
 	}, []);
 
 	const handleLogout = async () => {

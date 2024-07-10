@@ -37,7 +37,7 @@ namespace ApplicationTracker.Repo
             _db.Remove(entity);
         }
 
-        public async Task<T> GetByIdAsync(object id)
+        public async Task<T?> GetByIdAsync(object id)
         {
             return await _db.FindAsync(id);
         }

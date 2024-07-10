@@ -27,13 +27,13 @@ namespace ApplicationTracker.Server.Controllers
         {
             try
             {
-                var user = await _userService.getUserByIdAsync(id);
+                var user = await _userService.GetUserByIdAsync(id);
                 return Ok(new ApiResponce(
                         HttpStatusCode.OK,
                         user
                     ));
             }
-            catch(ApiException ex)
+            catch (ApiException ex)
             {
                 return StatusCode((int)ex.StatusCode, new ApiResponce(
                         ex.StatusCode,
@@ -42,7 +42,7 @@ namespace ApplicationTracker.Server.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new ApiException(
+                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
                         HttpStatusCode.InternalServerError,
                         ex.Message
                     ));
@@ -50,37 +50,32 @@ namespace ApplicationTracker.Server.Controllers
 
         }
 
-        // POST api/<UserController>
-        [HttpPost]
-        public async Task<IActionResult> Post([FromBody] UserDto user)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] UserDto userDto)
         {
             try
             {
-                await _userService.AddUserAsync(user);
+                var user = await _userService.UpdateUserAsync(id, userDto);
                 return Ok(new ApiResponce(
-                        HttpStatusCode.OK,
-                        null
+                                HttpStatusCode.OK,
+                                user
+                            ));
+
+            }
+            catch (ApiException ex)
+            {
+                return StatusCode((int)ex.StatusCode, new ApiResponce(
+                        ex.StatusCode,
+                        ex.ErrorMessage
                     ));
             }
             catch (Exception ex)
             {
-                return BadRequest(new ApiException(
-                        HttpStatusCode.BadRequest,
+                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
+                        HttpStatusCode.InternalServerError,
                         ex.Message
                     ));
             }
-        }
-
-        // PUT api/<UserController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<UserController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }

@@ -1,7 +1,6 @@
 using ApplicationTracker.Dto;
 using ApplicationTracker.Server;
 
-
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,14 +23,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+IConfigurationSection appSettingsSection = builder.Configuration.GetSection("AppSettings");
+builder.Services.Configure<AppSettings>(appSettingsSection);
+var appSettings = appSettingsSection.Get<AppSettings>();
+
 var emailConfigurationSection = builder.Configuration.GetSection("EmailConfigurations");
 builder.Services.Configure<EmailConfigurations>(emailConfigurationSection);
 
+builder.Services.AddJWTAuthentication(appSettings.SigningKid);
 builder.Services.InjectContextDependencies(builder.Configuration.GetConnectionString("Dev"));
 builder.Services.InjectDenendecies();
 
+
 var app = builder.Build();
 
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 

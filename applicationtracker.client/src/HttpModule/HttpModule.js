@@ -29,10 +29,18 @@ HttpModule.interceptors.response.use(
 		// Do something with response error
 		// return Promise.reject(error);
 		console.log(error);
-		return {
-			status: error.response.data.statusCode,
-			data: error.response.data.data,
-		};
+
+		if (error.response.data.statusCode != undefined) {
+			return {
+				status: error.response.data.statusCode,
+				data: error.response.data.data,
+			};
+		} else {
+			return {
+				status: error.response.status,
+				data: error.message,
+			};
+		}
 	}
 );
 export default HttpModule;

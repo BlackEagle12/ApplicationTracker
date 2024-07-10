@@ -5,10 +5,12 @@ using ApplicationTracker.Dto;
 
 namespace ApplicationTracker.Service
 {
-    public interface IUserService 
+    public interface IUserService
     {
-        Task AddUserAsync(UserDto user);
+        Task<UserDto> AddUserAsync(UserDto user);
         Task<bool> IsUserExist(string email);
-        Task<User> getUserByIdAsync(int id);
+        Task<UserDto> GetUserByIdAsync(int id);
+        Task<UserDto> UpdateUserAsync(int id, UserDto userDto);
+        Task<UserDto> GetUserByEmail(string email);
     }
 }

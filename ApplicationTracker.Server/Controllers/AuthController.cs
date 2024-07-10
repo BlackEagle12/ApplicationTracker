@@ -55,7 +55,7 @@ namespace ApplicationTracker.Server.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new ApiException(
+                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
                         HttpStatusCode.InternalServerError,
                         ex.Message
                     ));
@@ -63,12 +63,12 @@ namespace ApplicationTracker.Server.Controllers
         }
 
         [HttpPost("verifyInvitation")]
-        public async Task<IActionResult> verifyInvitation([FromBody] VerifyInvitationDto verifyInvitationDto)
+        public async Task<IActionResult> VerifyInvitation([FromBody] VerifyInvitationDto verifyInvitationDto)
         {
             try
             {
-                await _authService.verifyInvitation(verifyInvitationDto);
-                return Ok(new ApiResponce (
+                await _authService.VerifyInvitation(verifyInvitationDto);
+                return Ok(new ApiResponce(
                                 HttpStatusCode.OK,
                                 "Invitation verified sucessfully!!!"
                             ));
@@ -83,7 +83,65 @@ namespace ApplicationTracker.Server.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new ApiException(
+                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
+                        HttpStatusCode.InternalServerError,
+                        ex.Message
+                    ));
+            }
+        }
+
+        [HttpPost("onborduser")]
+        public async Task<IActionResult> OnbordUser([FromBody] UserDto userDto)
+        {
+            try
+            {
+                var updatedUser = await _userService.UpdateUserAsync(0, userDto);
+                var authResponceDto = await _authService.OnbordUser(updatedUser);
+
+                return Ok(new ApiResponce(
+                                HttpStatusCode.OK,
+                                authResponceDto
+                            ));
+
+            }
+            catch (ApiException ex)
+            {
+                return StatusCode((int)ex.StatusCode, new ApiResponce(
+                        ex.StatusCode,
+                        ex.ErrorMessage
+                    ));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
+                        HttpStatusCode.InternalServerError,
+                        ex.Message
+                    ));
+            }
+        }
+
+        [HttpPost("authenticateuser")]
+        public async Task<IActionResult> AuthenticateUser([FromBody] LoginCredentialDto credentials)
+        {
+            try
+            {
+                var user = await _userService.GetUserByEmail(credentials.Email);
+                var authResponceDto = await _authService.AuthenticateUser(credentials, user);
+                return Ok(new ApiResponce(
+                    HttpStatusCode.OK,
+                    authResponceDto
+                ));
+            }
+            catch (ApiException ex)
+            {
+                return StatusCode((int)ex.StatusCode, new ApiResponce(
+                        ex.StatusCode,
+                        ex.ErrorMessage
+                    ));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
                         HttpStatusCode.InternalServerError,
                         ex.Message
                     ));

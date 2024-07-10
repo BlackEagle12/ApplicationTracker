@@ -1,6 +1,7 @@
 ﻿
 using ApplicationTracker.Data.Models;
 using ApplicationTracker.Dto;
+using ApplicationTracker.Mapper;
 using ApplicationTracker.Repo;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
@@ -10,37 +11,37 @@ namespace ApplicationTracker.Service
     public class UserService : IUserService
     {
         private readonly IRepository<User> _userRepository;
+        private readonly UserMapper _userMapper;
         public UserService(
-                IRepository<User> userRepository
+                IRepository<User> userRepository,
+                UserMapper userMapper
             )
         {
             _userRepository = userRepository;
+            _userMapper = userMapper;
         }
 
-        public async Task AddUserAsync(UserDto user)
+        public async Task<UserDto> AddUserAsync(UserDto userDto)
         {
 
-            if (user == null)
+            if (userDto == null)
                 throw new ApiException(HttpStatusCode.BadRequest, "can not add null user");
 
-            user.Id = 0;
+            userDto.Id = 0;
 
-            var existingUser = _userRepository.Select(x => x.Email.Equals(user.Email)).FirstOrDefault();
+            var existingUser = _userRepository.Select(x => x.Email.Equals(userDto.Email)).FirstOrDefault();
             if (existingUser != null)
-                throw new ApiException(HttpStatusCode.Conflict, $"{user.Email} already registered");
+                throw new ApiException(HttpStatusCode.Conflict, $"{userDto.Email} already registered");
 
-            await _userRepository.InsertAsync(new User
-            {
-                Email = user.Email,
-                Password = user.Password,
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                TempToken = user.TempToken.ToString(),
-                IsVerified = false,
-                AddedOn = DateTime.UtcNow
-            });
+            var user = _userMapper.GetUser(userDto);
 
+            user.IsVerified = false;
+            user.AddedOn = DateTime.UtcNow;
+
+            await _userRepository.InsertAsync(user);
             await _userRepository.SaveChangesAsync();
+
+            return await Task.FromResult(_userMapper.GetUserDto(user));
         }
 
         public async Task<bool> IsUserExist(string email)
@@ -53,14 +54,53 @@ namespace ApplicationTracker.Service
                 return false;
         }
 
-        public async Task<User> getUserByIdAsync(int id)
+        public async Task<UserDto> GetUserByIdAsync(int id)
         {
-            //var user = await _userRepository.GetByIdAsync(id);
-            //if (user is null)
-            //    throw new ApiException(HttpStatusCode.NotFound, $"User not found with userId : {id} ");
-            //return user;
+            var user = await _userRepository.GetByIdAsync(id);
+            if (user is null)
+                throw new ApiException(HttpStatusCode.NotFound, $"User not found with userId : {id} ");
+            return await Task.FromResult(_userMapper.GetUserDto(user));
+        }
 
-            throw new NotImplementedException();
+        public async Task<UserDto> UpdateUserAsync(int id, UserDto userDto)
+        {
+            if (id == 0 && string.IsNullOrEmpty(userDto.Email))
+                throw new ApiException(
+                    HttpStatusCode.UnprocessableEntity,
+                    "can not find user without id or email"
+                    );
+
+            User? user = null!;
+
+            if (id != 0)
+                user = await _userRepository.GetByIdAsync(id);
+            else
+                user = await _userRepository.Select(x => x.Email.Equals(userDto.Email)).FirstOrDefaultAsync();
+
+
+            if (user == null)
+                throw new ApiException(HttpStatusCode.NotFound, "No user found with given email");
+
+            user.Email = userDto.Email;
+            user.Password = userDto.Password;
+            user.FirstName = userDto.FirstName;
+            user.LastName = userDto.LastName;
+            user.TempToken = userDto.TempToken.ToString();
+            user.IsVerified = userDto.IsVerified;
+            user.LastUpdatedOn = DateTime.UtcNow;
+
+            _userRepository.Update(user);
+            await _userRepository.SaveChangesAsync();
+
+            return await Task.FromResult(_userMapper.GetUserDto(user));
+        }
+
+        public async Task<UserDto> GetUserByEmail(string email)
+        {
+            var user = await _userRepository.Select(x => x.Email.Equals(email)).FirstOrDefaultAsync();
+            if (user is null)
+                throw new ApiException(HttpStatusCode.NotFound, $"User not found with email : {email} ");
+            return await Task.FromResult(_userMapper.GetUserDto(user));
         }
     }
 }

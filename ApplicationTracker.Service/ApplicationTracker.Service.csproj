@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ApplicationTracker.Dto\ApplicationTracker.Dto.csproj" />
     <ProjectReference Include="..\ApplicationTracker.Repo\ApplicationTracker.Repo.csproj" />
+    <ProjectReference Include="..\ApplicationTracker.Mapper\ApplicationTracker.Mapper.csproj" />
   </ItemGroup>
 
 </Project>

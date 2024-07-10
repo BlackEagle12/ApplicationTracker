@@ -1,10 +1,21 @@
 import EndpointConstants from "../HttpModule/Endpoints";
 import HttpModule from "../HttpModule/HttpModule";
 
-export const signup = async (email, passwd) => {};
+export const updateUserInfo = async (user) => {
+	let url = EndpointConstants.updateUserURL;
 
-export const SendOtp = async (email) => {
-	return await HttpModule.post(EndpointConstants.SendOtpURL, email);
+	if (user.Id) url = url.replace("{id}", user.Id.toString());
+	else url = url.replace("{id}", "0");
+
+	return await HttpModule.put(url, user);
+};
+
+export const onbordUser = async (user) => {
+	return await HttpModule.put(EndpointConstants.onbordUserURL, user);
+};
+
+export const sendInvitation = async (email) => {
+	return await HttpModule.post(EndpointConstants.sendOtpURL, email);
 };
 
 export const verifyInvitation = async (data) => {

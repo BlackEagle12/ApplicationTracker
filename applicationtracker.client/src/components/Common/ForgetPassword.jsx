@@ -4,7 +4,6 @@ import {
 	validateEmail,
 	validatePasswd,
 } from "../../HelperFunctions/CommonHelper";
-import { signup } from "../../Services/Signup.service";
 import { resetPassword } from "../../Services/ResetPassword.Service";
 
 export default function ForgetPassword() {

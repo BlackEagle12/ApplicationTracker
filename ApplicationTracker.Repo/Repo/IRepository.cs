@@ -7,7 +7,7 @@ namespace ApplicationTracker.Repo
     {
         IDbContextTransaction BeginTransaction();
         Task CompleTransaction(IDbContextTransaction transaction);
-        Task<T> GetByIdAsync(object id);
+        Task<T?> GetByIdAsync(object id);
         IQueryable<T> GetQueyable();
         Task InsertAsync(T entity);
         void Update(T entity);
