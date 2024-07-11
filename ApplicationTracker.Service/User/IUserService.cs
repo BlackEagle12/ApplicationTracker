@@ -8,9 +8,12 @@ namespace ApplicationTracker.Service
     public interface IUserService
     {
         Task<UserDto> AddUserAsync(UserDto user);
-        Task<bool> IsUserExist(string email);
+        Task<bool> IsUserExistAsync(string email);
         Task<UserDto> GetUserByIdAsync(int id);
         Task<UserDto> UpdateUserAsync(int id, UserDto userDto);
-        Task<UserDto> GetUserByEmail(string email);
+        Task<UserDto> GetUserByEmailAsync(string email);
+        Task<UserDto> AuthenticateUser(LoginCredentialDto credentials);
+        Task<UserDto> OnbordUserAsync(UserDto userDto);
+        Task<UserDto> ResetPasswdAsync(LoginCredentialDto loginCredential);
     }
 }

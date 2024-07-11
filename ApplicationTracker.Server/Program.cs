@@ -5,16 +5,7 @@ var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: MyAllowSpecificOrigins,
-                      policy =>
-                      {
-                          policy.WithOrigins("https://localhost:5173")
-                          .AllowAnyHeader()
-                          .AllowAnyMethod();
-                      });
-});
+
 
 // Add services to the container.
 
@@ -34,9 +25,23 @@ var appSettings = appSettingsSection.Get<AppSettings>();
 var emailConfigurationSection = builder.Configuration.GetSection("EmailConfigurations");
 builder.Services.Configure<EmailConfigurations>(emailConfigurationSection);
 
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins(appSettings!.ClientList)
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                      });
+});
+
 builder.Services.InjectSwaggerGen();
 builder.Services.InjectDenendecies();
 builder.Services.InjectContextDependencies(builder.Configuration.GetConnectionString("Dev")!);
+
 builder.Services.InjectJWTAuthentication(appSettings!);
 
 

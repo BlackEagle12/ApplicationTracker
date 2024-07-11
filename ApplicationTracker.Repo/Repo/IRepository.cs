@@ -13,6 +13,7 @@ namespace ApplicationTracker.Repo
         void Update(T entity);
         void Delete(T entity);
         IQueryable<T> Select(Expression<Func<T, bool>> expression);
+        Task<bool> Any(Expression<Func<T, bool>> expression);
         Task SaveChangesAsync();
     }
 }

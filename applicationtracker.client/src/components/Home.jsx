@@ -12,8 +12,10 @@ export default function Home() {
 	const [user, setUser] = useState();
 
 	useEffect(() => {
-		console.log();
+		console.log(location);
 		setCurrentLocation(location.pathname.replace("/", ""));
+		let usr = JSON.parse(localStorage.getItem("User"));
+		if (!usr || usr == null) navigate("/login");
 		// Send request to your server to increment page view count
 	}, [location]);
 
@@ -22,8 +24,6 @@ export default function Home() {
 		setUser((old) => {
 			return { ...old, ...usr };
 		});
-		console.log(usr);
-		if (!usr || usr == null) navigate("/login");
 	}, []);
 
 	const handleLogout = async () => {
@@ -38,7 +38,7 @@ export default function Home() {
 			<div className="min-w-[250px]">
 				<LeftNav handleLogout={handleLogout} />
 			</div>
-			<div className="w-full px-5">
+			<div className="w-full px-5 h-full">
 				<div className="h-[100px]">
 					<Topnav
 						user={user}
@@ -47,7 +47,9 @@ export default function Home() {
 					/>
 				</div>
 
-				<Outlet />
+				<div className="h-[calc(100vh-100px)] overflow-auto">
+					<Outlet />
+				</div>
 				{/* <div> body</div> */}
 			</div>
 		</div>

@@ -9,9 +9,8 @@ namespace ApplicationTracker.Service
 {
     public interface IAuthService
     {
-        Task<AuthResponceDto> AuthenticateUser(LoginCredentialDto credentials, UserDto user);
-        Task<AuthResponceDto> OnbordUser(UserDto userDto);
-        Task<int> SendOtpToUser(string email);
+        Task<int> SendPasswordOtpToUser(string email, bool isResetPassword = false);
         Task<bool> VerifyInvitation(VerifyInvitationDto verifyInvitationDto);
+        AuthResponceDto GetAuthResponce(UserDto user);
     }
 }

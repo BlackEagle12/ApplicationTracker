@@ -4,7 +4,11 @@ import {
 	validateEmail,
 	validatePasswd,
 } from "../../HelperFunctions/CommonHelper";
-import { resetPassword } from "../../Services/ResetPassword.Service";
+import {
+	resetPassword,
+	sendResetPasswordToken,
+} from "../../Services/ResetPassword.Service";
+import { verifyInvitation } from "../../Services/Signup.service";
 
 export default function ForgetPassword() {
 	const [showPassword, setShowPassword] = useState(false);
@@ -65,33 +69,46 @@ export default function ForgetPassword() {
 			validationErrors.OTP === undefined &&
 			validationErrors.Email === undefined
 		) {
-			localStorage.setItem(
-				"User",
-				JSON.stringify({
-					Email: user.Email,
-				})
-			);
+			var res = await resetPassword({
+				Email: user.Email,
+				Password: user.Passwd,
+			});
 
-			await resetPassword(user.Email, user.Passwd);
-
-			navigation("/login");
+			if (res?.status === 200) {
+				localStorage.setItem("User", JSON.stringify(res.data));
+				alert("Password reset sucessfully!!");
+				navigation("/");
+			} else {
+				alert(res?.data);
+			}
 		}
 	};
 
-	const setOriginalOTP = () => {
+	const sendResetPassword = async () => {
 		if (user.isOtpverified) return;
 
 		if (validateEmail(user.Email)) {
-			const otp = Math.trunc(Math.random() * 1000000);
-			alert("otp is : " + otp);
-			setUser({ ...user, originalOTP: otp });
+			const res = await sendResetPasswordToken(user.Email);
 
-			setValidationErrors((old) => {
-				return {
-					...old,
-					Email: undefined,
-				};
-			});
+			if (res.status === 200) {
+				setUser({ ...user, isOtpSend: true });
+
+				setValidationErrors((old) => {
+					return {
+						...old,
+						Email: undefined,
+					};
+				});
+
+				alert("invitation send sucessfully please check your email");
+			} else {
+				setValidationErrors((old) => {
+					return {
+						...old,
+						Email: res?.data,
+					};
+				});
+			}
 		} else {
 			setValidationErrors((old) => {
 				return {
@@ -102,18 +119,23 @@ export default function ForgetPassword() {
 		}
 	};
 
-	const handleVerifyOTP = () => {
-		let otpVerifyed = user.originalOTP === Number(user.OTP);
-		if (otpVerifyed) {
-			setUser({ ...user, isOtpverified: otpVerifyed });
+	const handleVerifyOTP = async () => {
+		let res = await verifyInvitation({
+			email: user.Email,
+			token: user.OTP,
+		});
+
+		if (res?.status === 200) {
+			setUser({ ...user, isOtpverified: true });
 			setValidationErrors({
 				...validationErrors,
 				OTP: undefined,
 			});
+			alert(res?.data);
 		} else {
 			setValidationErrors({
 				...validationErrors,
-				OTP: "Invalid OTP!",
+				OTP: res?.data,
 			});
 		}
 	};
@@ -157,11 +179,33 @@ export default function ForgetPassword() {
 							</div>
 							<div
 								className="text-center cursor-pointer bg-purple-800  hover:bg-purple-700 text-gray-100 duration-1000 rounded aria-disabled:bg-gray-600"
-								onClick={setOriginalOTP}
+								onClick={sendResetPassword}
 								aria-disabled={user.isOtpverified}
 							>
-								<div className="text-sm ml-auto">
-									<p className="py-1">Get otp</p>
+								<div className="text-sm ml-auto flex items-center justify-center">
+									<span className="py-1 w-5/6">Get otp</span>
+									<span className="w-1/6 flex justify-center has-tooltip">
+										<span class="tooltip rounded shadow-lg p-1 bg-red-600 text-white -mt-8 text-xs">
+											this will disable your login credentials and enable when
+											you will create new password
+										</span>
+										<svg
+											class="h-4 w-4 text-white"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											stroke-width="2"
+											stroke="currentColor"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" />{" "}
+											<circle cx="12" cy="12" r="9" />{" "}
+											<line x1="12" y1="8" x2="12.01" y2="8" />{" "}
+											<polyline points="11 12 12 12 12 16 13 16" />
+										</svg>
+									</span>
 								</div>
 							</div>
 							<div className="flex items-center justify-between">
@@ -174,7 +218,9 @@ export default function ForgetPassword() {
 											name="OTP"
 											onChange={handleUserChange}
 											disabled={
-												user.originalOTP == undefined || user.isOtpverified
+												user.isOtpSend == undefined ||
+												!user.isOtpSend ||
+												user.isOtpverified
 											}
 											placeholder="Enter 6 digit otp"
 										/>
@@ -183,7 +229,9 @@ export default function ForgetPassword() {
 											className='className="w-full flex justify-center disabled:bg-gray-600 disabled:cursor-not-allowed bg-purple-800  hover:bg-purple-700 text-gray-100 p-3  rounded-lg tracking-wide font-semibold  cursor-pointer transition ease-in duration-500"'
 											onClick={handleVerifyOTP}
 											disabled={
-												user.originalOTP == undefined || user.isOtpverified
+												user.isOtpSend == undefined ||
+												!user.isOtpSend ||
+												user.isOtpverified
 											}
 										>
 											<p className="">Verify</p>

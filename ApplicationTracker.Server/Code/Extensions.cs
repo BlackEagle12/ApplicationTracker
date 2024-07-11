@@ -21,7 +21,7 @@ namespace ApplicationTracker.Server
         {
             service.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Syncware.Admin.WebApi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApplicationTracker.Server.Swagger", Version = "v1" });
                 //support Auth from swagger
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {

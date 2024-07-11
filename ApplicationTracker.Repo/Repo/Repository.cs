@@ -15,6 +15,11 @@ namespace ApplicationTracker.Repo
             _db = _context.Set<T>();
         }
 
+        public async Task<bool> Any(Expression<Func<T, bool>> expression)
+        {
+            return await _db.AnyAsync(expression);
+        }
+
         public IDbContextTransaction BeginTransaction()
         {
             return _context.Database.BeginTransaction();

@@ -23,17 +23,22 @@ namespace ApplicationTracker.Server.Controllers
         [HttpPost("sendinvitation")]
         public async Task<IActionResult> sendInvitationToUser([FromBody] string email)
         {
-            var user = await _userService.GetUserByEmail(email);
 
-            if (user != null && !string.IsNullOrEmpty(user.Password))
-                throw new ApiException(
-                    HttpStatusCode.Conflict,
-                    "User already registered"
-                );
+            var isUserExist = await _userService.IsUserExistAsync(email);
 
-            var otp = await _authService.SendOtpToUser(email);
+            if (isUserExist)
+            {
+                var user = await _userService.GetUserByEmailAsync(email);
+                if (!string.IsNullOrEmpty(user.Password))
+                    throw new ApiException(
+                        HttpStatusCode.Conflict,
+                        "User already registered"
+                    );
+            }
 
-            if (user == null)
+            var otp = await _authService.SendPasswordOtpToUser(email);
+
+            if (!isUserExist)
             {
                 await _userService.AddUserAsync(new UserDto
                 {
@@ -69,8 +74,8 @@ namespace ApplicationTracker.Server.Controllers
         [HttpPost("onborduser")]
         public async Task<IActionResult> OnbordUser([FromBody] UserDto userDto)
         {
-            var updatedUser = await _userService.UpdateUserAsync(0, userDto);
-            var authResponceDto = await _authService.OnbordUser(updatedUser);
+            var updatedUser = await _userService.OnbordUserAsync(userDto);
+            var authResponceDto = _authService.GetAuthResponce(updatedUser);
 
             return Ok(new ApiResponce(
                             HttpStatusCode.OK,
@@ -81,12 +86,45 @@ namespace ApplicationTracker.Server.Controllers
         [HttpPost("authenticateuser")]
         public async Task<IActionResult> AuthenticateUser([FromBody] LoginCredentialDto credentials)
         {
-            var user = await _userService.GetUserByEmail(credentials.Email);
-            var authResponceDto = await _authService.AuthenticateUser(credentials, user);
+            var user = await _userService.AuthenticateUser(credentials);
+            var authResponceDto = _authService.GetAuthResponce(user);
             return Ok(new ApiResponce(
                 HttpStatusCode.OK,
                 authResponceDto
             ));
+        }
+
+        [HttpPost("sendresetpasswordtoken")]
+        public async Task<IActionResult> SendResetPasswordToken([FromBody] string email)
+        {
+            var user = await _userService.GetUserByEmailAsync(email);
+            var otp = await _authService.SendPasswordOtpToUser(email, true);
+
+            await _userService.UpdateUserAsync(user.Id, new UserDto
+            {
+                Email = user.Email,
+                Password = null,
+                TempToken = otp,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                IsVerified = false
+            });
+
+            return Ok(new ApiResponce(
+                HttpStatusCode.OK,
+                "otp sent successfully"
+            ));
+        }
+
+        [HttpPost("resetpassword")]
+        public async Task<IActionResult> ResetPassword([FromBody] LoginCredentialDto loginCredential)
+        {
+            var user = await _userService.ResetPasswdAsync(loginCredential);
+            var authResponceDto = _authService.GetAuthResponce(user);
+            return Ok(new ApiResponce(
+                            HttpStatusCode.OK,
+                            authResponceDto
+                        ));
         }
     }
 }

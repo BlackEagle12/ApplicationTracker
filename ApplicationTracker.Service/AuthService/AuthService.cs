@@ -46,7 +46,7 @@ namespace ApplicationTracker.Service
             _disposed = true;
         }
 
-        public async Task<int> SendOtpToUser(string email)
+        public async Task<int> SendPasswordOtpToUser(string email, bool isResetPassword = false)
         {
             Random rnd = new Random();
             var otp = rnd.Next(100000, 999999);
@@ -54,7 +54,7 @@ namespace ApplicationTracker.Service
                     new()
                     {
                         Subject = "Invitation From Application Tracker",
-                        Body = $"Hi, OTP for sign up is {otp}, If you didn't tried for signup in application tracker don't worry!! Please don't share this OTP with anyone",
+                        Body = $"Hi, OTP for {(isResetPassword ? "reset password" : "sign up")} is {otp}, If you didn't tried for {(isResetPassword ? "reset password" : "sign up")} in application tracker don't worry!! Please don't share this OTP with anyone",
                         Recipients = new()
                             {
                                 new()
@@ -92,36 +92,13 @@ namespace ApplicationTracker.Service
             return true;
         }
 
-        public async Task<AuthResponceDto> OnbordUser(UserDto userDto)
-        {
-            string token = GetToken(userDto);
-            return await Task.FromResult(_authMapper.GetAuthResponceDto(userDto, token));
-        }
-
-        public async Task<AuthResponceDto> AuthenticateUser(LoginCredentialDto credentials, UserDto user)
-        {
-            if (credentials == null || string.IsNullOrEmpty(credentials.Email) || string.IsNullOrEmpty(credentials.Password))
-                throw new ApiException(HttpStatusCode.Unauthorized, "Invalid Credentials");
-
-            if (user == null)
-                throw new ApiException(HttpStatusCode.NotFound, "User not found");
-
-            if (credentials.Email.Equals(user.Email) && credentials.Password.Equals(user.Password))
-            {
-                string token = GetToken(user);
-                return await Task.FromResult(_authMapper.GetAuthResponceDto(user, token));
-            }
-            else
-                throw new ApiException(HttpStatusCode.Unauthorized, "Invalid Credentials");
-        }
-
-        public string GetToken(UserDto user)
+        public AuthResponceDto GetAuthResponce(UserDto user)
         {
             SecurityTokenDescriptor tokenDescriptor = GetTokenDescriptor(user);
             var tokenHandler = new JsonWebTokenHandler();
             var securityToken = tokenHandler.CreateToken(tokenDescriptor);
 
-            return securityToken;
+            return _authMapper.GetAuthResponceDto(user, securityToken);
         }
 
         private SecurityTokenDescriptor GetTokenDescriptor(UserDto user)

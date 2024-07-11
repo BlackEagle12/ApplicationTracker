@@ -9,26 +9,23 @@ import Collection from "./components/Collection/Collection";
 import AddUpdateCollection from "./components/Collection/AddUpdateCollection";
 
 function App() {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="login" element={<Login />} />
-                <Route path="signup" element={<Signup />} />
-                <Route path="forgetPassword" element={<ForgetPassword />} />
-                <Route path="" element={<Home />}>
-                    <Route path="application" element={<Application />} />
-                    <Route path="collection">
-                        <Route index element={<Collection />} />
-                        <Route path="add" element={<AddUpdateCollection />} />
-                        <Route
-                            path="update"
-                            element={<AddUpdateCollection />}
-                        />
-                    </Route>
-                </Route>
-            </Routes>
-        </BrowserRouter>
-    );
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route path="login" element={<Login />} />
+				<Route path="signup" element={<Signup />} />
+				<Route path="forgetPassword" element={<ForgetPassword />} />
+				<Route path="" element={<Home />}>
+					<Route path="application" element={<Application />} />
+					<Route path="collection">
+						<Route index element={<Collection />} />
+						<Route path="add" element={<AddUpdateCollection />} />
+						<Route path="update" element={<AddUpdateCollection />} />
+					</Route>
+				</Route>
+			</Routes>
+		</BrowserRouter>
+	);
 }
 
 export default App;

@@ -44,14 +44,9 @@ namespace ApplicationTracker.Service
             return await Task.FromResult(_userMapper.GetUserDto(user));
         }
 
-        public async Task<bool> IsUserExist(string email)
+        public async Task<bool> IsUserExistAsync(string email)
         {
-            var existingUser = await _userRepository.Select(x => x.Email.Equals(email)).FirstOrDefaultAsync();
-
-            if (existingUser != null)
-                return true;
-            else
-                return false;
+            return await _userRepository.Any(x => x.Email.Equals(email));
         }
 
         public async Task<UserDto> GetUserByIdAsync(int id)
@@ -95,12 +90,41 @@ namespace ApplicationTracker.Service
             return await Task.FromResult(_userMapper.GetUserDto(user));
         }
 
-        public async Task<UserDto> GetUserByEmail(string email)
+        public async Task<UserDto> GetUserByEmailAsync(string email)
         {
             var user = await _userRepository.Select(x => x.Email.Equals(email)).FirstOrDefaultAsync();
             if (user is null)
                 throw new ApiException(HttpStatusCode.NotFound, $"User not found with email : {email} ");
             return await Task.FromResult(_userMapper.GetUserDto(user));
+        }
+
+        public async Task<UserDto> AuthenticateUser(LoginCredentialDto credentials)
+        {
+
+            if (credentials == null || string.IsNullOrEmpty(credentials.Email) || string.IsNullOrEmpty(credentials.Password))
+                throw new ApiException(HttpStatusCode.Unauthorized, "Invalid Credentials");
+
+            var user = await GetUserByEmailAsync(credentials.Email);
+
+            if (user == null)
+                throw new ApiException(HttpStatusCode.NotFound, "User not found");
+
+            if (credentials.Email.Equals(user.Email) && credentials.Password.Equals(user.Password))
+                return await Task.FromResult(user);
+            else
+                throw new ApiException(HttpStatusCode.Unauthorized, "Invalid Credentials");
+        }
+
+        public async Task<UserDto> OnbordUserAsync(UserDto userDto)
+        {
+            return await UpdateUserAsync(0, userDto);
+        }
+
+        public async Task<UserDto> ResetPasswdAsync(LoginCredentialDto loginCredential)
+        {
+            var user = await GetUserByEmailAsync(loginCredential.Email);
+            user.Password = loginCredential.Password;
+            return await UpdateUserAsync(0, user);
         }
     }
 }
