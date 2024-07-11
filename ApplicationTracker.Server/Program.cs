@@ -18,7 +18,11 @@ builder.Services.AddCors(options =>
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ExceptionFilter>();
+});
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -30,9 +34,10 @@ var appSettings = appSettingsSection.Get<AppSettings>();
 var emailConfigurationSection = builder.Configuration.GetSection("EmailConfigurations");
 builder.Services.Configure<EmailConfigurations>(emailConfigurationSection);
 
-builder.Services.AddJWTAuthentication(appSettings.SigningKid);
-builder.Services.InjectContextDependencies(builder.Configuration.GetConnectionString("Dev"));
+builder.Services.InjectSwaggerGen();
 builder.Services.InjectDenendecies();
+builder.Services.InjectContextDependencies(builder.Configuration.GetConnectionString("Dev")!);
+builder.Services.InjectJWTAuthentication(appSettings!);
 
 
 var app = builder.Build();

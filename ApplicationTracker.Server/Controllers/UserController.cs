@@ -22,60 +22,26 @@ namespace ApplicationTracker.Server.Controllers
 
 
         // GET api/<UserController>/5
+        [TypeFilter(typeof(AuthorizationFilter))]
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            try
-            {
-                var user = await _userService.GetUserByIdAsync(id);
-                return Ok(new ApiResponce(
-                        HttpStatusCode.OK,
-                        user
-                    ));
-            }
-            catch (ApiException ex)
-            {
-                return StatusCode((int)ex.StatusCode, new ApiResponce(
-                        ex.StatusCode,
-                        ex.ErrorMessage
-                    ));
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
-                        HttpStatusCode.InternalServerError,
-                        ex.Message
-                    ));
-            }
+            var user = await _userService.GetUserByIdAsync(id);
+            return Ok(new ApiResponce(
+                    HttpStatusCode.OK,
+                    user
+                ));
 
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] UserDto userDto)
         {
-            try
-            {
-                var user = await _userService.UpdateUserAsync(id, userDto);
-                return Ok(new ApiResponce(
-                                HttpStatusCode.OK,
-                                user
-                            ));
-
-            }
-            catch (ApiException ex)
-            {
-                return StatusCode((int)ex.StatusCode, new ApiResponce(
-                        ex.StatusCode,
-                        ex.ErrorMessage
-                    ));
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
-                        HttpStatusCode.InternalServerError,
-                        ex.Message
-                    ));
-            }
+            var user = await _userService.UpdateUserAsync(id, userDto);
+            return Ok(new ApiResponce(
+                            HttpStatusCode.OK,
+                            user
+                        ));
         }
     }
 }

@@ -1,7 +1,8 @@
-export const login = async (email, passwd) => {
-	if (email === "vicky.manavadariya321@gmail.com" && passwd === "57872@tesT")
-		return true;
-	else return false;
+import EndpointConstants from "../HttpModule/Endpoints";
+import HttpModule from "../HttpModule/HttpModule";
+
+export const login = async (credential) => {
+	return await HttpModule.post(EndpointConstants.signInURL, credential);
 };
 
 export const logout = async () => {

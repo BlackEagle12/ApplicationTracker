@@ -11,7 +11,7 @@ export const updateUserInfo = async (user) => {
 };
 
 export const onbordUser = async (user) => {
-	return await HttpModule.put(EndpointConstants.onbordUserURL, user);
+	return await HttpModule.post(EndpointConstants.onbordUserURL, user);
 };
 
 export const sendInvitation = async (email) => {

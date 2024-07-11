@@ -4,8 +4,9 @@ using ApplicationTracker.Mapper;
 using ApplicationTracker.Repo;
 using ApplicationTracker.Service;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using ApplicationTracker.Dto;
 
 namespace ApplicationTracker.Server
 {
@@ -16,6 +17,37 @@ namespace ApplicationTracker.Server
             service.AddDbContext<ApplicationTrackerDBContext>(options => options.UseSqlServer(connectinString));
         }
 
+        public static void InjectSwaggerGen(this IServiceCollection service)
+        {
+            service.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Syncware.Admin.WebApi", Version = "v1" });
+                //support Auth from swagger
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Please Enter a Valid Token",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.Http,
+                    BearerFormat = "JWT",
+                    Scheme = "bearer"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type=ReferenceType.SecurityScheme,
+                                Id="Bearer"
+                            }
+                        },
+                        new string[]{}
+                    }
+                });
+            });
+        }
         public static void InjectDenendecies(this IServiceCollection service)
         {
             service.AddScoped(typeof(IRepository<>), typeof(Repository<>));
@@ -24,32 +56,26 @@ namespace ApplicationTracker.Server
 
             service.AddSingleton<UserMapper>();
             service.AddSingleton<AuthMapper>();
+            service.AddScoped<AuthorizationFilter>();
         }
 
-        public static IServiceCollection AddJWTAuthentication(this IServiceCollection service, string? EncryptionKey)
+        public static void InjectJWTAuthentication(this IServiceCollection service, AppSettings appSettings)
         {
-            byte[] signingKey = Encoding.UTF8.GetBytes(EncryptionKey);
+            var encryptionKey = Encryption.GetEncryptionKey(appSettings.RSAEncryptionKey);
 
-            service.AddAuthentication(authOptions =>
+            service.AddAuthentication("jwt")
+                .AddJwtBearer("jwt", jwtOptions =>
                 {
-                    authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                    authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-                })
-                .AddJwtBearer(jwtOptions =>
-                {
-                    jwtOptions.SaveToken = true;
+                    jwtOptions.Audience = "api1";
                     jwtOptions.TokenValidationParameters = new TokenValidationParameters
                     {
                         ValidateAudience = false,
                         ValidateIssuer = false,
-                        ValidateIssuerSigningKey = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(signingKey),
                         ValidateLifetime = true,
-                        LifetimeValidator = LifetimeValidator
+                        LifetimeValidator = LifetimeValidator,
+                        TokenDecryptionKey = new RsaSecurityKey(encryptionKey)
                     };
                 });
-
-            return service;
         }
 
         private static bool LifetimeValidator(DateTime? notBefore, DateTime? expires, SecurityToken securityToken, TokenValidationParameters validationParameters)

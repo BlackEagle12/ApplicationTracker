@@ -4,6 +4,7 @@ using ApplicationTracker.Mapper;
 using ApplicationTracker.Repo;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net;
@@ -117,32 +118,29 @@ namespace ApplicationTracker.Service
         public string GetToken(UserDto user)
         {
             SecurityTokenDescriptor tokenDescriptor = GetTokenDescriptor(user);
-            var tokenHandler = new JwtSecurityTokenHandler();
-            SecurityToken securityToken = tokenHandler.CreateToken(tokenDescriptor);
-            string token = tokenHandler.WriteToken(securityToken);
+            var tokenHandler = new JsonWebTokenHandler();
+            var securityToken = tokenHandler.CreateToken(tokenDescriptor);
 
-            return token;
+            return securityToken;
         }
 
         private SecurityTokenDescriptor GetTokenDescriptor(UserDto user)
         {
-
-            var encryptionKey = RSA.Create(_appSettings.RSAEncryptionKey); // public key for encryption, private key for decryption
-            var signingKey = ECDsa.Create(ECCurve.NamedCurves.nistP256); // private key for signing, public key for validation
+            var encryptionKey = Encryption.GetEncryptionKey(_appSettings.RSAEncryptionKey);// public key for encryption, private key for decryption
+            var signingKey = Encryption.GetSigningKey(ECCurve.NamedCurves.nistP256);// private key for signing, public key for validation
 
             var encryptionKid = _appSettings.EncryptionKid;
             var signingKid = _appSettings.SigningKid;
 
-            var privateEncryptionKey = new RsaSecurityKey(encryptionKey) { KeyId = encryptionKid };
             var publicEncryptionKey = new RsaSecurityKey(encryptionKey.ExportParameters(false)) { KeyId = encryptionKid };
             var privateSigningKey = new ECDsaSecurityKey(signingKey) { KeyId = signingKid };
-            var publicSigningKey = new ECDsaSecurityKey(ECDsa.Create(signingKey.ExportParameters(false))) { KeyId = signingKid };
 
-
-            const int expiringDays = 7;
+            const int expiringDays = 1;
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
+                Audience = "api1",
+                Issuer = "https://idp.example.com",
                 Expires = DateTime.UtcNow.AddDays(expiringDays),
                 SigningCredentials = new SigningCredentials(privateSigningKey, SecurityAlgorithms.EcdsaSha256),
                 EncryptingCredentials = new EncryptingCredentials(publicEncryptionKey, SecurityAlgorithms.RsaOAEP, SecurityAlgorithms.Aes256CbcHmacSha512),

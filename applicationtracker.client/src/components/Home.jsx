@@ -22,8 +22,8 @@ export default function Home() {
 		setUser((old) => {
 			return { ...old, ...usr };
 		});
-		console.log(user);
-		if (!user || user == null) navigate("/login");
+		console.log(usr);
+		if (!usr || usr == null) navigate("/login");
 	}, []);
 
 	const handleLogout = async () => {

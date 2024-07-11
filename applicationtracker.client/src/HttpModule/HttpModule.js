@@ -2,7 +2,7 @@ import axios from "axios";
 
 const HttpModule = axios.create({
 	baseURL: import.meta.env.VITE_BASE_API_URL,
-	timeout: 60000,
+	timeout: 600000,
 	headers: {
 		"content-type": "application/json",
 	},
@@ -30,7 +30,7 @@ HttpModule.interceptors.response.use(
 		// return Promise.reject(error);
 		console.log(error);
 
-		if (error.response.data.statusCode != undefined) {
+		if (error.response.data.statusCode != 500) {
 			return {
 				status: error.response.data.statusCode,
 				data: error.response.data.data,

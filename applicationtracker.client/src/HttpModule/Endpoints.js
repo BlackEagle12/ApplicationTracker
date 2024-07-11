@@ -3,6 +3,7 @@ const EndpointConstants = {
 	verifyInvitationURL: "/auth/verifyInvitation",
 	updateUserURL: "/user/{id}",
 	onbordUserURL: "/auth/onbordUser",
+	signInURL: "/auth/authenticateuser",
 };
 
 export default EndpointConstants;

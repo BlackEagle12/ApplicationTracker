@@ -23,129 +23,70 @@ namespace ApplicationTracker.Server.Controllers
         [HttpPost("sendinvitation")]
         public async Task<IActionResult> sendInvitationToUser([FromBody] string email)
         {
-            try
+            var user = await _userService.GetUserByEmail(email);
+
+            if (user != null && !string.IsNullOrEmpty(user.Password))
+                throw new ApiException(
+                    HttpStatusCode.Conflict,
+                    "User already registered"
+                );
+
+            var otp = await _authService.SendOtpToUser(email);
+
+            if (user == null)
             {
-                var isUserExist = await _userService.IsUserExist(email);
-
-                if (isUserExist)
-                    throw new ApiException(
-                        HttpStatusCode.Conflict,
-                        "User already registered"
-                    );
-
-                var otp = await _authService.SendOtpToUser(email);
-
                 await _userService.AddUserAsync(new UserDto
                 {
                     Email = email,
                     TempToken = otp
                 });
+            }
+            else
+            {
+                await _userService.UpdateUserAsync(0, new UserDto
+                {
+                    Email = email,
+                    TempToken = otp,
+                });
+            }
 
-                return Ok(new ApiResponce(
-                        HttpStatusCode.OK,
-                        "otp sent successfully"
-                    ));
-            }
-            catch (ApiException ex)
-            {
-                return StatusCode((int)ex.StatusCode, new ApiResponce(
-                        ex.StatusCode,
-                        ex.ErrorMessage
-                    ));
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
-                        HttpStatusCode.InternalServerError,
-                        ex.Message
-                    ));
-            }
+            return Ok(new ApiResponce(
+                    HttpStatusCode.OK,
+                    "otp sent successfully"
+                ));
         }
 
         [HttpPost("verifyInvitation")]
         public async Task<IActionResult> VerifyInvitation([FromBody] VerifyInvitationDto verifyInvitationDto)
         {
-            try
-            {
-                await _authService.VerifyInvitation(verifyInvitationDto);
-                return Ok(new ApiResponce(
-                                HttpStatusCode.OK,
-                                "Invitation verified sucessfully!!!"
-                            ));
-
-            }
-            catch (ApiException ex)
-            {
-                return StatusCode((int)ex.StatusCode, new ApiResponce(
-                        ex.StatusCode,
-                        ex.ErrorMessage
-                    ));
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
-                        HttpStatusCode.InternalServerError,
-                        ex.Message
-                    ));
-            }
+            await _authService.VerifyInvitation(verifyInvitationDto);
+            return Ok(new ApiResponce(
+                            HttpStatusCode.OK,
+                            "Invitation verified sucessfully!!!"
+                        ));
         }
 
         [HttpPost("onborduser")]
         public async Task<IActionResult> OnbordUser([FromBody] UserDto userDto)
         {
-            try
-            {
-                var updatedUser = await _userService.UpdateUserAsync(0, userDto);
-                var authResponceDto = await _authService.OnbordUser(updatedUser);
+            var updatedUser = await _userService.UpdateUserAsync(0, userDto);
+            var authResponceDto = await _authService.OnbordUser(updatedUser);
 
-                return Ok(new ApiResponce(
-                                HttpStatusCode.OK,
-                                authResponceDto
-                            ));
-
-            }
-            catch (ApiException ex)
-            {
-                return StatusCode((int)ex.StatusCode, new ApiResponce(
-                        ex.StatusCode,
-                        ex.ErrorMessage
-                    ));
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
-                        HttpStatusCode.InternalServerError,
-                        ex.Message
-                    ));
-            }
+            return Ok(new ApiResponce(
+                            HttpStatusCode.OK,
+                            authResponceDto
+                        ));
         }
 
         [HttpPost("authenticateuser")]
         public async Task<IActionResult> AuthenticateUser([FromBody] LoginCredentialDto credentials)
         {
-            try
-            {
-                var user = await _userService.GetUserByEmail(credentials.Email);
-                var authResponceDto = await _authService.AuthenticateUser(credentials, user);
-                return Ok(new ApiResponce(
-                    HttpStatusCode.OK,
-                    authResponceDto
-                ));
-            }
-            catch (ApiException ex)
-            {
-                return StatusCode((int)ex.StatusCode, new ApiResponce(
-                        ex.StatusCode,
-                        ex.ErrorMessage
-                    ));
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new ApiException(
-                        HttpStatusCode.InternalServerError,
-                        ex.Message
-                    ));
-            }
+            var user = await _userService.GetUserByEmail(credentials.Email);
+            var authResponceDto = await _authService.AuthenticateUser(credentials, user);
+            return Ok(new ApiResponce(
+                HttpStatusCode.OK,
+                authResponceDto
+            ));
         }
     }
 }
