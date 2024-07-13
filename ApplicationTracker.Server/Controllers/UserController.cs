@@ -1,5 +1,4 @@
-﻿using ApplicationTracker.Data;
-using ApplicationTracker.Dto;
+﻿using ApplicationTracker.Dto;
 using ApplicationTracker.Service;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
