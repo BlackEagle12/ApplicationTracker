@@ -34,6 +34,7 @@ namespace ApplicationTracker.Server.Controllers
 
         }
 
+        [TypeFilter(typeof(AuthorizationFilter))]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] UserDto userDto)
         {

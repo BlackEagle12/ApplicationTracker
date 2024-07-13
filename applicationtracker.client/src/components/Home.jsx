@@ -16,7 +16,6 @@ export default function Home() {
 		setCurrentLocation(location.pathname.replace("/", ""));
 		let usr = JSON.parse(localStorage.getItem("User"));
 		if (!usr || usr == null) navigate("/login");
-		// Send request to your server to increment page view count
 	}, [location]);
 
 	useEffect(() => {
