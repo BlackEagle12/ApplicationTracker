@@ -94,7 +94,7 @@ namespace ApplicationTracker.Service
         {
             var user = await _userRepository.Select(x => x.Email.Equals(email)).FirstOrDefaultAsync();
             if (user is null)
-                throw new ApiException(HttpStatusCode.NotFound, $"User not found with email : {email} ");
+                throw new ApiException(HttpStatusCode.NotFound, $"User not found");
             return await Task.FromResult(_userMapper.GetUserDto(user));
         }
 

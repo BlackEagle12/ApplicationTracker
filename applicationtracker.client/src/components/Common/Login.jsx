@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { login } from "../../Services/Login.service";
+import ThemeButton from "../Theme/ThemeButton";
 
 export default function Login() {
 	const [showPassword, setShowPassword] = useState(false);
@@ -49,10 +50,12 @@ export default function Login() {
 			<div className="relative   min-h-screen  sm:flex sm:flex-row  justify-center bg-transparent rounded-3xl shadow-xl">
 				<div className="flex-col flex  self-center lg:px-14 sm:max-w-4xl xl:max-w-md  z-10">
 					<div className="self-start hidden lg:flex flex-col  text-gray-300">
-						<h1 className="my-3 font-semibold text-4xl">Welcome back</h1>
+						<h1 className="my-3 font-semibold text-4xl">
+							Welcome back
+						</h1>
 						<p className="pr-3 text-sm opacity-75">
-							Streamline Your Job Hunt: Organize, Track, and Conquer Your Career
-							Goals
+							Streamline Your Job Hunt: Organize, Track, and
+							Conquer Your Career Goals
 						</p>
 					</div>
 				</div>
@@ -62,7 +65,9 @@ export default function Login() {
 							{formErrors.Credentials}
 						</p>
 						<div className="mb-7">
-							<h3 className="font-semibold text-2xl text-gray-800">Sign In </h3>
+							<h3 className="font-semibold text-2xl text-gray-800">
+								Sign In{" "}
+							</h3>
 						</div>
 						<div className="space-y-6">
 							<div className="">
@@ -87,7 +92,9 @@ export default function Login() {
 								/>
 								<div className="flex items-center absolute inset-y-0 right-0 mr-3  text-sm leading-5">
 									<svg
-										onClick={() => setShowPassword(!showPassword)}
+										onClick={() =>
+											setShowPassword(!showPassword)
+										}
 										className={
 											"h-4 text-purple-700 " +
 											(showPassword ? "block" : "hidden")
@@ -103,7 +110,9 @@ export default function Login() {
 									</svg>
 
 									<svg
-										onClick={() => setShowPassword(!showPassword)}
+										onClick={() =>
+											setShowPassword(!showPassword)
+										}
 										className={
 											"h-4 text-purple-700 " +
 											(showPassword ? "hidden" : "block")
@@ -130,17 +139,24 @@ export default function Login() {
 								</div>
 							</div>
 							<div>
-								<button
+								{/* <button
 									type="submit"
 									onClick={handleSignIN}
 									className="w-full flex justify-center bg-purple-800  hover:bg-purple-700 text-gray-100 p-3  rounded-lg tracking-wide font-semibold  cursor-pointer transition ease-in duration-500"
 								>
 									Sign in
-								</button>
+								</button> */}
+								<ThemeButton
+									text="Sign in"
+									type="submit"
+									onClick={handleSignIN}
+								/>
 							</div>
 							<div className="flex items-center justify-center space-x-2 my-5">
 								<span className="h-px w-16 bg-gray-100"></span>
-								<span className="text-gray-300 font-normal">or</span>
+								<span className="text-gray-300 font-normal">
+									or
+								</span>
 								<span className="h-px w-16 bg-gray-100"></span>
 							</div>
 							<div className="mb-7 text-center">

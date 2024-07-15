@@ -11,7 +11,7 @@ export default function LeftNav({ handleLogout }) {
 			<div className="flex flex-col gap-5 item-center">
 				<NavItem title="Collection" linkTo="collection" />
 				<NavItem title="Add Collection" linkTo="collection/add" />
-				<NavItem title="collection Data" linkTo="collection/data" />
+				<NavItem title="Collection Data" linkTo="collection/data" />
 				<NavItem title="Application" linkTo="application" />
 			</div>
 			<div

@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Application from "./components/Application/Application";
 import Collection from "./components/Collection/Collection";
 import AddUpdateCollection from "./components/Collection/AddUpdateCollection";
+import ColleactionData from "./components/Collection/ColleactionData";
 
 function App() {
 	return (
@@ -20,7 +21,11 @@ function App() {
 					<Route path="collection">
 						<Route index element={<Collection />} />
 						<Route path="add" element={<AddUpdateCollection />} />
-						<Route path="update" element={<AddUpdateCollection />} />
+						<Route
+							path="update"
+							element={<AddUpdateCollection />}
+						/>
+						<Route path="data" element={<ColleactionData />} />
 					</Route>
 				</Route>
 			</Routes>

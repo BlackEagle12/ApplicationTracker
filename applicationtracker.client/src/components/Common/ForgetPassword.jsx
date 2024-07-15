@@ -9,6 +9,7 @@ import {
 	sendResetPasswordToken,
 } from "../../Services/ResetPassword.Service";
 import { verifyInvitation } from "../../Services/Signup.service";
+import ThemeButton from "../Theme/ThemeButton";
 
 export default function ForgetPassword() {
 	const [showPassword, setShowPassword] = useState(false);
@@ -148,10 +149,10 @@ export default function ForgetPassword() {
 					<div className="self-start hidden lg:flex flex-col  text-gray-300">
 						<h1 className="my-3 font-semibold text-4xl">OOPs!!</h1>
 						<p className="pr-3 text-sm opacity-75">
-							Don't worry, it happens to the best of us. Enter your email
-							address below, and we'll send you a link to reset your password.
-							You'll be back to managing your job search in no time with
-							JobTracker!
+							Don't worry, it happens to the best of us. Enter
+							your email address below, and we'll send you a link
+							to reset your password. You'll be back to managing
+							your job search in no time with JobTracker!
 						</p>
 					</div>
 				</div>
@@ -186,8 +187,9 @@ export default function ForgetPassword() {
 									<span className="py-1 w-5/6">Get otp</span>
 									<span className="w-1/6 flex justify-center has-tooltip">
 										<span class="tooltip rounded shadow-lg p-1 bg-red-600 text-white -mt-8 text-xs">
-											this will disable your login credentials and enable when
-											you will create new password
+											this will disable your login
+											credentials and enable when you will
+											create new password
 										</span>
 										<svg
 											class="h-4 w-4 text-white"
@@ -200,9 +202,17 @@ export default function ForgetPassword() {
 											stroke-linecap="round"
 											stroke-linejoin="round"
 										>
-											<path stroke="none" d="M0 0h24v24H0z" />{" "}
+											<path
+												stroke="none"
+												d="M0 0h24v24H0z"
+											/>{" "}
 											<circle cx="12" cy="12" r="9" />{" "}
-											<line x1="12" y1="8" x2="12.01" y2="8" />{" "}
+											<line
+												x1="12"
+												y1="8"
+												x2="12.01"
+												y2="8"
+											/>{" "}
 											<polyline points="11 12 12 12 12 16 13 16" />
 										</svg>
 									</span>
@@ -210,7 +220,7 @@ export default function ForgetPassword() {
 							</div>
 							<div className="flex items-center justify-between">
 								<div className="w-full">
-									<div className="flex justify-between items-center w-full">
+									<div className="flex justify-between items-center w-full gap-4">
 										<input
 											className=" text-sm  px-4 py-3 border disabled:cursor-not-allowed disabled:bg-gray-200 border-gray-200 rounded-lg focus:outline-none focus:border-purple-400"
 											type="password"
@@ -224,8 +234,16 @@ export default function ForgetPassword() {
 											}
 											placeholder="Enter 6 digit otp"
 										/>
-
-										<button
+										<ThemeButton
+											text="Verify"
+											onClick={handleVerifyOTP}
+											disabled={
+												user.isOtpSend == undefined ||
+												!user.isOtpSend ||
+												user.isOtpverified
+											}
+										/>
+										{/* <button
 											className='className="w-full flex justify-center disabled:bg-gray-600 disabled:cursor-not-allowed bg-purple-800  hover:bg-purple-700 text-gray-100 p-3  rounded-lg tracking-wide font-semibold  cursor-pointer transition ease-in duration-500"'
 											onClick={handleVerifyOTP}
 											disabled={
@@ -234,8 +252,8 @@ export default function ForgetPassword() {
 												user.isOtpverified
 											}
 										>
-											<p className="">Verify</p>
-										</button>
+											<p className="">asdasd</p>
+										</button> */}
 									</div>
 									<p className="text-red-600 text-xs mx-2">
 										{validationErrors.OTP}
@@ -255,7 +273,9 @@ export default function ForgetPassword() {
 								/>
 								<div className="flex items-center absolute inset-y-0 right-0 mr-3  text-sm leading-5">
 									<svg
-										onClick={() => setShowPassword(!showPassword)}
+										onClick={() =>
+											setShowPassword(!showPassword)
+										}
 										className={
 											"h-4 text-purple-700 " +
 											(showPassword ? "hidden" : "block")
@@ -271,7 +291,9 @@ export default function ForgetPassword() {
 									</svg>
 
 									<svg
-										onClick={() => setShowPassword(!showPassword)}
+										onClick={() =>
+											setShowPassword(!showPassword)
+										}
 										className={
 											"h-4 text-purple-700 " +
 											(showPassword ? "block" : "hidden")
@@ -290,7 +312,9 @@ export default function ForgetPassword() {
 							<div>
 								<ul className="list-disc px-2">
 									{validationErrors?.Passwd?.map((err) => (
-										<li className="text-red-600 text-xs mx-2">{err}</li>
+										<li className="text-red-600 text-xs mx-2">
+											{err}
+										</li>
 									))}
 								</ul>
 							</div>
@@ -307,20 +331,25 @@ export default function ForgetPassword() {
 							</div>
 
 							<div>
-								<button
-									type="submit"
+								<ThemeButton
+									text="Reset password"
 									onClick={handleSubmit}
 									disabled={!user.isOtpverified}
+								/>
+								{/* <button
+									type="submit"
 									className={
 										"w-full flex justify-center bg-purple-800  hover:bg-purple-700 text-gray-100 p-3  rounded-lg tracking-wide font-semibold  cursor-pointer transition ease-in duration-500 disabled:bg-gray-600 disabled:cursor-not-allowed"
 									}
 								>
 									Reset password
-								</button>
+								</button> */}
 							</div>
 							<div className="flex items-center justify-center space-x-2 my-5">
 								<span className="h-px w-16 bg-gray-100"></span>
-								<span className="text-gray-300 font-normal">or</span>
+								<span className="text-gray-300 font-normal">
+									or
+								</span>
 								<span className="h-px w-16 bg-gray-100"></span>
 							</div>
 							<div className="mb-7 text-center">
