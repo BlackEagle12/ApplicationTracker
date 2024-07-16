@@ -13,11 +13,11 @@ export default function LeftNav({ handleLogout }) {
 				<NavItem title="Add Collection" linkTo="collection/add" />
 				<NavItem title="Collection Data" linkTo="collection/data" />
 				<NavItem title="Application" linkTo="application" />
+				<NavItem title="emails" linkTo="email" />
+				<NavItem title="Templates" linkTo="email/templates" />
+				<NavItem title="Add templates" linkTo="email/templates/add" />
 			</div>
-			<div
-				className="absolute bottom-0 w-full my-3"
-				onClick={handleLogout}
-			>
+			<div className="absolute bottom-0 w-full my-3" onClick={handleLogout}>
 				<NavItem title="Logout" />
 			</div>
 			{/* <button onClick={handleLogout}>logout</button> */}

@@ -8,6 +8,9 @@ import Application from "./components/Application/Application";
 import Collection from "./components/Collection/Collection";
 import AddUpdateCollection from "./components/Collection/AddUpdateCollection";
 import ColleactionData from "./components/Collection/ColleactionData";
+import SendEmail from "./components/Email/SendEmail";
+import AddTemplates from "./components/Email/Templates/AddTemplates";
+import Templates from "./components/Email/Templates/Templates";
 
 function App() {
 	return (
@@ -18,13 +21,18 @@ function App() {
 				<Route path="forgetPassword" element={<ForgetPassword />} />
 				<Route path="" element={<Home />}>
 					<Route path="application" element={<Application />} />
+					<Route path="email">
+						<Route index element={<SendEmail />} />
+						<Route path="templates">
+							<Route index element={<Templates />} />
+							<Route path="add" element={<AddTemplates />} />
+							<Route path="update/:id" element={<AddTemplates />} />
+						</Route>
+					</Route>
 					<Route path="collection">
 						<Route index element={<Collection />} />
 						<Route path="add" element={<AddUpdateCollection />} />
-						<Route
-							path="update"
-							element={<AddUpdateCollection />}
-						/>
+						<Route path="update/:id" element={<AddUpdateCollection />} />
 						<Route path="data" element={<ColleactionData />} />
 					</Route>
 				</Route>
