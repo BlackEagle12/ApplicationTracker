@@ -4,6 +4,7 @@ const EndpointConstants = {
 	updateUserURL: "/user/{id}",
 	onbordUserURL: "/auth/onbordUser",
 	signInURL: "/auth/authenticateuser",
+	isEmailAppPasswordAdded: "/user/apppasswordcheck/{userId}",
 	sendResetPasswordTokenURL: "/auth/sendresetpasswordtoken",
 	resetPasswordURL: "/auth/resetpassword",
 
