@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import ThemeButton from "../Theme/ThemeButton";
+import ThemeButton from "../Theme/Button/ThemeButton";
 
 function ColleactionData(props) {
 	var { frame } = useRef();
@@ -16,10 +16,7 @@ function ColleactionData(props) {
 
 	return (
 		<div>
-			<ThemeButton
-				text="Process collection data"
-				onClick={processCollection}
-			/>
+			<ThemeButton text="Process collection data" onClick={processCollection} />
 			<iframe ref={frame} src="about:blank">
 				<html>
 					<script>alert('Hi')</script>

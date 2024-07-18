@@ -15,5 +15,16 @@ namespace ApplicationTracker.Mapper
                 Description = value.Description
             };
         }
+
+        public RefEnumValue GetRefEnumValue(RefEnumValueDto dto)
+        {
+            return new RefEnumValue
+            {
+                Id = dto.Id,
+                EnumTypeId = dto.EnumTypeId,
+                EnumValue = dto.EnumValue,
+                Description = dto.Description
+            };
+        }
     }
 }

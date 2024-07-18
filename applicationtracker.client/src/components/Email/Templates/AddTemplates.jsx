@@ -1,7 +1,7 @@
 import React from "react";
 import { useFieldArray, useForm } from "react-hook-form";
-import ThemeButton from "../../Theme/ThemeButton";
-import ThemeButtonSmall from "../../Theme/ThemeButtonSmall";
+import ThemeButton from "../../Theme/Button/ThemeButton";
+import ThemeButtonSmall from "../../Theme/Button/ThemeButtonSmall";
 
 export default function AddTemplates() {
 	const {
@@ -42,8 +42,7 @@ export default function AddTemplates() {
 						htmlFor="floating_template_name"
 						className="peer-focus:font-medium absolute text-sm text-gray-400 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-purple-400 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 					>
-						Template Name(this will be displayed while sending
-						emails)
+						Template Name(this will be displayed while sending emails)
 					</label>
 					{errors.templateName && (
 						<p className="text-red-600 text-xs">
@@ -70,9 +69,7 @@ export default function AddTemplates() {
 								Subject
 							</label>
 							{errors.subject && (
-								<p className="text-red-600 text-xs">
-									{errors.subject.message}
-								</p>
+								<p className="text-red-600 text-xs">{errors.subject.message}</p>
 							)}
 						</div>
 						<div className="relative z-0 w-full mb-5 group">
@@ -85,8 +82,7 @@ export default function AddTemplates() {
 									required: "Body is required",
 									minLength: {
 										value: 10,
-										message:
-											"Body must be at least 10 characters long",
+										message: "Body must be at least 10 characters long",
 									},
 								})}
 							/>
@@ -97,9 +93,7 @@ export default function AddTemplates() {
 								Body
 							</label>
 							{errors.body && (
-								<p className="text-red-600 text-xs">
-									{errors.body.message}
-								</p>
+								<p className="text-red-600 text-xs">{errors.body.message}</p>
 							)}
 						</div>
 						<div className="flex z-0 w-full mb-5 group gap-4">
@@ -133,13 +127,10 @@ export default function AddTemplates() {
 											type="file"
 											id="file_input"
 											className="block w-full my-3 text-md duration-300 rounded-lg text-gray-400 border file:p-2 file:mr-3 border-b-gray-300 file:border-0 cursor-pointer file:bg-purple-500 file:text-gray-300 focus:outline-none"
-											{...register(
-												`attachments.${index}.file`,
-												{
-													required:
-														"Attachment is empty either add attachment or remove",
-												}
-											)}
+											{...register(`attachments.${index}.file`, {
+												required:
+													"Attachment is empty either add attachment or remove",
+											})}
 										/>
 										<div className="my-auto">
 											<ThemeButtonSmall
@@ -149,15 +140,11 @@ export default function AddTemplates() {
 											/>
 										</div>
 									</div>
-									{errors.attachments &&
-										errors.attachments[index] && (
-											<p className="text-red-600 text-xs">
-												{
-													errors.attachments[index]
-														.file.message
-												}
-											</p>
-										)}
+									{errors.attachments && errors.attachments[index] && (
+										<p className="text-red-600 text-xs">
+											{errors.attachments[index].file.message}
+										</p>
+									)}
 								</>
 							))}
 						</div>

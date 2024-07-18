@@ -50,14 +50,14 @@ namespace ApplicationTracker.Service
         {
             MailMessage email = new MailMessage();
             MailAddress from = new MailAddress(
-                _emailConfigurations.Username!, 
+                _emailConfigurations.Username!,
                 _emailConfigurations.DisplayName
                 );
             email.From = from;
             emailDto.Recipients?.ForEach(recipient =>
             {
                 MailAddress to = new MailAddress(
-                    recipient.RecipientEmail, 
+                    recipient.RecipientEmail,
                     recipient.DisplayName
                     );
                 email.To.Add(to);
@@ -76,7 +76,7 @@ namespace ApplicationTracker.Service
             smtp.Host = _emailConfigurations.Host!;
             smtp.Port = _emailConfigurations.Port;
             smtp.Credentials = new NetworkCredential(
-                _emailConfigurations.Username, 
+                _emailConfigurations.Username,
                 _emailConfigurations.Password
                 );
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
@@ -96,9 +96,9 @@ namespace ApplicationTracker.Service
             }
         }
 
-        public async Task<RefEnumTypeDto> GetRefEnumType(Enums.RefEnumType type)
+        public async Task<RefEnumType> GetRefEnumType(Enums.RefEnumType type)
         {
-            var refEnumType = 
+            var refEnumType =
                     await _refEnumTypeRepository
                         .Select(x =>
                             x.EnumType.Equals(Enums.RefEnumType.EmailAppPassword.ToString())
@@ -106,10 +106,10 @@ namespace ApplicationTracker.Service
 
             return refEnumType == null
                 ? throw new ApiException(HttpStatusCode.Conflict, "Ref Enum Type not found")
-                : await Task.FromResult(_refEnumTypeMapper.GetRefEnumTypeDto(refEnumType));
+                : await Task.FromResult(refEnumType);
         }
 
-        public async Task<RefEnumValueDto?> GetRefEnumValueById(int id)
+        public async Task<RefEnumValue?> GetRefEnumValueById(int id)
         {
             var refEnumValue =
                     await _refEnumValueRepository
@@ -117,14 +117,32 @@ namespace ApplicationTracker.Service
 
             return refEnumValue == null
                 ? null
-                : await Task.FromResult(_refEnumValueMapper.GetRefEnumValueDto(refEnumValue));
+                : await Task.FromResult(refEnumValue);
         }
 
-        public async Task<RefEnumValueDto> AddRefEnumValue(RefEnumValue refEnumValue)
+        public async Task<RefEnumValue> AddRefEnumValue(Enums.RefEnumType type, string value, string description)
         {
+            var refEnumType = await GetRefEnumType(type);
+
+            var refEnumValue = new RefEnumValue
+            {
+                EnumTypeId = refEnumType.Id,
+                EnumValue = value,
+                Description = description,
+                AddedOn = DateTime.UtcNow
+            };
+
             await _refEnumValueRepository.InsertAsync(refEnumValue);
             await _refEnumValueRepository.SaveChangesAsync();
-            return await Task.FromResult(_refEnumValueMapper.GetRefEnumValueDto(refEnumValue));
+
+            return await Task.FromResult(refEnumValue);
+        }
+
+        public async Task<RefEnumValue> UpdateRefEnumValue(RefEnumValue refEnumValue)
+        {
+            _refEnumValueRepository.Update(refEnumValue);
+            await _refEnumValueRepository.SaveChangesAsync();
+            return await Task.FromResult(refEnumValue);
         }
     }
 }

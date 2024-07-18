@@ -86,7 +86,7 @@ namespace ApplicationTracker.Server.Controllers
         [HttpPost("authenticateuser")]
         public async Task<IActionResult> AuthenticateUser([FromBody] LoginCredentialDto credentials)
         {
-            var user = await _userService.AuthenticateUser(credentials);
+            var user = await _userService.AuthenticateUserAsync(credentials);
             var authResponceDto = _authService.GetAuthResponce(user);
             return Ok(new ApiResponce(
                 HttpStatusCode.OK,

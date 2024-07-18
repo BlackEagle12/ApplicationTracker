@@ -16,12 +16,14 @@ namespace ApplicationTracker.Service
         private readonly IRepository<User> _userRepository;
         private readonly IRepository<UserSetting> _userSettingRepository;
         private readonly UserMapper _userMapper;
+        private readonly UserSettingsMapper _userSettingsMapper;
         private readonly ICommonService _commonService;
+
         public UserService(
-                        IOptions<EmailConfigurations> emailConfigurations,
                         IRepository<User> userRepository,
                         IRepository<UserSetting> userSettingRepository,
                         UserMapper userMapper,
+                        UserSettingsMapper userSettingsMapper,
                         ICommonService commonService)
         {
             _disposed = false;
@@ -29,6 +31,7 @@ namespace ApplicationTracker.Service
             _userMapper = userMapper;
             _userSettingRepository = userSettingRepository;
             _commonService = commonService;
+            _userSettingsMapper = userSettingsMapper;
         }
 
         public void Dispose()
@@ -122,7 +125,7 @@ namespace ApplicationTracker.Service
             return await Task.FromResult(_userMapper.GetUserDto(user));
         }
 
-        public async Task<UserDto> AuthenticateUser(LoginCredentialDto credentials)
+        public async Task<UserDto> AuthenticateUserAsync(LoginCredentialDto credentials)
         {
 
             if (credentials == null || string.IsNullOrEmpty(credentials.Email) || string.IsNullOrEmpty(credentials.Password))
@@ -148,16 +151,23 @@ namespace ApplicationTracker.Service
             return await UpdateUserAsync(0, user);
         }
 
-        public async Task<bool> IsAppPasswordAvailable(int userId)
+        public async Task<UserSettingsDto?> GetUserSettingsAsync(Enums.RefEnumType type, int userId)
         {
-            var refEnumType = await _commonService.GetRefEnumType(Enums.RefEnumType.EmailAppPassword);
+            var refEnumType = await _commonService.GetRefEnumType(type);
 
-            var userSettings = 
-                    await _userSettingRepository
-                        .Select(
-                            x => x.RefEnumTypeId.Equals(refEnumType.Id)
-                            && x.UserId.Equals(userId)
-                        ).FirstOrDefaultAsync();
+            var userSettings =
+                await _userSettingRepository
+                    .Select(
+                        x => x.RefEnumTypeId.Equals(refEnumType.Id)
+                        && x.UserId.Equals(userId)
+                    ).FirstOrDefaultAsync();
+
+            return await Task.FromResult(_userSettingsMapper.GetUserSettingsDto(userSettings));
+        }
+
+        public async Task<bool> IsAppPasswordAvailableAsync(int userId)
+        {
+            var userSettings = await GetUserSettingsAsync(Enums.RefEnumType.EmailAppPassword,userId);
 
             if (userSettings == null)
                 return false;
@@ -167,30 +177,46 @@ namespace ApplicationTracker.Service
             return refEnumValue != null;
         }
 
-        public async Task SetEmailAppPassword(int userId, string appPassword)
+        public async Task<UserSettingsDto> AddUpdateUserSettingsAsync(Enums.RefEnumType type, int userId, string value)
         {
-            var refEnumType = await _commonService.GetRefEnumType(Enums.RefEnumType.EmailAppPassword);
+            var userSettings = await GetUserSettingsAsync(Enums.RefEnumType.EmailAppPassword, userId);
+            var refEnumType = await _commonService.GetRefEnumType(type);
 
-            var refEnumValueModel = new RefEnumValue
+            if(userSettings == null)
             {
-                EnumTypeId = refEnumType.Id,
-                EnumValue = appPassword,
-                Description = "Email app password of user",
-                AddedOn = DateTime.UtcNow
-            };
+                var refEnumValue = await _commonService.AddRefEnumValue(Enums.RefEnumType.EmailAppPassword, value, "Email app password of user");
 
-            var refEnumValue = await _commonService.AddRefEnumValue(refEnumValueModel);
+                var userSettingsModel = new UserSetting
+                {
+                    UserId = userId,
+                    RefEnumTypeId = refEnumType.Id,
+                    RefEnumValueId = refEnumValue.Id,
+                    AddedOn = DateTime.UtcNow
+                };
 
-            var userSettingsModel = new UserSetting
+                await _userSettingRepository.InsertAsync(userSettingsModel);
+                await _userSettingRepository.SaveChangesAsync();
+
+                userSettings = _userSettingsMapper.GetUserSettingsDto(userSettingsModel);
+            }
+            else
             {
-                UserId = userId,
-                RefEnumTypeId = refEnumType.Id,
-                RefEnumValueId = refEnumValue.Id,
-                AddedOn = DateTime.UtcNow
-            };
+                var refEnumValue = await _commonService.GetRefEnumValueById(userSettings.RefEnumValueId);
 
-            await _userSettingRepository.InsertAsync(userSettingsModel);
-            await _userSettingRepository.SaveChangesAsync();
+                if (refEnumValue == null)
+                    throw new ApiException(HttpStatusCode.Conflict, "Value found in userSettings but not in refEnumValue");
+
+                refEnumValue.EnumValue = value;
+
+                await _commonService.UpdateRefEnumValue(refEnumValue);
+            }
+
+            return await Task.FromResult(userSettings!);
+        }
+
+        public async Task SetEmailAppPasswordAsync(int userId, string appPassword)
+        {
+            await AddUpdateUserSettingsAsync(Enums.RefEnumType.EmailAppPassword, userId, appPassword);
         }
     }
 }

@@ -3,8 +3,6 @@ using ApplicationTracker.Service;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace ApplicationTracker.Server.Controllers
 {
     [Route("api/[controller]")]
@@ -48,7 +46,7 @@ namespace ApplicationTracker.Server.Controllers
         [HttpGet("apppasswordcheck/{userId}")]
         public async Task<IActionResult> IsAppPasswordAvailable(int userId)
         {
-            var isAvailable = await _userService.IsAppPasswordAvailable(userId);
+            var isAvailable = await _userService.IsAppPasswordAvailableAsync(userId);
             return Ok(new ApiResponce(
                             HttpStatusCode.OK,
                             isAvailable
@@ -56,10 +54,10 @@ namespace ApplicationTracker.Server.Controllers
         }
 
         [TypeFilter(typeof(AuthorizationFilter))]
-        [HttpGet("setemailappaassword/{userId}")]
+        [HttpPost("setEmailAppPassword/{userId}")]
         public async Task<IActionResult> SetEmailAppPassword(int userId, [FromBody] string appPassword)
         {
-            await _userService.SetEmailAppPassword(userId, appPassword);
+            await _userService.SetEmailAppPasswordAsync(userId, appPassword);
             return Ok(new ApiResponce(
                             HttpStatusCode.OK
                         ));

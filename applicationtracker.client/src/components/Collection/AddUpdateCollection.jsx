@@ -1,5 +1,5 @@
 import React from "react";
-import ThemeButton from "../Theme/ThemeButton";
+import ThemeButton from "../Theme/Button/ThemeButton";
 
 export default function AddUpdateCollection() {
 	return (

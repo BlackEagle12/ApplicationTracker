@@ -9,7 +9,7 @@ import {
 	onbordUser,
 	verifyInvitation,
 } from "../../Services/Signup.service";
-import ThemeButton from "../Theme/ThemeButton";
+import ThemeButton from "../Theme/Button/ThemeButton";
 
 export default function Signup() {
 	const [showPassword, setShowPassword] = useState(false);
@@ -167,25 +167,20 @@ export default function Signup() {
 			<div className="relative   min-h-screen  sm:flex sm:flex-row  justify-center bg-transparent rounded-3xl shadow-xl">
 				<div className="flex-col flex  self-center lg:px-14 sm:max-w-4xl xl:max-w-md  z-10">
 					<div className="self-start hidden lg:flex flex-col  text-gray-300">
-						<h1 className="my-3 font-semibold text-4xl">
-							Welcome!!
-						</h1>
+						<h1 className="my-3 font-semibold text-4xl">Welcome!!</h1>
 						<p className="pr-3 text-sm opacity-75">
-							We're thrilled to have you on board. Get ready to
-							take control of your job search with ease and
-							efficiency. Track your applications, manage
-							deadlines, and stay organized on your journey to
-							landing your dream job. Let's get started and make
-							your career aspirations a reality!
+							We're thrilled to have you on board. Get ready to take control of
+							your job search with ease and efficiency. Track your applications,
+							manage deadlines, and stay organized on your journey to landing
+							your dream job. Let's get started and make your career aspirations
+							a reality!
 						</p>
 					</div>
 				</div>
 				<div className="flex justify-center self-center  z-10 m-5">
 					<div className="p-12 bg-white mx-auto rounded-3xl w-96 ">
 						<div className="mb-7">
-							<h3 className="font-semibold text-2xl text-gray-800">
-								Register
-							</h3>
+							<h3 className="font-semibold text-2xl text-gray-800">Register</h3>
 						</div>
 						<div className="space-y-3">
 							<div className="">
@@ -292,9 +287,7 @@ export default function Signup() {
 								/>
 								<div className="flex items-center absolute inset-y-0 right-0 mr-3  text-sm leading-5">
 									<svg
-										onClick={() =>
-											setShowPassword(!showPassword)
-										}
+										onClick={() => setShowPassword(!showPassword)}
 										className={
 											"h-4 text-purple-700 " +
 											(showPassword ? "block" : "hidden")
@@ -310,9 +303,7 @@ export default function Signup() {
 									</svg>
 
 									<svg
-										onClick={() =>
-											setShowPassword(!showPassword)
-										}
+										onClick={() => setShowPassword(!showPassword)}
 										className={
 											"h-4 text-purple-700 " +
 											(showPassword ? "hidden" : "block")
@@ -331,9 +322,7 @@ export default function Signup() {
 							<div>
 								<ul className="list-disc px-2">
 									{validationErrors?.Passwd?.map((err) => (
-										<li className="text-red-600 text-xs mx-2">
-											{err}
-										</li>
+										<li className="text-red-600 text-xs mx-2">{err}</li>
 									))}
 								</ul>
 							</div>
@@ -366,9 +355,7 @@ export default function Signup() {
 							</div>
 							<div className="flex items-center justify-center space-x-2 my-5">
 								<span className="h-px w-16 bg-gray-100"></span>
-								<span className="text-gray-300 font-normal">
-									or
-								</span>
+								<span className="text-gray-300 font-normal">or</span>
 								<span className="h-px w-16 bg-gray-100"></span>
 							</div>
 							<div className="mb-7 text-center">
