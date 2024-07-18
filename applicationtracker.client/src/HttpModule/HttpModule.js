@@ -9,8 +9,8 @@ const HttpModule = axios.create({
 });
 
 HttpModule.interceptors.request.use((config) => {
-	const token = localStorage.getItem("User")?.token;
-	if (token) config.headers.Authorization = `Bearer ${token}`;
+	const user = JSON.parse(localStorage.getItem("User"));
+	if (user) config.headers.Authorization = `Bearer ${user.token}`;
 	return config;
 });
 

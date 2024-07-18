@@ -43,5 +43,26 @@ namespace ApplicationTracker.Server.Controllers
                             user
                         ));
         }
+
+        [TypeFilter(typeof(AuthorizationFilter))]
+        [HttpGet("apppasswordcheck/{userId}")]
+        public async Task<IActionResult> IsAppPasswordAvailable(int userId)
+        {
+            var isAvailable = await _userService.IsAppPasswordAvailable(userId);
+            return Ok(new ApiResponce(
+                            HttpStatusCode.OK,
+                            isAvailable
+                        ));
+        }
+
+        [TypeFilter(typeof(AuthorizationFilter))]
+        [HttpGet("setemailappaassword/{userId}")]
+        public async Task<IActionResult> SetEmailAppPassword(int userId, [FromBody] string appPassword)
+        {
+            await _userService.SetEmailAppPassword(userId, appPassword);
+            return Ok(new ApiResponce(
+                            HttpStatusCode.OK
+                        ));
+        }
     }
 }

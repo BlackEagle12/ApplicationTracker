@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ApplicationTracker.Data.Models;
+namespace ApplicationTracker.Dto.Models;
 
 public partial class UserSetting
 {

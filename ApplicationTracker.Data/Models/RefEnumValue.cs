@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ApplicationTracker.Data.Models;
+namespace ApplicationTracker.Dto.Models;
 
 public partial class RefEnumValue
 {
     public int Id { get; set; }
 
-    public string EnumTypeId { get; set; } = null!;
+    public int EnumTypeId { get; set; }
 
     public string EnumValue { get; set; } = null!;
 

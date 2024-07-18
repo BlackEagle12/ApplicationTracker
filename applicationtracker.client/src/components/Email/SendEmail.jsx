@@ -2,12 +2,21 @@ import React, { useEffect, useState } from "react";
 import { useFieldArray, useForm } from "react-hook-form";
 import ThemeButtonSmall from "../Theme/ThemeButtonSmall";
 import ThemeButton from "../Theme/ThemeButton";
-import { appPasswordCheck } from "../../Services/email.service";
+import {
+	appPasswordCheck,
+	setEmailAppPassword,
+} from "../../Services/email.service";
 
 export default function SendEmail() {
-	const [isEmailAppPasswordAdded, setIsEmailAppPasswordAdded] = useState(false);
+	const [loggedinUser, setLoggedinUser] = useState();
+	const [isEmailAppPasswordAdded, setIsEmailAppPasswordAdded] =
+		useState(false);
 
-	useEffect(() => {}, [isEmailAppPasswordAdded]);
+	useEffect(() => {
+		let usr = JSON.parse(localStorage.getItem("User"));
+		setLoggedinUser(usr);
+		checkForAppPassword();
+	}, []);
 
 	const {
 		register,
@@ -32,16 +41,21 @@ export default function SendEmail() {
 		// Handle form submission, e.g., send data to your API
 	};
 
-	const setAppPassword = (data) => {
-		setIsEmailAppPasswordAdded(true);
-		console.log(data);
+	const setAppPassword = async (data) => {
+		var res = await setEmailAppPassword(loggedinUser.id, data.appPasswd);
+		if (res?.status === 200) {
+			setIsEmailAppPasswordAdded(res.data);
+		} else {
+			alert(res?.data);
+			return false;
+		}
 	};
 
-	const checkForAppPassword = async (userId) => {
-		var res = await appPasswordCheck(userId);
+	const checkForAppPassword = async () => {
+		var res = await appPasswordCheck(loggedinUser.id);
 
 		if (res?.status === 200) {
-			return true;
+			setIsEmailAppPasswordAdded(res.data);
 		} else {
 			alert(res?.data);
 			return false;
@@ -99,19 +113,29 @@ export default function SendEmail() {
 				>
 					Recipients
 				</label>
-				<div className="grid grid-cols-2 gap-5 my-3" id="floating_Recipients">
+				<div
+					className="grid grid-cols-2 gap-5 my-3"
+					id="floating_Recipients"
+				>
 					{fields.map((item, index) => (
 						<div>
 							<div className="flex gap-5">
-								<div key={item.id} className="relative z-0 w-full my-1 group">
+								<div
+									key={item.id}
+									className="relative z-0 w-full my-1 group"
+								>
 									<input
 										type="email"
 										id={"floating_Recipients" + index}
 										className="block py-2.5 px-1 w-full text-base text-gray-300 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-purple-400 peer"
 										placeholder=" "
-										{...register(`recipients.${index}.email`, {
-											required: "Either remove this field or add recipient",
-										})}
+										{...register(
+											`recipients.${index}.email`,
+											{
+												required:
+													"Either remove this field or add recipient",
+											}
+										)}
 									/>
 									<label
 										htmlFor={"floating_Recipients" + index}
@@ -131,7 +155,10 @@ export default function SendEmail() {
 							<div>
 								{errors.recipients?.[index]?.email && (
 									<span className="text-red-600 text-xs">
-										{errors.recipients?.[index]?.email.message}
+										{
+											errors.recipients?.[index]?.email
+												.message
+										}
 									</span>
 								)}
 							</div>

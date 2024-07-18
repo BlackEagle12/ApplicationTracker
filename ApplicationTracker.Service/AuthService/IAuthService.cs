@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationTracker.Service
 {
-    public interface IAuthService
+    public interface IAuthService : IDisposable
     {
         Task<int> SendPasswordOtpToUser(string email, bool isResetPassword = false);
         Task<bool> VerifyInvitation(VerifyInvitationDto verifyInvitationDto);

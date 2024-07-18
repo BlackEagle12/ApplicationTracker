@@ -1,11 +1,10 @@
 ﻿
-using ApplicationTracker.Data;
-using ApplicationTracker.Data.Models;
 using ApplicationTracker.Dto;
+using ApplicationTracker.Dto.Models;
 
 namespace ApplicationTracker.Service
 {
-    public interface IUserService
+    public interface IUserService: IDisposable
     {
         Task<UserDto> AddUserAsync(UserDto user);
         Task<bool> IsUserExistAsync(string email);
@@ -15,5 +14,7 @@ namespace ApplicationTracker.Service
         Task<UserDto> AuthenticateUser(LoginCredentialDto credentials);
         Task<UserDto> OnbordUserAsync(UserDto userDto);
         Task<UserDto> ResetPasswdAsync(LoginCredentialDto loginCredential);
+        Task<bool> IsAppPasswordAvailable(int userId);
+        Task SetEmailAppPassword(int userId, string appPassword);
     }
 }

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using ApplicationTracker.Data.Models;
+using ApplicationTracker.Dto.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ApplicationTracker.Data.Context;
+namespace ApplicationTracker.Dto.Context;
 
 public partial class ApplicationTrackerDBContext : DbContext
 {
@@ -50,13 +50,8 @@ public partial class ApplicationTrackerDBContext : DbContext
 
             entity.ToTable("RefEnumValue");
 
-            entity.HasIndex(e => e.EnumValue, "UQ__RefEnumV__0F4A3618D48A7CA1").IsUnique();
-
             entity.Property(e => e.Description)
                 .HasMaxLength(1000)
-                .IsUnicode(false);
-            entity.Property(e => e.EnumTypeId)
-                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.EnumValue)
                 .HasMaxLength(100)
