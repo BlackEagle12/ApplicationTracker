@@ -220,21 +220,37 @@ const getJobDataList = async (listContainerXPath, detailParentDivXPath) => {
 //need to get this from env
 let MainContainerXPath = '//*[@id="main"]/div/div[2]/div[1]/div';
 let listContainerXPath = '//*[@id="main"]/div/div[2]/div[1]/div/ul';
-// let contentDivClasses =
-// 	".flex-grow-1.artdeco-entity-lockup__content.ember-view";
+let pageListXPath = '/html/body/div[5]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[3]/ul'
 
 let detailParentDivXPath =
 	'//*[@id="main"]/div/div[2]/div/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]';
 
-ScrollJobLists(MainContainerXPath)
-	.then(async () => {
+let pagesParentNode = getElementByXpath(pageListXPath);
+let totalPages = parseInt(pagesParentNode.children[9].children[0].children[0].textContent);
+let currentPage = 1;
+while (true) {
+	let activeNode = pagesParentNode.querySelectorAll('.active.selected')
+	let activePage = activeNode[0].children[0].children[0].textContent;
+
+	let pagesListNodes = pagesParentNode.children
+	
+	for (const pageNode of pagesListNodes) {
+		console.log(pageNode.children[0].children[0].textContent)
+	}
+	
+	
+
+	try{	
+		await ScrollJobLists(MainContainerXPath)
 		let jobListJson = await getJobDataList(
-			listContainerXPath,
-			detailParentDivXPath
-		);
+				listContainerXPath,
+				detailParentDivXPath
+			);
 		console.log(jobListJson);
-	})
-	.catch((error) => {
+	}
+	catch(error) {
 		console.log(error);
 		alert("failed to scroll");
-	});
+	};	
+		
+}
