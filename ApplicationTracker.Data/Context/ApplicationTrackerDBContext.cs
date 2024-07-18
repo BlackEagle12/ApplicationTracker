@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using ApplicationTracker.Dto.Models;
+using ApplicationTracker.Data.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ApplicationTracker.Dto.Context;
+namespace ApplicationTracker.Data.Context;
 
 public partial class ApplicationTrackerDBContext : DbContext
 {
@@ -16,6 +16,10 @@ public partial class ApplicationTrackerDBContext : DbContext
     {
     }
 
+    public virtual DbSet<Attachment> Attachments { get; set; }
+
+    public virtual DbSet<EmailTemplate> EmailTemplates { get; set; }
+
     public virtual DbSet<RefEnumType> RefEnumTypes { get; set; }
 
     public virtual DbSet<RefEnumValue> RefEnumValues { get; set; }
@@ -25,9 +29,37 @@ public partial class ApplicationTrackerDBContext : DbContext
     public virtual DbSet<UserSetting> UserSettings { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {}
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Data Source=sql.bsite.net\\MSSQL2016;Initial Catalog=vickypatel_ApplicationTracker;User ID=vickypatel_ApplicationTracker;Password=57872@aT;Trust Server Certificate=True");
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Attachment>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Attachme__3214EC07F6561B12");
+
+            entity.ToTable("Attachment");
+
+            entity.Property(e => e.AttachmentName)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<EmailTemplate>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__EmailTem__3214EC07AD564753");
+
+            entity.ToTable("EmailTemplate");
+
+            entity.Property(e => e.Body).IsUnicode(false);
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+            entity.Property(e => e.Subject)
+                .HasMaxLength(1000)
+                .IsUnicode(false);
+        });
+
         modelBuilder.Entity<RefEnumType>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__RefEnumT__3214EC07E3CE588B");

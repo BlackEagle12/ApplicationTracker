@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ApplicationTracker.Dto.Models;
+namespace ApplicationTracker.Data.Models;
 
 public partial class RefEnumType
 {
