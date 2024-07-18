@@ -9,8 +9,8 @@ const HttpModule = axios.create({
 });
 
 HttpModule.interceptors.request.use((config) => {
-	const token = localStorage.getItem("User")?.token;
-	if (token) config.headers.Authorization = `Bearer ${token}`;
+	const user = JSON.parse(localStorage.getItem("User"));
+	if (user) config.headers.Authorization = `Bearer ${user.token}`;
 	return config;
 });
 
@@ -30,10 +30,11 @@ HttpModule.interceptors.response.use(
 		// return Promise.reject(error);
 		console.log(error);
 
-		if (error.response.data.statusCode != 500) {
+		console.log(error?.response?.data?.statusCode);
+		if (error?.response?.data?.statusCode) {
 			return {
 				status: error.response.data.statusCode,
-				data: error.response.data.data,
+				data: error.response.data.errorMessage,
 			};
 		} else {
 			return {

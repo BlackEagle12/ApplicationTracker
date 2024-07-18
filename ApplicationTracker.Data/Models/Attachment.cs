@@ -3,15 +3,13 @@ using System.Collections.Generic;
 
 namespace ApplicationTracker.Data.Models;
 
-public partial class RefEnumValue
+public partial class Attachment
 {
     public int Id { get; set; }
 
-    public int EnumTypeId { get; set; }
+    public int EmailTemplateId { get; set; }
 
-    public string EnumValue { get; set; } = null!;
-
-    public string? Description { get; set; }
+    public string AttachmentName { get; set; } = null!;
 
     public DateTime AddedOn { get; set; }
 

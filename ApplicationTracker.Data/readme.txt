@@ -1,1 +1,1 @@
-Scaffold-DbContext -Connection "<Connection-string>" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models  -ContextDir Context -Context ApplicationTrackerDBContext
+Scaffold-DbContext -Connection "Data Source=sql.bsite.net\MSSQL2016;Initial Catalog=vickypatel_ApplicationTracker;User ID=vickypatel_ApplicationTracker;Password=57872@aT;Trust Server Certificate=True" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models  -ContextDir Context -Context ApplicationTrackerDBContext -Force

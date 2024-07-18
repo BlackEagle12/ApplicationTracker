@@ -1,4 +1,4 @@
-﻿using ApplicationTracker.Data.Models;
+﻿using ApplicationTracker.Dto.Models;
 using ApplicationTracker.Dto;
 using ApplicationTracker.Mapper;
 using ApplicationTracker.Repo;
@@ -14,25 +14,27 @@ using System.Text;
 
 namespace ApplicationTracker.Service
 {
-    public class AuthService : BaseService, IAuthService
+    public class AuthService : IAuthService
     {
         private bool _disposed;
         private readonly IRepository<User> _userRepository;
         private readonly AuthMapper _authMapper;
         private readonly AppSettings _appSettings;
+        private readonly ICommonService _commonService;
         public AuthService(
-                IOptions<EmailConfigurations> emailConfigurations,
                 IRepository<User> userRepository,
                 AuthMapper authMapper,
-                IOptions<AppSettings> appSettings) : base(emailConfigurations)
+                IOptions<AppSettings> appSettings,
+                ICommonService commonService)
         {
             _disposed = false;
             _userRepository = userRepository;
             _authMapper = authMapper;
             _appSettings = appSettings.Value;
+            _commonService = commonService;
         }
 
-        public override void Dispose()
+        public void Dispose()
         {
             if (_disposed)
                 return;
@@ -50,7 +52,7 @@ namespace ApplicationTracker.Service
         {
             Random rnd = new Random();
             var otp = rnd.Next(100000, 999999);
-            await SendEmail(
+            await _commonService.SendEmail(
                     new()
                     {
                         Subject = "Invitation From Application Tracker",

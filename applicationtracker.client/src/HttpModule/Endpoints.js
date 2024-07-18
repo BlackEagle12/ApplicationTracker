@@ -4,9 +4,10 @@ const EndpointConstants = {
 	updateUserURL: "/user/{id}",
 	onbordUserURL: "/auth/onbordUser",
 	signInURL: "/auth/authenticateuser",
-	isEmailAppPasswordAdded: "/user/apppasswordcheck/{userId}",
 	sendResetPasswordTokenURL: "/auth/sendresetpasswordtoken",
 	resetPasswordURL: "/auth/resetpassword",
+	isEmailAppPasswordAdded: "/user/apppasswordcheck/{userId}",
+	setEmailAppPassword: "/user/setemailapppassword/{userId}",
 
 	resolveParam: (url, paramName, paramValue) => {
 		return url.replace(`{${paramName}}`, paramValue);

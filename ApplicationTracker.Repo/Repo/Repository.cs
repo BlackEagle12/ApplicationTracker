@@ -1,4 +1,4 @@
-﻿using ApplicationTracker.Data.Context;
+﻿using ApplicationTracker.Dto.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Linq.Expressions;

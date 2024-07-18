@@ -1,5 +1,5 @@
 ﻿using System.Text;
-using ApplicationTracker.Data.Context;
+using ApplicationTracker.Dto.Context;
 using ApplicationTracker.Mapper;
 using ApplicationTracker.Repo;
 using ApplicationTracker.Service;
@@ -53,9 +53,13 @@ namespace ApplicationTracker.Server
             service.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             service.AddScoped<IUserService, UserService>();
             service.AddScoped<IAuthService, AuthService>();
+            service.AddScoped<ICommonService, CommonService>();
 
             service.AddSingleton<UserMapper>();
             service.AddSingleton<AuthMapper>();
+            service.AddSingleton<RefEnumTypeMapper>();
+            service.AddSingleton<RefEnumValueMapper>();
+            service.AddSingleton<UserSettingsMapper>();
             service.AddScoped<AuthorizationFilter>();
         }
 

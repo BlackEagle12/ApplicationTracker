@@ -1,7 +1,7 @@
 import React from "react";
 import { useFieldArray, useForm } from "react-hook-form";
-import ThemeButton from "../../Theme/ThemeButton";
-import ThemeButtonSmall from "../../Theme/ThemeButtonSmall";
+import ThemeButton from "../../Theme/Button/ThemeButton";
+import ThemeButtonSmall from "../../Theme/Button/ThemeButtonSmall";
 
 export default function AddTemplates() {
 	const {
@@ -25,7 +25,7 @@ export default function AddTemplates() {
 	};
 
 	return (
-		<div className="flex items-center h-full mx-2">
+		<div className="flex items-center h-full mx-2 mt-10">
 			<form onSubmit={handleSubmit(onSubmit)} className="w-full">
 				<div className="relative z-0 w-full mb-5 group">
 					<input

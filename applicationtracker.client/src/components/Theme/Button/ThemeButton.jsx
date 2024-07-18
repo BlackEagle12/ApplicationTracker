@@ -3,7 +3,7 @@ import React from "react";
 function ThemeButton({ text, type, onClick, disabled }) {
 	return (
 		<button
-			type={type}
+			type={type || "button"}
 			onClick={onClick || (() => {})}
 			disabled={disabled || false}
 			className={

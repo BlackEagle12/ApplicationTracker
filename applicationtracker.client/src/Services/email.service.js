@@ -8,5 +8,15 @@ export const appPasswordCheck = async (userId) => {
 		userId
 	);
 
-	return await HttpModule.Get(url);
+	return await HttpModule.get(url);
+};
+
+export const setEmailAppPassword = async (userId, passwd) => {
+	let url = EndpointConstants.resolveParam(
+		EndpointConstants.setEmailAppPassword,
+		"userId",
+		userId
+	);
+
+	return await HttpModule.post(url, passwd);
 };
