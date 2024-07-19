@@ -217,6 +217,9 @@ const getJobDataList = async (listContainerXPath, detailParentDivXPath) => {
 	}
 };
 
+const navigatePageByPageNode = () => {
+
+}
 //need to get this from env
 let MainContainerXPath = '//*[@id="main"]/div/div[2]/div[1]/div';
 let listContainerXPath = '//*[@id="main"]/div/div[2]/div[1]/div/ul';
@@ -228,29 +231,33 @@ let detailParentDivXPath =
 let pagesParentNode = getElementByXpath(pageListXPath);
 let totalPages = parseInt(pagesParentNode.children[9].children[0].children[0].textContent);
 let currentPage = 1;
-while (true) {
-	let activeNode = pagesParentNode.querySelectorAll('.active.selected')
-	let activePage = activeNode[0].children[0].children[0].textContent;
 
+while (totalPages >= currentPage) {
 	let pagesListNodes = pagesParentNode.children
-	
+	let nextPageNode = undefined;
 	for (const pageNode of pagesListNodes) {
-		console.log(pageNode.children[0].children[0].textContent)
+		let pageNumber = parseInt(pageNode.children[0].children[0].textContent)
+		if(pageNumber != NaN && pageNumber === currentPage+1)
+		{
+			nextPageNode = pageNode;
+			break;
+		}
 	}
 	
+	navigatePageByPageNode
 	
 
-	try{	
-		await ScrollJobLists(MainContainerXPath)
-		let jobListJson = await getJobDataList(
-				listContainerXPath,
-				detailParentDivXPath
-			);
-		console.log(jobListJson);
-	}
-	catch(error) {
-		console.log(error);
-		alert("failed to scroll");
-	};	
+	// try{	
+	// 	await ScrollJobLists(MainContainerXPath)
+	// 	let jobListJson = await getJobDataList(
+	// 			listContainerXPath,
+	// 			detailParentDivXPath
+	// 		);
+	// 	console.log(jobListJson);
+	// }
+	// catch(error) {
+	// 	console.log(error);
+	// 	alert("failed to scroll");
+	// };	
 		
 }
