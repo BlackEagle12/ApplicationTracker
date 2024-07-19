@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Options;
 using System.Net.Mail;
 using System.Net;
-using ApplicationTracker.Dto.Models;
+using ApplicationTracker.Data.Models;
 using ApplicationTracker.Repo;
 using ApplicationTracker.Mapper;
 using Microsoft.EntityFrameworkCore;

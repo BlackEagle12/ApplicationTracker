@@ -1,5 +1,5 @@
 ﻿using System.Text;
-using ApplicationTracker.Dto.Context;
+using ApplicationTracker.Data.Context;
 using ApplicationTracker.Mapper;
 using ApplicationTracker.Repo;
 using ApplicationTracker.Service;
@@ -54,6 +54,7 @@ namespace ApplicationTracker.Server
             service.AddScoped<IUserService, UserService>();
             service.AddScoped<IAuthService, AuthService>();
             service.AddScoped<ICommonService, CommonService>();
+            service.AddScoped<ITemplateService, TemplateService>();
 
             service.AddSingleton<UserMapper>();
             service.AddSingleton<AuthMapper>();

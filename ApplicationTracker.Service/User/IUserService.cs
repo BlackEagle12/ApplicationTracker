@@ -1,6 +1,5 @@
 ﻿
 using ApplicationTracker.Dto;
-using ApplicationTracker.Dto.Models;
 
 namespace ApplicationTracker.Service
 {

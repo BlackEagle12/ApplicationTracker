@@ -1,4 +1,4 @@
-﻿using ApplicationTracker.Dto.Models;
+﻿using ApplicationTracker.Data.Models;
 using ApplicationTracker.Dto;
 using ApplicationTracker.Mapper;
 using ApplicationTracker.Repo;

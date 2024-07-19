@@ -2,6 +2,7 @@ import React from "react";
 import { useFieldArray, useForm } from "react-hook-form";
 import ThemeButton from "../../Theme/Button/ThemeButton";
 import ThemeButtonSmall from "../../Theme/Button/ThemeButtonSmall";
+import { addEmailTemplate } from "../../../Services/Template.service";
 
 export default function AddTemplates() {
 	const {
@@ -21,7 +22,10 @@ export default function AddTemplates() {
 	});
 
 	const onSubmit = (data) => {
+		data.userId = 1;
 		console.log(data);
+
+		addEmailTemplate(data);
 	};
 
 	return (

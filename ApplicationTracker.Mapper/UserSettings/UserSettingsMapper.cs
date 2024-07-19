@@ -1,5 +1,5 @@
-﻿using ApplicationTracker.Dto;
-using ApplicationTracker.Dto.Models;
+﻿using ApplicationTracker.Data.Models;
+using ApplicationTracker.Dto;
 
 namespace ApplicationTracker.Mapper;
 

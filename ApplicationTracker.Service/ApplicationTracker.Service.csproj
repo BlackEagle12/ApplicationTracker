@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="RefEnumType\" />
+    <Folder Include="RefEnumType\NewFolder\" />
   </ItemGroup>
 
 </Project>
