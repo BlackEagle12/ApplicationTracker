@@ -1,5 +1,5 @@
 import EndpointConstants from "../HttpModule/Endpoints";
-import HttpModule from "../HttpModule/HttpModule";
+import { HttpModule } from "../HttpModule/HttpModule";
 
 // export const updateUserInfo = async (user) => {
 // 	let url = EndpointConstants.updateUserURL;

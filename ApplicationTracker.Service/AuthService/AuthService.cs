@@ -61,10 +61,11 @@ namespace ApplicationTracker.Service
                             {
                                 new()
                                 {
-                                    RecipientEmail = email
+                                    Email = email
                                 }
                             }
-                    }
+                    },
+                    true
                 );
 
             return otp;

@@ -1,4 +1,5 @@
 import axios from "axios";
+import { useEffect, useState } from "react";
 
 const HttpModule = axios.create({
 	baseURL: import.meta.env.VITE_BASE_API_URL,
@@ -7,7 +8,6 @@ const HttpModule = axios.create({
 		"content-type": "application/json",
 	},
 });
-
 HttpModule.interceptors.request.use((config) => {
 	const user = JSON.parse(localStorage.getItem("User"));
 	if (user) config.headers.Authorization = `Bearer ${user.token}`;
@@ -20,8 +20,8 @@ HttpModule.interceptors.response.use(
 		// Do something with response data
 		console.log(response);
 		return {
-			status: response.data.statusCode,
-			data: response.data.data,
+			status: response?.data?.statusCode,
+			data: response?.data?.data,
 		};
 	},
 	function (error) {
@@ -29,8 +29,6 @@ HttpModule.interceptors.response.use(
 		// Do something with response error
 		// return Promise.reject(error);
 		console.log(error);
-
-		console.log(error?.response?.data?.statusCode);
 		if (error?.response?.data?.statusCode) {
 			return {
 				status: error.response.data.statusCode,
@@ -38,10 +36,43 @@ HttpModule.interceptors.response.use(
 			};
 		} else {
 			return {
-				status: error.response.status,
-				data: error.message,
+				status: error?.response?.status,
+				data: error?.message,
 			};
 		}
 	}
 );
-export default HttpModule;
+
+const useInterceptorLoading = () => {
+	const [count, setCount] = useState(0);
+
+	useEffect(() => {
+		HttpModule.interceptors.request.use((config) => {
+			setCount((previousCount) => previousCount + 1);
+			if (count > 0) {
+				setLoading(true);
+			}
+			return config;
+		});
+
+		HttpModule.interceptors.response.use(
+			function (response) {
+				setCount((previousCount) => previousCount - 1);
+				if (count < 0) {
+					setLoading(false);
+				}
+				return response;
+			},
+			function (error) {
+				setCount((previousCount) => previousCount - 1);
+				if (count < 0) {
+					setLoading(false);
+				}
+				return error;
+			}
+		);
+	}, []);
+	return { loading: count > 0 };
+};
+
+export { HttpModule, useInterceptorLoading };

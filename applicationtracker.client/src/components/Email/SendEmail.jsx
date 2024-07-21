@@ -6,12 +6,17 @@ import {
 	appPasswordCheck,
 	setEmailAppPassword,
 } from "../../Services/email.service";
-import ThemeTost from "../Theme/Tost/ThemeTost";
+import { ThemeErrorTost, ThemeSucessTost } from "../Theme/Tost/ThemeTost";
+import {
+	getAllEmailTemplates,
+	sendEmailUsingTemplate,
+} from "../../Services/Template.service";
 
 export default function SendEmail() {
 	const [loggedinUser, setLoggedinUser] = useState();
 	const [isEmailAppPasswordAdded, setIsEmailAppPasswordAdded] =
 		useState(false);
+	const [templateList, setTemplateList] = useState();
 
 	useEffect(() => {
 		let usr = JSON.parse(localStorage.getItem("User"));
@@ -19,7 +24,10 @@ export default function SendEmail() {
 	}, []);
 
 	useEffect(() => {
-		checkForAppPassword();
+		if (loggedinUser) {
+			checkForAppPassword(loggedinUser.id);
+			getTemplateList(loggedinUser.id);
+		}
 	}, [loggedinUser]);
 
 	const {
@@ -27,6 +35,7 @@ export default function SendEmail() {
 		handleSubmit,
 		formState: { errors },
 		control,
+		reset,
 	} = useForm();
 
 	const {
@@ -40,8 +49,14 @@ export default function SendEmail() {
 		name: "recipients",
 	});
 
-	const sendEmail = (data) => {
-		console.log(data);
+	const sendEmail = async (data) => {
+		var res = await sendEmailUsingTemplate(data);
+		if (res.status === 200) {
+			alert(res.data);
+			reset();
+		} else {
+			alert(res.data);
+		}
 	};
 
 	const setAppPassword = async (data) => {
@@ -59,9 +74,9 @@ export default function SendEmail() {
 		}
 	};
 
-	const checkForAppPassword = async () => {
+	const checkForAppPassword = async (userId) => {
 		if (loggedinUser) {
-			var res = await appPasswordCheck(loggedinUser.id);
+			var res = await appPasswordCheck(userId);
 
 			if (res?.status === 200) {
 				setIsEmailAppPasswordAdded(res.data);
@@ -72,7 +87,17 @@ export default function SendEmail() {
 		}
 	};
 
-	function TostElement() {
+	const getTemplateList = async (userId) => {
+		var res = await getAllEmailTemplates(userId);
+		if (res.status === 200) {
+			setTemplateList(res.data);
+			console.log(res.data);
+		} else {
+			alert(res.data);
+		}
+	};
+
+	function ThemeTostSucessElement() {
 		return (
 			<div>
 				your app password is already set.
@@ -88,7 +113,7 @@ export default function SendEmail() {
 
 	return isEmailAppPasswordAdded ? (
 		<>
-			<ThemeTost TostElement={TostElement} />
+			<ThemeSucessTost TostElement={ThemeTostSucessElement} />
 			<form onSubmit={handleSubmit(sendEmail)} className="pb-5">
 				<div className="flex justify-between">
 					<div className="w-3/4">
@@ -100,7 +125,6 @@ export default function SendEmail() {
 						</label>
 						<select
 							id="large"
-							value={""}
 							className="font-medium block w-full px-5 py-3 text-base text-gray-400 duration-300 border border-gray-300 rounded-lg bg-gray-50 bg-opacity-5 focus:bg-opacity-25 focus:outline-0 focus:ring-purple-400 focus:border-purple-400"
 							{...register("emailTemplate", {
 								required: "Email template must be selected",
@@ -109,12 +133,15 @@ export default function SendEmail() {
 							<option value={""} hidden={true}>
 								Choose a template
 							</option>
-							<option
-								value={"US"}
-								className="text-md font-normal text-gray-500"
-							>
-								Name - Subject
-							</option>
+							{templateList &&
+								templateList.map((template) => (
+									<option
+										value={template.id}
+										className="text-md font-normal text-gray-500"
+									>
+										{`${template.name} - ${template.subject} aaa`}
+									</option>
+								))}
 						</select>
 						{errors.emailTemplate && (
 							<span className="text-red-600 text-xs">
@@ -127,11 +154,6 @@ export default function SendEmail() {
 					</div>
 				</div>
 				<div>
-					{fields.length < 1 && (
-						<p className="text-red-600 text-xs">
-							At least one recipient is required
-						</p>
-					)}
 					<label
 						htmlFor="floating_Recipients"
 						className="font-medium text-sm text-gray-400 duration-300 hover:text-purple-400"
@@ -197,6 +219,11 @@ export default function SendEmail() {
 						onClick={() => append({ email: "" })}
 						text={"Add Recipient"}
 					/>
+					{fields.length < 1 && (
+						<p className="text-red-600 text-xs">
+							At least one recipient is required
+						</p>
+					)}
 				</div>
 			</form>
 		</>

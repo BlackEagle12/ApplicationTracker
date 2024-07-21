@@ -6,13 +6,15 @@ namespace ApplicationTracker.Dto
     {
         public string? Subject { get; set; } 
         public string? Body { get; set; } 
-        public List<EmailRecipient>? Recipients { get; set; }
+        public bool IsHtml {  get; set; }
+        public List<EmailUser>? Recipients { get; set; }
+        public EmailUser? Sender { get; set; }
         public List<Attachment> Attachments { get; set; }
     }
 
-    public class EmailRecipient
+    public class EmailUser
     {
-        public string RecipientEmail { get; set; }
+        public string Email { get; set; }
         public string DisplayName { get; set; }
 
     }

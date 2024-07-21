@@ -61,6 +61,7 @@ namespace ApplicationTracker.Server
             service.AddSingleton<RefEnumTypeMapper>();
             service.AddSingleton<RefEnumValueMapper>();
             service.AddSingleton<UserSettingsMapper>();
+            service.AddSingleton<EmailTemplateMapper>();
             service.AddScoped<AuthorizationFilter>();
         }
 

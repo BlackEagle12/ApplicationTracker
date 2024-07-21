@@ -6,14 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationTracker.Dto.Template
+namespace ApplicationTracker.Dto
 {
-    public class TemplateDto
+    public class AddEmailTemplateDto
     {
         
         public int Id { get; set; }
         
-        public int UserId { get; set; }
+        public string UserEmail { get; set; }
         
         public string TemplateName { get; set; } = null!;
         
@@ -23,6 +23,6 @@ namespace ApplicationTracker.Dto.Template
         
         public bool IsHtml { get; set; }
 
-        public IFormFileCollection? Attachments { get; set; }
+        public List<IFormFile>? Attachments { get; set; }
     }
 }

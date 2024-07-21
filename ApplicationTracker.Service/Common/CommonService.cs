@@ -46,18 +46,31 @@ namespace ApplicationTracker.Service
             _disposed = true;
         }
 
-        public async Task<bool> SendEmail(EmailDto emailDto)
+        public async Task<bool> SendEmail(EmailDto emailDto, bool isFromSystem, string appPassword = "")
         {
             MailMessage email = new MailMessage();
-            MailAddress from = new MailAddress(
-                _emailConfigurations.Username!,
-                _emailConfigurations.DisplayName
+
+            MailAddress from;
+            if (isFromSystem)
+            {
+                from = new MailAddress(
+                    _emailConfigurations.Username!,
+                    _emailConfigurations.DisplayName
                 );
+            }
+            else
+            {
+                from = new MailAddress(
+                    emailDto.Sender!.Email,
+                    emailDto.Sender!.DisplayName
+                );
+            }
+
             email.From = from;
             emailDto.Recipients?.ForEach(recipient =>
             {
                 MailAddress to = new MailAddress(
-                    recipient.RecipientEmail,
+                    recipient.Email,
                     recipient.DisplayName
                     );
                 email.To.Add(to);
@@ -71,16 +84,13 @@ namespace ApplicationTracker.Service
 
             email.Subject = emailDto.Subject;
             email.Body = emailDto.Body;
+            email.IsBodyHtml = emailDto.IsHtml;
 
-            SmtpClient smtp = new SmtpClient();
-            smtp.Host = _emailConfigurations.Host!;
-            smtp.Port = _emailConfigurations.Port;
-            smtp.Credentials = new NetworkCredential(
-                _emailConfigurations.Username,
-                _emailConfigurations.Password
-                );
-            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-            smtp.EnableSsl = _emailConfigurations.EnableSSL;
+            SmtpClient smtp;
+            if (isFromSystem)
+                smtp = GetSmtpClient();
+            else
+                smtp = GetSmtpClient(emailDto.Sender!.Email, appPassword);
 
             try
             {
@@ -143,6 +153,38 @@ namespace ApplicationTracker.Service
             _refEnumValueRepository.Update(refEnumValue);
             await _refEnumValueRepository.SaveChangesAsync();
             return await Task.FromResult(refEnumValue);
+        }
+
+        private SmtpClient GetSmtpClient()
+        {
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = _emailConfigurations.Host!;
+            smtp.Port = _emailConfigurations.Port;
+
+            smtp.Credentials = new NetworkCredential(
+                _emailConfigurations.Username,
+                _emailConfigurations.Password
+                );
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtp.EnableSsl = _emailConfigurations.EnableSSL;
+
+            return smtp;
+        }
+
+        private SmtpClient GetSmtpClient(string userName, string password)
+        {
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = _emailConfigurations.Host!;
+            smtp.Port = _emailConfigurations.Port;
+
+            smtp.Credentials = new NetworkCredential(
+                    userName,
+                    password
+                );
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtp.EnableSsl = _emailConfigurations.EnableSSL;
+
+            return smtp;
         }
     }
 }

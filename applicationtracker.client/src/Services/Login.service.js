@@ -1,5 +1,5 @@
 import EndpointConstants from "../HttpModule/Endpoints";
-import HttpModule from "../HttpModule/HttpModule";
+import { HttpModule } from "../HttpModule/HttpModule";
 
 export const login = async (credential) => {
 	return await HttpModule.post(EndpointConstants.signInURL, credential);
