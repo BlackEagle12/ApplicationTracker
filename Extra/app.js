@@ -13,10 +13,10 @@ const getElementByXpath = (path) => {
 };
 
 const ScrollJobLists = (MainContainerXPath) => {
-	let currentScrollHeight = 100;
-	let MainContainer = getElementByXpath(MainContainerXPath);
 	return new Promise((resolve, reject) => {
 		try {
+			let currentScrollHeight = 100;
+			let MainContainer = getElementByXpath(MainContainerXPath);
 			const intervalId = setInterval(() => {
 				MainContainer.scrollTo(0, currentScrollHeight);
 				currentScrollHeight += 100;
@@ -49,7 +49,8 @@ const getJobData = (detailParentDivXPath) => {
 		jobObject.Job.LinkedInPostUrl = jobUrl;
 		jobObject.Job.JobTitle = jobTitle;
 
-		let locationTotalApplicantAndPostTimeNode = detailParentDivChildNodes[2];
+		let locationTotalApplicantAndPostTimeNode =
+			detailParentDivChildNodes[2];
 		let { location, postTime, totalApplicant } =
 			getJoblocationTotalApplicantAndPostTimeFromNode(
 				locationTotalApplicantAndPostTimeNode
@@ -90,8 +91,8 @@ const getJobData = (detailParentDivXPath) => {
 const getIsEasyApplyFromNode = (applyAndSaveButtonNode) => {
 	try {
 		let text =
-			applyAndSaveButtonNode?.children[0]?.children[0]?.children[0]?.children[0]
-				?.children[1]?.childNodes[2]?.textContent;
+			applyAndSaveButtonNode?.children[0]?.children[0]?.children[0]
+				?.children[0]?.children[1]?.childNodes[2]?.textContent;
 		if (text === "Easy Apply") return true;
 		else return false;
 	} catch (error) {
@@ -109,15 +110,17 @@ const getjobRemoteTypeJobTypeJobExperienceLavelCompanyStrengthCompanyDomainAndTo
 					?.children[0]?.children;
 
 			let jobDetail = detailsList[0]?.children[1]?.children;
-			let jobRemotType = jobDetail[0]?.children[0]?.children[0]?.textContent;
+			let jobRemotType =
+				jobDetail[0]?.children[0]?.children[0]?.textContent;
 			let jobType =
 				jobDetail[1]?.children[0]?.children[0]?.textContent ??
-				jobDetail[1]?.childNodes[2].textContent;
+				jobDetail[1]?.childNodes[2]?.textContent;
 
-			let jobExperienceLavel = jobDetail[2]?.childNodes[2]?.textContent.replace(
-				"Matches your job preferences, job type is",
-				""
-			);
+			let jobExperienceLavel =
+				jobDetail[2]?.childNodes[2]?.textContent.replace(
+					"Matches your job preferences, job type is",
+					""
+				);
 
 			let companyDetail =
 				detailsList[1]?.children[1]?.childNodes[2]?.textContent;
@@ -147,7 +150,8 @@ const getJoblocationTotalApplicantAndPostTimeFromNode = (
 
 		let location = locationAndPostTimeHTMLColleactionList[0]?.textContent;
 		let postTime = locationAndPostTimeHTMLColleactionList[2]?.textContent;
-		let totalApplicant = locationAndPostTimeHTMLColleactionList[4]?.textContent;
+		let totalApplicant =
+			locationAndPostTimeHTMLColleactionList[4]?.textContent;
 		return {
 			location: location,
 			postTime: postTime,
@@ -181,7 +185,7 @@ const getCompanyDetailsFromNode = (companyDetailsNode) => {
 		let companyLogoanchorTagNode = companyDetailsNodes[0];
 		companyJson.CompanyLinkedInURL = companyLogoanchorTagNode.href;
 		companyJson.CompanyLogoUrl =
-			companyLogoanchorTagNode?.children[0]?.children[0]?.children[0].src;
+			companyLogoanchorTagNode?.children[0]?.children[0]?.children[0]?.src;
 
 		let companyNameDetailNode = companyDetailsNodes[1];
 		companyJson.CompanyName = companyNameDetailNode?.children[0]?.text;
@@ -191,11 +195,15 @@ const getCompanyDetailsFromNode = (companyDetailsNode) => {
 	}
 };
 
-const clickElementAndWait = (item) => {
-	item?.children[0]?.children[0].click();
-	return new Promise((resolve, reject) => {
-		setTimeout(() => resolve(), 5000);
-	});
+const clickElementAndWait = (element) => {
+	try {
+		element?.click();
+		return new Promise((resolve, reject) => {
+			setTimeout(() => resolve(), 10000);
+		});
+	} catch (error) {
+		console.log("Error in clickElementAndWait", error, element);
+	}
 };
 
 const getJobDataList = async (listContainerXPath, detailParentDivXPath) => {
@@ -206,58 +214,87 @@ const getJobDataList = async (listContainerXPath, detailParentDivXPath) => {
 		// insideLoop
 		for (let item of jobSectionList) {
 			//TODO :
-			console.log("executing : ", item);
-			await clickElementAndWait(item);
+			await clickElementAndWait(item?.children[0]?.children[0]);
 			let jobData = getJobData(detailParentDivXPath);
 			jobListJson.push(jobData);
 		}
 		return jobListJson;
 	} catch (error) {
 		console.log("Error in getJobDataList", error);
+		return [];
 	}
 };
 
-const navigatePageByPageNode = () => {
-
-}
 //need to get this from env
 let MainContainerXPath = '//*[@id="main"]/div/div[2]/div[1]/div';
 let listContainerXPath = '//*[@id="main"]/div/div[2]/div[1]/div/ul';
-let pageListXPath = '/html/body/div[5]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[3]/ul'
+let pageListXPath =
+	// "/html/body/div[4]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[4]/ul";
+	"/html/body/div[5]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[4]/ul";
+// "/html/body/div[5]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[3]/ul";
 
 let detailParentDivXPath =
 	'//*[@id="main"]/div/div[2]/div/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]';
 
 let pagesParentNode = getElementByXpath(pageListXPath);
-let totalPages = parseInt(pagesParentNode.children[9].children[0].children[0].textContent);
-let currentPage = 1;
-
+let totalPages = 0;
+if (pagesParentNode) {
+	totalPages = parseInt(
+		pagesParentNode.children[9]?.children[0]?.children[0]?.textContent
+	);
+} else {
+	throw new Error("pages parent node not found");
+}
+let currentPage = 0;
+let jobList = [];
 while (totalPages >= currentPage) {
-	let pagesListNodes = pagesParentNode.children
-	let nextPageNode = undefined;
-	for (const pageNode of pagesListNodes) {
-		let pageNumber = parseInt(pageNode.children[0].children[0].textContent)
-		if(pageNumber != NaN && pageNumber === currentPage+1)
-		{
-			nextPageNode = pageNode;
-			break;
+	try {
+		let pagesListNodes = pagesParentNode.children;
+		let nextPageNode = undefined;
+		for (const pageNode of pagesListNodes) {
+			let pageNumber = parseInt(
+				pageNode.children[0]?.children[0]?.textContent
+			);
+			if (pageNumber != NaN && pageNumber === currentPage + 1) {
+				nextPageNode = pageNode;
+				break;
+			}
 		}
-	}
-	
-	navigatePageByPageNode
-	
+		if (nextPageNode) {
+			currentPage += 1;
+			console.log("clicked on ", currentPage);
+			await clickElementAndWait(nextPageNode.children[0]);
+		} else {
+			await clickElementAndWait(pagesListNodes[8]?.children[0]);
+			currentPage += 1;
+			console.log(
+				pagesListNodes[8]?.children[0]?.children[0]?.textContent
+			);
+		}
 
-	// try{	
-	// 	await ScrollJobLists(MainContainerXPath)
-	// 	let jobListJson = await getJobDataList(
-	// 			listContainerXPath,
-	// 			detailParentDivXPath
-	// 		);
-	// 	console.log(jobListJson);
-	// }
-	// catch(error) {
-	// 	console.log(error);
-	// 	alert("failed to scroll");
-	// };	
-		
+		var latestPageNo = (totalPages = parseInt(
+			pagesParentNode.children[9]?.children[0]?.children[0]?.textContent
+		));
+
+		if (latestPageNo > totalPages) {
+			totalPages = latestPageNo;
+		}
+		await ScrollJobLists(MainContainerXPath);
+		let partialJobListJson = await getJobDataList(
+			listContainerXPath,
+			detailParentDivXPath
+		);
+
+		if (partialJobListJson) {
+			for (const partialJobJson of partialJobListJson) {
+				jobList.push(partialJobJson);
+			}
+		}
+		console.log("page " + currentPage + " completed");
+		console.log(jobList);
+	} catch (error) {
+		console.log(jobList);
+		console.log("error in page " + currentPage);
+		console.log(error);
+	}
 }
