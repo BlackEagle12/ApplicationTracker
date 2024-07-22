@@ -12,26 +12,18 @@ const getElementByXpath = (path) => {
 	}
 };
 
-const ScrollJobLists = (MainContainerXPath) => {
+const ScrollJobLists = (MainContainer, newScrollHeight) => {
 	return new Promise((resolve, reject) => {
 		try {
-			let currentScrollHeight = 100;
-			let MainContainer = getElementByXpath(MainContainerXPath);
-			const intervalId = setInterval(() => {
-				MainContainer.scrollTo(0, currentScrollHeight);
-				currentScrollHeight += 100;
-
-				if (currentScrollHeight > MainContainer.scrollHeight) {
-					clearInterval(intervalId);
-					resolve();
-				}
-			}, 1000);
+			MainContainer.scrollTo(0, newScrollHeight);
+			setTimeout(() => {
+				resolve();
+			}, 2000);
 		} catch (error) {
 			reject(new Error("Failed to fetch data"));
 		}
 	});
 };
-
 const getJobData = (detailParentDivXPath) => {
 	try {
 		let jobObject = {};
@@ -49,8 +41,7 @@ const getJobData = (detailParentDivXPath) => {
 		jobObject.Job.LinkedInPostUrl = jobUrl;
 		jobObject.Job.JobTitle = jobTitle;
 
-		let locationTotalApplicantAndPostTimeNode =
-			detailParentDivChildNodes[2];
+		let locationTotalApplicantAndPostTimeNode = detailParentDivChildNodes[2];
 		let { location, postTime, totalApplicant } =
 			getJoblocationTotalApplicantAndPostTimeFromNode(
 				locationTotalApplicantAndPostTimeNode
@@ -91,8 +82,8 @@ const getJobData = (detailParentDivXPath) => {
 const getIsEasyApplyFromNode = (applyAndSaveButtonNode) => {
 	try {
 		let text =
-			applyAndSaveButtonNode?.children[0]?.children[0]?.children[0]
-				?.children[0]?.children[1]?.childNodes[2]?.textContent;
+			applyAndSaveButtonNode?.children[0]?.children[0]?.children[0]?.children[0]
+				?.children[1]?.childNodes[2]?.textContent;
 		if (text === "Easy Apply") return true;
 		else return false;
 	} catch (error) {
@@ -110,17 +101,15 @@ const getjobRemoteTypeJobTypeJobExperienceLavelCompanyStrengthCompanyDomainAndTo
 					?.children[0]?.children;
 
 			let jobDetail = detailsList[0]?.children[1]?.children;
-			let jobRemotType =
-				jobDetail[0]?.children[0]?.children[0]?.textContent;
+			let jobRemotType = jobDetail[0]?.children[0]?.children[0]?.textContent;
 			let jobType =
 				jobDetail[1]?.children[0]?.children[0]?.textContent ??
 				jobDetail[1]?.childNodes[2]?.textContent;
 
-			let jobExperienceLavel =
-				jobDetail[2]?.childNodes[2]?.textContent.replace(
-					"Matches your job preferences, job type is",
-					""
-				);
+			let jobExperienceLavel = jobDetail[2]?.childNodes[2]?.textContent.replace(
+				"Matches your job preferences, job type is",
+				""
+			);
 
 			let companyDetail =
 				detailsList[1]?.children[1]?.childNodes[2]?.textContent;
@@ -150,8 +139,7 @@ const getJoblocationTotalApplicantAndPostTimeFromNode = (
 
 		let location = locationAndPostTimeHTMLColleactionList[0]?.textContent;
 		let postTime = locationAndPostTimeHTMLColleactionList[2]?.textContent;
-		let totalApplicant =
-			locationAndPostTimeHTMLColleactionList[4]?.textContent;
+		let totalApplicant = locationAndPostTimeHTMLColleactionList[4]?.textContent;
 		return {
 			location: location,
 			postTime: postTime,
@@ -206,17 +194,30 @@ const clickElementAndWait = (element) => {
 	}
 };
 
-const getJobDataList = async (listContainerXPath, detailParentDivXPath) => {
+const getJobDataList = async (
+	listContainerXPath,
+	detailParentDivXPath,
+	MainContainerXPath
+) => {
 	try {
 		let jobListJson = [];
 		let listContainer = getElementByXpath(listContainerXPath);
+		let MainContainer = getElementByXpath(MainContainerXPath);
 		let jobSectionList = listContainer?.children;
 		// insideLoop
-		for (let item of jobSectionList) {
-			//TODO :
+		let scrollDiff = MainContainer.scrollHeight / 25;
+		let newScrollHeight = 0;
+
+		for (let index = 0; index < jobSectionList.length; index++) {
+			const item = jobSectionList[index];
+			await ScrollJobLists(MainContainer, newScrollHeight);
 			await clickElementAndWait(item?.children[0]?.children[0]);
 			let jobData = getJobData(detailParentDivXPath);
 			jobListJson.push(jobData);
+
+			if (index > 1) {
+				newScrollHeight += scrollDiff;
+			}
 		}
 		return jobListJson;
 	} catch (error) {
@@ -228,15 +229,20 @@ const getJobDataList = async (listContainerXPath, detailParentDivXPath) => {
 //need to get this from env
 let MainContainerXPath = '//*[@id="main"]/div/div[2]/div[1]/div';
 let listContainerXPath = '//*[@id="main"]/div/div[2]/div[1]/div/ul';
-let pageListXPath =
-	// "/html/body/div[4]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[4]/ul";
-	"/html/body/div[5]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[4]/ul";
-// "/html/body/div[5]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[3]/ul";
-
 let detailParentDivXPath =
 	'//*[@id="main"]/div/div[2]/div/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]';
+let pageListPossibleXPathList = [
+	"/html/body/div[5]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[4]/ul",
+	"/html/body/div[5]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[3]/ul",
+	"/html/body/div[4]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[4]/ul",
+	"/html/body/div[4]/div[3]/div[4]/div/div/main/div/div[2]/div[1]/div/div[3]/ul",
+];
+let pagesParentNode = undefined;
+for (const pageListXPath of pageListPossibleXPathList) {
+	pagesParentNode = getElementByXpath(pageListXPath);
+	if (pagesParentNode) break;
+}
 
-let pagesParentNode = getElementByXpath(pageListXPath);
 let totalPages = 0;
 if (pagesParentNode) {
 	totalPages = parseInt(
@@ -252,9 +258,7 @@ while (totalPages >= currentPage) {
 		let pagesListNodes = pagesParentNode.children;
 		let nextPageNode = undefined;
 		for (const pageNode of pagesListNodes) {
-			let pageNumber = parseInt(
-				pageNode.children[0]?.children[0]?.textContent
-			);
+			let pageNumber = parseInt(pageNode.children[0]?.children[0]?.textContent);
 			if (pageNumber != NaN && pageNumber === currentPage + 1) {
 				nextPageNode = pageNode;
 				break;
@@ -267,9 +271,7 @@ while (totalPages >= currentPage) {
 		} else {
 			await clickElementAndWait(pagesListNodes[8]?.children[0]);
 			currentPage += 1;
-			console.log(
-				pagesListNodes[8]?.children[0]?.children[0]?.textContent
-			);
+			console.log(pagesListNodes[8]?.children[0]?.children[0]?.textContent);
 		}
 
 		var latestPageNo = (totalPages = parseInt(
@@ -279,10 +281,11 @@ while (totalPages >= currentPage) {
 		if (latestPageNo > totalPages) {
 			totalPages = latestPageNo;
 		}
-		await ScrollJobLists(MainContainerXPath);
+
 		let partialJobListJson = await getJobDataList(
 			listContainerXPath,
-			detailParentDivXPath
+			detailParentDivXPath,
+			MainContainerXPath
 		);
 
 		if (partialJobListJson) {

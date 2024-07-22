@@ -23,8 +23,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/camascope/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/camascope/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHo5ryGhL6Z6A/company-logo_100_100/0/1680124400295/camascope_logo?e=1729728000&v=beta&t=h7ijX0Iva-Zr2RCgpXKEGtGd93j9ptOQIvNGe67-RM0",
 			CompanyName: "Camascope",
@@ -44,8 +43,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/camascope/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/camascope/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHo5ryGhL6Z6A/company-logo_100_100/0/1680124400295/camascope_logo?e=1729728000&v=beta&t=h7ijX0Iva-Zr2RCgpXKEGtGd93j9ptOQIvNGe67-RM0",
 			CompanyName: "Camascope",
@@ -65,8 +63,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/teamsoftway/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/teamsoftway/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFVz8_5Kx_PRA/company-logo_100_100/0/1630643047279/teamsoftway_logo?e=1729728000&v=beta&t=Qp2WB8dfiWoYy1V8cr5eGZTOH2Zv1tlhmh2mZaNoRAs",
 			CompanyName: "Softway",
@@ -87,8 +84,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/teamsoftway/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/teamsoftway/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFVz8_5Kx_PRA/company-logo_100_100/0/1630643047279/teamsoftway_logo?e=1729728000&v=beta&t=Qp2WB8dfiWoYy1V8cr5eGZTOH2Zv1tlhmh2mZaNoRAs",
 			CompanyName: "Softway",
@@ -129,8 +125,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/payhuddle/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/payhuddle/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEPlKamLgmf1w/company-logo_100_100/0/1704055035904/payhuddle_logo?e=1729728000&v=beta&t=yP9_6u7_zzqTSGijwNYiwJVfcMa2LSnp_kSDAIYN67s",
 			CompanyName: "PayHuddle®",
@@ -193,8 +188,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/siemensgamesa/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/siemensgamesa/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQGBnMGu7qmW2A/company-logo_100_100/0/1719823482051/siemensgamesa_logo?e=1729728000&v=beta&t=ounIBBMi4OpDIOaADDELN8BRJe0PHJCIwSBZkQqkmqk",
 			CompanyName: "Siemens Gamesa",
@@ -236,8 +230,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/voya-india/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/voya-india/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQH1xglwLa3f8w/company-logo_100_100/0/1697115928905?e=1729728000&v=beta&t=twWwZEIud_faSmni-Ka9P1E43FFiOKxohm6HCouSdlg",
 			CompanyName: "Voya India",
@@ -279,8 +272,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/deloitte/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/deloitte/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQGNtpblgQpJoQ/company-logo_100_100/0/1662120928214/deloitte_logo?e=1729728000&v=beta&t=6gIi-pFYfP8cVq5g0JSwm9wiyXo0h6hrXtIsCyaD-g4",
 			CompanyName: "Deloitte",
@@ -322,8 +314,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/birlasoft/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/birlasoft/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFJ26tVfkJeKg/company-logo_100_100/0/1630606173796/birlasoft_logo?e=1729728000&v=beta&t=6Z4Isq6npan5LybgDj2qQhoYYII2j-LvWP7YkpQvUrA",
 			CompanyName: "Birlasoft",
@@ -386,8 +377,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -470,8 +460,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/birlasoft/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/birlasoft/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFJ26tVfkJeKg/company-logo_100_100/0/1630606173796/birlasoft_logo?e=1729728000&v=beta&t=6Z4Isq6npan5LybgDj2qQhoYYII2j-LvWP7YkpQvUrA",
 			CompanyName: "Birlasoft",
@@ -513,8 +502,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/volvo-group/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/volvo-group/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQF6VxeKGI-lyg/company-logo_100_100/0/1632477690193/volvo_group_logo?e=1729728000&v=beta&t=1M_m2obPSX5mf4SU1BluDM_jsplaPIjUKGsTwxISlAM",
 			CompanyName: "Volvo Group",
@@ -533,8 +521,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -554,8 +541,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -575,8 +561,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/omnicell/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/omnicell/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHP5i8xnMHH3A/company-logo_100_100/0/1630671488452/omnicell_logo?e=1729728000&v=beta&t=ckiSYC1ETTVH7dwBsnKn3WkG5jsIYzr2bRqK0Uuw4Ms",
 			CompanyName: "Omnicell",
@@ -597,8 +582,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/volvo-group/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/volvo-group/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQF6VxeKGI-lyg/company-logo_100_100/0/1632477690193/volvo_group_logo?e=1729728000&v=beta&t=1M_m2obPSX5mf4SU1BluDM_jsplaPIjUKGsTwxISlAM",
 			CompanyName: "Volvo Group",
@@ -680,8 +664,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/version-1/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/version-1/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHQ1InCpz1LRA/company-logo_100_100/0/1719386341697/version_1_logo?e=1729728000&v=beta&t=e2hXTG6UXGAxaRdxeR3gjWbEsvjJDmK8_YkKApK1unY",
 			CompanyName: "Version 1",
@@ -723,8 +706,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/phenomenex/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/phenomenex/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEdNZyjIeERlg/company-logo_100_100/0/1702408076537/phenomenex_logo?e=1729728000&v=beta&t=vQsmPy-oLMJnOYP9T15ATG3hfIsa_1ZgEVgb64qTyvw",
 			CompanyName: "Phenomenex",
@@ -787,8 +769,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/workspaceone/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/workspaceone/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQFe4yRgNwXrRg/company-logo_100_100/0/1719860461944/workspaceone_logo?e=1729728000&v=beta&t=kKuXDpUSZcwDzvMzw3iUkLHRl8q4Q6DBuhPD0NiNZ80",
 			CompanyName: "Workspace ONE",
@@ -874,8 +855,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/sandlogic/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/sandlogic/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHu5jg5bjSq3A/company-logo_100_100/0/1715173141942?e=1729728000&v=beta&t=3FEFI07B2v0KnmGNTgTejxvjzPahW4LpqwvAbaKS8s0",
 			CompanyName: "SandLogic",
@@ -916,8 +896,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/cdatasoftware/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/cdatasoftware/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQERj3kSs4Yq1A/company-logo_100_100/0/1631341724244?e=1729728000&v=beta&t=2_jYinpsKHsxXunPeyP6Z5NHTKVobI5chvlHJ_S85tQ",
 			CompanyName: "CData Software",
@@ -959,8 +938,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ftprotech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ftprotech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQF0FUq-rxqnVg/company-logo_100_100/0/1718187825600/ftprotech_logo?e=1729728000&v=beta&t=xWsXOCHzZ-97cVpEAwlOHyOsK9nx6Wnp1uKkXmxbo4I",
 			CompanyName: "FTPROTECH",
@@ -1066,8 +1044,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ernstandyoung/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ernstandyoung/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGpRhkpxp5A9A/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=1729728000&v=beta&t=ZhTDHOSk1n8zRxtJfvJQX9waju3tLdFUZ-QQ-K-qzNE",
 			CompanyName: "EY",
@@ -1088,8 +1065,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/omnicell/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/omnicell/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHP5i8xnMHH3A/company-logo_100_100/0/1630671488452/omnicell_logo?e=1729728000&v=beta&t=ckiSYC1ETTVH7dwBsnKn3WkG5jsIYzr2bRqK0Uuw4Ms",
 			CompanyName: "Omnicell",
@@ -1152,8 +1128,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/omnicell/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/omnicell/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHP5i8xnMHH3A/company-logo_100_100/0/1630671488452/omnicell_logo?e=1729728000&v=beta&t=ckiSYC1ETTVH7dwBsnKn3WkG5jsIYzr2bRqK0Uuw4Ms",
 			CompanyName: "Omnicell",
@@ -1280,8 +1255,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/siemensgamesa/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/siemensgamesa/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQGBnMGu7qmW2A/company-logo_100_100/0/1719823482051/siemensgamesa_logo?e=1729728000&v=beta&t=ounIBBMi4OpDIOaADDELN8BRJe0PHJCIwSBZkQqkmqk",
 			CompanyName: "Siemens Gamesa",
@@ -1302,8 +1276,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globallogic/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globallogic/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHfsFr91ekzrQ/company-logo_100_100/0/1630647080208/globallogic_logo?e=1729728000&v=beta&t=DsjuHbyJxM8t5ceX4Xs2EdgGuzKmKW5B6ylW9ED7XDY",
 			CompanyName: "GlobalLogic",
@@ -1631,8 +1604,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/concentrix/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/concentrix/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQEI2aF8Itqj0g/company-logo_100_100/0/1713811406614/concentrix_logo?e=1729728000&v=beta&t=NxFK2DJ11WxeoVK0RwIU74olIiy3bc04d9d6ilkphH4",
 			CompanyName: "Concentrix",
@@ -1758,8 +1730,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/lightnwonder/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/lightnwonder/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQE_b5uJ7F58GQ/company-logo_100_100/0/1719861106621/lightnwonder_logo?e=1729728000&v=beta&t=87UEVbz8tqdyTbIl4KhADESljbetOpv72_u_CJy_ZDs",
 			CompanyName: "Light & Wonder",
@@ -1801,8 +1772,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/concentrix/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/concentrix/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQEI2aF8Itqj0g/company-logo_100_100/0/1713811406614/concentrix_logo?e=1729728000&v=beta&t=NxFK2DJ11WxeoVK0RwIU74olIiy3bc04d9d6ilkphH4",
 			CompanyName: "Concentrix",
@@ -1823,8 +1793,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/symphonyai/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/symphonyai/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHRDfZ_eQ8eTg/company-logo_100_100/0/1688999862014/symphonyai_logo?e=1729728000&v=beta&t=2Xm0cgxWbWArlR0ZLVBUGv87MFZvdj-5uWJtyZl7wg8",
 			CompanyName: "SymphonyAI",
@@ -1845,8 +1814,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/symphonyai/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/symphonyai/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHRDfZ_eQ8eTg/company-logo_100_100/0/1688999862014/symphonyai_logo?e=1729728000&v=beta&t=2Xm0cgxWbWArlR0ZLVBUGv87MFZvdj-5uWJtyZl7wg8",
 			CompanyName: "SymphonyAI",
@@ -1867,8 +1835,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/code-vyasa/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/code-vyasa/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQGfqkqKXGevcg/company-logo_100_100/0/1704186108416/code_vyasa_logo?e=1729728000&v=beta&t=LhDh0vr4-83Aw9MNtI19OEGQBzRao4BzHkJTuiyZdpg",
 			CompanyName: "CodeVyasa ",
@@ -1888,8 +1855,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/d-techworks/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/d-techworks/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQElMBNgjnGurw/company-logo_100_100/0/1675269457438/d_techworks_logo?e=1729728000&v=beta&t=doN-T_icehJshHD89JDoXrmIDLwnezM2HKZh8mjQ4Ro",
 			CompanyName: "D-Techworks",
@@ -1910,8 +1876,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -1932,8 +1897,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ejamerica/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ejamerica/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQGeV8qKhsIT_Q/company-logo_100_100/0/1671726274566/ejamerica_logo?e=1729728000&v=beta&t=uNT41UtX5yI6WTwruNuFj1cnKhZ0WA4SH2Dvmnp0XZ4",
 			CompanyName: "eJAmerica",
@@ -1954,8 +1918,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -1976,8 +1939,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/starkflow/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/starkflow/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQF1zd_WYlvPPQ/company-logo_100_100/0/1709044400022/starkflow_logo?e=1729728000&v=beta&t=0JWQ5dBW4LV08ceB1c8TBmIGM8zwXwlJsQAzKgsZDtU",
 			CompanyName: "Starkflow",
@@ -1986,8 +1948,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3975244050/?alternateChannel=search&refId=3SdFO8Ecwi8abuOuzBNwAg%3D%3D&trackingId=UeC2BuKr5bITqJF3jPP2dA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				".NET Software Developer - Hybrid - Bangalore - Full Time",
+			JobTitle: ".NET Software Developer - Hybrid - Bangalore - Full Time",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "5 days ago",
 			TotalApplicant: "0 applicants",
@@ -1999,8 +1960,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -2225,8 +2185,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3955558054/?alternateChannel=search&refId=dNl4ilhDmwCnKQcjxHU3QQ%3D%3D&trackingId=4RlYBbgMWyRYEqtP32ZYVg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Angular, ASP.Net MVC Developer - Principal Software Engineer",
+			JobTitle: "Angular, ASP.Net MVC Developer - Principal Software Engineer",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "4 weeks ago",
 			TotalApplicant: "16 applicants",
@@ -2238,8 +2197,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -2260,8 +2218,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/code-vyasa/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/code-vyasa/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQGfqkqKXGevcg/company-logo_100_100/0/1704186108416/code_vyasa_logo?e=1729728000&v=beta&t=LhDh0vr4-83Aw9MNtI19OEGQBzRao4BzHkJTuiyZdpg",
 			CompanyName: "CodeVyasa ",
@@ -2374,8 +2331,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3974103857/?alternateChannel=search&refId=dNl4ilhDmwCnKQcjxHU3QQ%3D%3D&trackingId=pP0IcRjU2tHSASYaSYjixQ%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Senior Backend .NET Core/6/7 - Product Development Engineer",
+			JobTitle: "Senior Backend .NET Core/6/7 - Product Development Engineer",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 week ago",
 			TotalApplicant: "67 applicants",
@@ -2387,8 +2343,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/d-techworks/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/d-techworks/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQElMBNgjnGurw/company-logo_100_100/0/1675269457438/d_techworks_logo?e=1729728000&v=beta&t=doN-T_icehJshHD89JDoXrmIDLwnezM2HKZh8mjQ4Ro",
 			CompanyName: "D-Techworks",
@@ -2409,8 +2364,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globallogic/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globallogic/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHfsFr91ekzrQ/company-logo_100_100/0/1630647080208/globallogic_logo?e=1729728000&v=beta&t=DsjuHbyJxM8t5ceX4Xs2EdgGuzKmKW5B6ylW9ED7XDY",
 			CompanyName: "GlobalLogic",
@@ -2706,8 +2660,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -2728,8 +2681,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/encorainc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/encorainc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHHECNoVhv0HA/company-logo_100_100/0/1663783801368/encorainc_logo?e=1729728000&v=beta&t=6gOJIw9MEB41p3nMT3MSBhwPGfQUq5svMm-rRU0rEHw",
 			CompanyName: "Encora Inc.",
@@ -2750,8 +2702,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/encorainc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/encorainc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHHECNoVhv0HA/company-logo_100_100/0/1663783801368/encorainc_logo?e=1729728000&v=beta&t=6gOJIw9MEB41p3nMT3MSBhwPGfQUq5svMm-rRU0rEHw",
 			CompanyName: "Encora Inc.",
@@ -2793,8 +2744,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -2837,8 +2787,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -2859,8 +2808,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -2881,8 +2829,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -2903,8 +2850,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -2925,8 +2871,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -2947,8 +2892,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -2969,8 +2913,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -2991,8 +2934,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3013,8 +2955,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3035,8 +2976,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3057,8 +2997,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3079,8 +3018,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3101,8 +3039,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3123,8 +3060,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3145,8 +3081,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3167,8 +3102,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3189,8 +3123,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3211,8 +3144,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3233,8 +3165,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -3320,8 +3251,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/bristlecone/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/bristlecone/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQFQApQTe8Dicg/company-logo_100_100/0/1632245901852/bristlecone_logo?e=1729728000&v=beta&t=8o1U_nX7ZqgSTywztmJ13vYPlm1JUhu1lnzUEs7wZhs",
 			CompanyName: "Bristlecone",
@@ -3763,8 +3693,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -3806,8 +3735,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/encorainc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/encorainc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHHECNoVhv0HA/company-logo_100_100/0/1663783801368/encorainc_logo?e=1729728000&v=beta&t=6gOJIw9MEB41p3nMT3MSBhwPGfQUq5svMm-rRU0rEHw",
 			CompanyName: "Encora Inc.",
@@ -3828,8 +3756,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/qweensnetwork/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/qweensnetwork/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQG6tMARjLLQlw/company-logo_100_100/0/1631352610235?e=1729728000&v=beta&t=buwbLYs_a6LPoak17hnpnoNk5LMfJbx1VZZ83WqBPQM",
 			CompanyName: "Qween Network LLP",
@@ -3850,8 +3777,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/encorainc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/encorainc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHHECNoVhv0HA/company-logo_100_100/0/1663783801368/encorainc_logo?e=1729728000&v=beta&t=6gOJIw9MEB41p3nMT3MSBhwPGfQUq5svMm-rRU0rEHw",
 			CompanyName: "Encora Inc.",
@@ -3872,8 +3798,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/teamsoftway/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/teamsoftway/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFVz8_5Kx_PRA/company-logo_100_100/0/1630643047279/teamsoftway_logo?e=1729728000&v=beta&t=Qp2WB8dfiWoYy1V8cr5eGZTOH2Zv1tlhmh2mZaNoRAs",
 			CompanyName: "Softway",
@@ -3894,8 +3819,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -3937,8 +3861,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -4002,8 +3925,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/futuremug/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/futuremug/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHrB6vfxE9m4g/company-logo_100_100/0/1680170007639/futuremug_logo?e=1729728000&v=beta&t=jXcx-xyjXiXH-vwm9NnG3h5NuRc81qr5SpPuEcXRq2k",
 			CompanyName: "futuremug",
@@ -4066,8 +3988,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/quantifiedhr/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/quantifiedhr/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEWyMsBleMSjw/company-logo_100_100/0/1646240496942?e=1729728000&v=beta&t=Da6ZeLuMakucZIE4d845y7JOREL0B2gcuQSjqCF8irA",
 			CompanyName: "Quantified HR Private Limited",
@@ -4117,8 +4038,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3837487188/?alternateChannel=search&refId=wsi5%2Bfkjo62kzpLH1QAd%2Fw%3D%3D&trackingId=D73syLxt5L%2FK7qNSEW7IIQ%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Senior Software Engineer(Fullstack) - C#, WPF/WinForms, SQL",
+			JobTitle: "Senior Software Engineer(Fullstack) - C#, WPF/WinForms, SQL",
 			Location: "Bangalore Urban, Karnataka, India",
 			PostTime: "Reposted 3 days ago",
 			TotalApplicant: "68 applicants",
@@ -4149,8 +4069,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/volvo-group/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/volvo-group/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQF6VxeKGI-lyg/company-logo_100_100/0/1632477690193/volvo_group_logo?e=1729728000&v=beta&t=1M_m2obPSX5mf4SU1BluDM_jsplaPIjUKGsTwxISlAM",
 			CompanyName: "Volvo Group",
@@ -4251,8 +4170,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/maersk-group/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/maersk-group/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQFxaOJ8VzplhA/company-logo_100_100/0/1630463556967/maersk_group_logo?e=1729728000&v=beta&t=eNNg5ZOawNXB0hoBhfBANMS73m6Z48ZVfIouwnSUxXY",
 			CompanyName: "A.P. Moller - Maersk",
@@ -4292,8 +4210,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -4374,8 +4291,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -4396,8 +4312,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -4439,8 +4354,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/artingdigital/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/artingdigital/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQGrdDMhVWtidA/company-logo_100_100/0/1656486289480/artingdigital_logo?e=1729728000&v=beta&t=VCZc2w7mqSRPLp-XbI0T95rRmgCUefXHt3vI4JoNuj8",
 			CompanyName: "Arting Digital",
@@ -4461,8 +4375,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/webority/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/webority/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEdJH--_oorTw/company-logo_100_100/0/1630534464893/webority_logo?e=1729728000&v=beta&t=0-38MBmku2uMesAB_DA5uDXKmWvkoxCxfMybBdV9OuU",
 			CompanyName: "Webority Technologies",
@@ -4548,8 +4461,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/aligntechne/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/aligntechne/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFuaXsbzHIu8g/img-crop_100/0/1719409897543?e=1729728000&v=beta&t=DSfw2ih-sZC55ErzByPyVPcZ5iYlgdykzcgPf2GOdX4",
 			CompanyName: "Align Technē",
@@ -4612,8 +4524,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/lightnwonder/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/lightnwonder/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQE_b5uJ7F58GQ/company-logo_100_100/0/1719861106621/lightnwonder_logo?e=1729728000&v=beta&t=87UEVbz8tqdyTbIl4KhADESljbetOpv72_u_CJy_ZDs",
 			CompanyName: "Light & Wonder",
@@ -4656,8 +4567,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -4741,8 +4651,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/juego-studios/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/juego-studios/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQG44qbt70YaTw/company-logo_100_100/0/1704176029808/juego_studios_logo?e=1729728000&v=beta&t=aTKZI6Mt2fKjtkGLhCM3Wy2XxeV7l5hNZzuOGnVRB6c",
 			CompanyName: "Juego Studios",
@@ -4763,8 +4672,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/quantifiedhr/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/quantifiedhr/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEWyMsBleMSjw/company-logo_100_100/0/1646240496942?e=1729728000&v=beta&t=Da6ZeLuMakucZIE4d845y7JOREL0B2gcuQSjqCF8irA",
 			CompanyName: "Quantified HR Private Limited",
@@ -4829,8 +4737,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -4911,8 +4818,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -4933,8 +4839,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -4976,8 +4881,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/artingdigital/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/artingdigital/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQGrdDMhVWtidA/company-logo_100_100/0/1656486289480/artingdigital_logo?e=1729728000&v=beta&t=VCZc2w7mqSRPLp-XbI0T95rRmgCUefXHt3vI4JoNuj8",
 			CompanyName: "Arting Digital",
@@ -4998,8 +4902,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/webority/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/webority/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEdJH--_oorTw/company-logo_100_100/0/1630534464893/webority_logo?e=1729728000&v=beta&t=0-38MBmku2uMesAB_DA5uDXKmWvkoxCxfMybBdV9OuU",
 			CompanyName: "Webority Technologies",
@@ -5085,8 +4988,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/aligntechne/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/aligntechne/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFuaXsbzHIu8g/img-crop_100/0/1719409897543?e=1729728000&v=beta&t=DSfw2ih-sZC55ErzByPyVPcZ5iYlgdykzcgPf2GOdX4",
 			CompanyName: "Align Technē",
@@ -5149,8 +5051,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/lightnwonder/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/lightnwonder/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQE_b5uJ7F58GQ/company-logo_100_100/0/1719861106621/lightnwonder_logo?e=1729728000&v=beta&t=87UEVbz8tqdyTbIl4KhADESljbetOpv72_u_CJy_ZDs",
 			CompanyName: "Light & Wonder",
@@ -5193,8 +5094,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tetrahedinc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tetrahedinc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGSKCUag7UEWg/company-logo_100_100/0/1680619583452?e=1729728000&v=beta&t=qjdOVhKnbfhlNFva5a29a-mESifSI0TF_Akct3F8xOk",
 			CompanyName: "TETRAHED INC",
@@ -5278,8 +5178,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/juego-studios/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/juego-studios/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQG44qbt70YaTw/company-logo_100_100/0/1704176029808/juego_studios_logo?e=1729728000&v=beta&t=aTKZI6Mt2fKjtkGLhCM3Wy2XxeV7l5hNZzuOGnVRB6c",
 			CompanyName: "Juego Studios",
@@ -5300,8 +5199,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/quantifiedhr/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/quantifiedhr/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEWyMsBleMSjw/company-logo_100_100/0/1646240496942?e=1729728000&v=beta&t=Da6ZeLuMakucZIE4d845y7JOREL0B2gcuQSjqCF8irA",
 			CompanyName: "Quantified HR Private Limited",
@@ -5366,8 +5264,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -5576,8 +5473,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/encorainc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/encorainc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHHECNoVhv0HA/company-logo_100_100/0/1663783801368/encorainc_logo?e=1729728000&v=beta&t=6gOJIw9MEB41p3nMT3MSBhwPGfQUq5svMm-rRU0rEHw",
 			CompanyName: "Encora Inc.",
@@ -5662,8 +5558,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/birlasoft/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/birlasoft/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFJ26tVfkJeKg/company-logo_100_100/0/1630606173796/birlasoft_logo?e=1729728000&v=beta&t=6Z4Isq6npan5LybgDj2qQhoYYII2j-LvWP7YkpQvUrA",
 			CompanyName: "Birlasoft",
@@ -5684,8 +5579,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/workspaceone/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/workspaceone/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQFe4yRgNwXrRg/company-logo_100_100/0/1719860461944/workspaceone_logo?e=1729728000&v=beta&t=kKuXDpUSZcwDzvMzw3iUkLHRl8q4Q6DBuhPD0NiNZ80",
 			CompanyName: "Workspace ONE",
@@ -5706,8 +5600,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globaltalex/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globaltalex/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQFXvRQ1nTZfTA/company-logo_100_100/0/1666873182184/globaltalex_logo?e=1729728000&v=beta&t=5gbtibdXeoBV0kfJ0E3nO7klzqicuuU-j7OmO9AOezE",
 			CompanyName: "Global Talent Exchange",
@@ -5771,8 +5664,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/juego-studios/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/juego-studios/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQG44qbt70YaTw/company-logo_100_100/0/1704176029808/juego_studios_logo?e=1729728000&v=beta&t=aTKZI6Mt2fKjtkGLhCM3Wy2XxeV7l5hNZzuOGnVRB6c",
 			CompanyName: "Juego Studios",
@@ -5793,8 +5685,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/quickmove/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/quickmove/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFMZ6r4jTgOEQ/company-logo_100_100/0/1712987860535/quickmove_logo?e=1729728000&v=beta&t=_AV-BIWWpmwX2zAjDxRSLduKtrAiDSJmodJ2APJUBTo",
 			CompanyName: "QuickMove Technologies",
@@ -5857,8 +5748,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/volvo-group/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/volvo-group/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQF6VxeKGI-lyg/company-logo_100_100/0/1632477690193/volvo_group_logo?e=1729728000&v=beta&t=1M_m2obPSX5mf4SU1BluDM_jsplaPIjUKGsTwxISlAM",
 			CompanyName: "Volvo Group",
@@ -6024,8 +5914,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globaltalex/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globaltalex/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQFXvRQ1nTZfTA/company-logo_100_100/0/1666873182184/globaltalex_logo?e=1729728000&v=beta&t=5gbtibdXeoBV0kfJ0E3nO7klzqicuuU-j7OmO9AOezE",
 			CompanyName: "Global Talent Exchange",
@@ -6046,8 +5935,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/aligntechne/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/aligntechne/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFuaXsbzHIu8g/img-crop_100/0/1719409897543?e=1729728000&v=beta&t=DSfw2ih-sZC55ErzByPyVPcZ5iYlgdykzcgPf2GOdX4",
 			CompanyName: "Align Technē",
@@ -6068,8 +5956,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/futuremug/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/futuremug/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHrB6vfxE9m4g/company-logo_100_100/0/1680170007639/futuremug_logo?e=1729728000&v=beta&t=jXcx-xyjXiXH-vwm9NnG3h5NuRc81qr5SpPuEcXRq2k",
 			CompanyName: "futuremug",
@@ -6089,8 +5976,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/revature/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/revature/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQG9kxkduvkk3w/company-logo_100_100/0/1706627197877/revature_logo?e=1729728000&v=beta&t=hD4fadT-cnaOYrYxD6dq1Od5Aq9oEzXjTJVlKiu2ZFA",
 			CompanyName: "Revature",
@@ -6128,8 +6014,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ibcscorp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ibcscorp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEQZDcFVFxXzQ/company-logo_100_100/0/1682510633665/ibcscorp_logo?e=1729728000&v=beta&t=bYi-zCEyWA60pOH4BD0nssqX093EKZfxQugYC-T9rs0",
 			CompanyName: "iBCScorp",
@@ -6171,8 +6056,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/proit-usa/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/proit-usa/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQGZVXLWVc1yDg/company-logo_100_100/0/1643054306273?e=1729728000&v=beta&t=M5YaLKJNKdiPXRJ3nWbyTRxTtjtHiXBtdDXYcnnW1Yc",
 			CompanyName: "PRO IT USA",
@@ -6193,8 +6077,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -6275,8 +6158,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/jobworldindia/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/jobworldindia/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEiBsQAU5wLXQ/company-logo_100_100/0/1703010490127/jobworldindia_logo?e=1729728000&v=beta&t=6A7KZdpQ7HAVGdmfkwhUjhAxOG6z1g2WBU3jiW4ZoSs",
 			CompanyName: "JOBWORLD INDIA",
@@ -6297,8 +6179,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/worldpay/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/worldpay/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQH6vFDtjSiy3A/company-logo_100_100/0/1706790029338/worldpay_logo?e=1729728000&v=beta&t=pEXp2Q36yQHE4sCz1o9bhqBxZEXcGvhqMoxdl3LxIXQ",
 			CompanyName: "Worldpay",
@@ -6363,8 +6244,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/synechron/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/synechron/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQF-kdmTYpOKFg/company-logo_100_100/0/1663673608492/synechron_logo?e=1729728000&v=beta&t=u3hSVerifVbugtt8m1NPr4VUYXzP93lWOSZrx-5CAAs",
 			CompanyName: "Synechron",
@@ -6469,8 +6349,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/aligntechne/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/aligntechne/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFuaXsbzHIu8g/img-crop_100/0/1719409897543?e=1729728000&v=beta&t=DSfw2ih-sZC55ErzByPyVPcZ5iYlgdykzcgPf2GOdX4",
 			CompanyName: "Align Technē",
@@ -6590,8 +6469,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/qode-world/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/qode-world/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQHLTxtFgJZbYg/company-logo_100_100/0/1714039643512/qode_world_logo?e=1729728000&v=beta&t=-5H35UP0unh0xCY0ttj2cmx6Wjo-1wS3GbminoLPqGs",
 			CompanyName: "qode.world",
@@ -6612,8 +6490,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/pro-integrate/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/pro-integrate/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHyqmlpGu7EEg/company-logo_100_100/0/1630618640214?e=1729728000&v=beta&t=NamHht_Lqq-6dHS0WrA6b26GHrbNe5PlW4Drc8dQU14",
 			CompanyName: "Pro Integrate",
@@ -6633,8 +6510,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/onmobile/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/onmobile/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQF2Dn8ioRh-3A/company-logo_100_100/0/1631352955109?e=1729728000&v=beta&t=FmFtE-E8idDzdYyazrszp50jzlxJ--1T4Eu9-WS3kyI",
 			CompanyName: "OnMobile Global Limited",
@@ -6696,8 +6572,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/weareuplers/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/weareuplers/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQG6KMZp1zAiTA/company-logo_100_100/0/1630605289074/weareuplers_logo?e=1729728000&v=beta&t=CTfNCMxBRHLZ38kprpLLWjHoDe_YV4rz_V83o20OD38",
 			CompanyName: "Uplers",
@@ -6717,8 +6592,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/commvault/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/commvault/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHBgh-w8L1ZqA/company-logo_100_100/0/1699447122513/commvault_logo?e=1729728000&v=beta&t=cAhunf2705FH9_deKvbNpyLFXAPV860-24W7f3Ku7FE",
 			CompanyName: "Commvault",
@@ -6739,8 +6613,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -6804,8 +6677,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/amkgroup/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/amkgroup/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQFuY9dfKowNvA/company-logo_100_100/0/1630498050353/amk_consultants_logo?e=1729728000&v=beta&t=gCL4TsFV-yLDVkcQPiu5jhgN2AFvRnBdHP4W9uuaPas",
 			CompanyName: "AMK Group",
@@ -6928,8 +6800,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codejudge-inc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codejudge-inc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQHPTzQ6RtiOJg/company-logo_100_100-alternative/0/1630573690719/codejudge_inc_logo?e=1729728000&v=beta&t=6EkEpDULH3IvHJvLbtwLEpmlBhfNbPRESgkkFUcC3NU",
 			CompanyName: "Codejudge Inc.",
@@ -6969,8 +6840,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/mindera-world/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/mindera-world/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQFwMcpbp2mT9w/company-logo_100_100/0/1664874544670/mindera_world_logo?e=1729728000&v=beta&t=AwHampn5M_dYOIlQbS4gn2aIgQ53oT7yw8iBSi2xNWY",
 			CompanyName: "Mindera",
@@ -7053,8 +6923,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/quickmove/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/quickmove/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFMZ6r4jTgOEQ/company-logo_100_100/0/1712987860535/quickmove_logo?e=1729728000&v=beta&t=_AV-BIWWpmwX2zAjDxRSLduKtrAiDSJmodJ2APJUBTo",
 			CompanyName: "QuickMove Technologies",
@@ -7116,8 +6985,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/dpinnotech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/dpinnotech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQFVV9usHzfv-Q/company-logo_100_100/0/1679329610859/digital_placement_logo?e=1729728000&v=beta&t=yjwHRudXOWBkqBPKfSqIYBIiULzrqdk5O9iEhSC45tE",
 			CompanyName: "Digi Digital Placement",
@@ -7138,8 +7006,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -7263,8 +7130,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ustglobal/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ustglobal/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEr-ib3Nn15Aw/company-logo_100_100/0/1648787427825/ustglobal_logo?e=1729728000&v=beta&t=0gGu8vI9HSl8MeG2uYiBvbQkI6UWhWphAcTM1MY2VQA",
 			CompanyName: "UST",
@@ -7286,8 +7152,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/michael-page/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/michael-page/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQHZFrfSaRENWQ/company-logo_100_100/0/1719819609892?e=1729728000&v=beta&t=439MzCjWlUcR-fHfilSZ7QGkaKew6bNGghmHC_LyS0s",
 			CompanyName: "Michael Page",
@@ -7296,8 +7161,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3959688225/?alternateChannel=search&refId=do4XrG1vhzrZHfigHQ6cOQ%3D%3D&trackingId=P9Qam6GvGLU373hlyIWEuA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"C# Developer (Location - Chennai/ Bangalore / Hyderabad )",
+			JobTitle: "C# Developer (Location - Chennai/ Bangalore / Hyderabad )",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "Reposted 3 weeks ago",
 			TotalApplicant: "20 applicants",
@@ -7496,8 +7360,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/cultyvate/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/cultyvate/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQF0y0IS0Dg4NQ/company-logo_100_100/0/1631421796287/cultyvate_logo?e=1729728000&v=beta&t=bTrZCT9hygtfXOHwKY_E1uPnTBnbVtehm_OMLmJN840",
 			CompanyName: "CultYvate",
@@ -7516,8 +7379,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/healthasyst/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/healthasyst/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQHukiKbedQwbQ/company-logo_100_100/0/1631369664870?e=1729728000&v=beta&t=4SKDAC4HGkISeBurc3f2TJMN7yC9ZGl9VH8YEz4rrSE",
 			CompanyName: "HealthAsyst®",
@@ -7623,8 +7485,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/dpinnotech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/dpinnotech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQFVV9usHzfv-Q/company-logo_100_100/0/1679329610859/digital_placement_logo?e=1729728000&v=beta&t=yjwHRudXOWBkqBPKfSqIYBIiULzrqdk5O9iEhSC45tE",
 			CompanyName: "Digi Digital Placement",
@@ -7645,8 +7506,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/multi-recruit/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/multi-recruit/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEhfK8baBNJJw/company-logo_100_100/0/1633432903117/multi_recruit_logo?e=1729728000&v=beta&t=qpswiuKQygH2RaspfMmMNYXy7udZ6d1223kmA0WjLvk",
 			CompanyName: "Multi Recruit",
@@ -7769,8 +7629,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/hyrezy.com/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/hyrezy.com/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQEWmw1OHyQIXA/company-logo_100_100/0/1631325591039?e=1729728000&v=beta&t=UeBCqmZwhdYFqNZeqT5Aq_D0uq6dphEIvv7x8X7-IUE",
 			CompanyName: "HyrEzy Talent Solutions LLP",
@@ -7790,8 +7649,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/sure4job/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/sure4job/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQGA0Ft0Yg8Qew/company-logo_100_100/0/1683184974229/sure4job_logo?e=1729728000&v=beta&t=AQFN3lU01rK4x0Ldid2weMjNb8bgFdlokk6zqYqwA74",
 			CompanyName: "Sure4job",
@@ -7811,8 +7669,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/nileconnect/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/nileconnect/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHi6Zt6yJIT0A/company-logo_100_100/0/1688646366536/nileconnect_logo?e=1729728000&v=beta&t=jU320tCEclDmwzUeh-hXM5AB_zjJOByaZFBTMNqDFKY",
 			CompanyName: "Nile Connect LLP",
@@ -7853,8 +7710,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/nes-fircroft/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/nes-fircroft/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQFCB0CNEzJ_LA/company-logo_100_100/0/1630639774110/nes_global_talent_logo?e=1729728000&v=beta&t=rCRzjhBe6O9QBl5ZWtm2tNVSRlRGn8GE2LLDnVuKn30",
 			CompanyName: "NES Fircroft",
@@ -7875,8 +7731,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/version-1/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/version-1/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHQ1InCpz1LRA/company-logo_100_100/0/1719386341697/version_1_logo?e=1729728000&v=beta&t=e2hXTG6UXGAxaRdxeR3gjWbEsvjJDmK8_YkKApK1unY",
 			CompanyName: "Version 1",
@@ -7935,8 +7790,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/torry-clary/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/torry-clary/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQGD9OvfOxYFSA/company-logo_100_100/0/1672470895377/torry_clary_logo?e=1729728000&v=beta&t=fcFdM3V93V6Yyze3ET3TZEXvrC8tQzuPNT2OCn-oGvA",
 			CompanyName: "Torry & Clary",
@@ -7956,8 +7810,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/job8optimhire/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/job8optimhire/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQFinCdtiRxa1g/company-logo_100_100/0/1655888106985?e=1729728000&v=beta&t=Cf_c9TMMMFwbpWKNFnSgb2vKmg8NvJFqeNJ41fYev2c",
 			CompanyName: "OptimHire",
@@ -8081,8 +7934,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/feasible-jobs/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/feasible-jobs/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHZZGk9maE1_w/company-logo_100_100/0/1630592515346/feasible_jobs_logo?e=1729728000&v=beta&t=UCYuB8-4F1UwjQ6BDBQY49wKDeidl8LkvKdWIkxEH6A",
 			CompanyName: "kadbit solutions",
@@ -8204,8 +8056,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/findfinity1/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/findfinity1/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQF5gDQ13U3MJw/company-logo_100_100/0/1697002220773?e=1729728000&v=beta&t=I2xxE3xw0dfaXiYGeQ5dnQnriqNzLvI4La0iA5EHX_I",
 			CompanyName: "Findfinity",
@@ -8247,8 +8098,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/flyvheel/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/flyvheel/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEuWTQrLt6Ccg/company-logo_100_100-alternative/0/1630559647880/flyvheel_logo?e=1729728000&v=beta&t=bc2JWA0XelVnFc4PneE3o__OLWCvmCiViv3ydppYXzg",
 			CompanyName: "Flyvheel",
@@ -8268,8 +8118,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ibcscorp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ibcscorp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEQZDcFVFxXzQ/company-logo_100_100/0/1682510633665/ibcscorp_logo?e=1729728000&v=beta&t=bYi-zCEyWA60pOH4BD0nssqX093EKZfxQugYC-T9rs0",
 			CompanyName: "iBCScorp",
@@ -8289,8 +8138,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/futuremug/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/futuremug/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHrB6vfxE9m4g/company-logo_100_100/0/1680170007639/futuremug_logo?e=1729728000&v=beta&t=jXcx-xyjXiXH-vwm9NnG3h5NuRc81qr5SpPuEcXRq2k",
 			CompanyName: "futuremug",
@@ -8393,8 +8241,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globallogic/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globallogic/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHfsFr91ekzrQ/company-logo_100_100/0/1630647080208/globallogic_logo?e=1729728000&v=beta&t=DsjuHbyJxM8t5ceX4Xs2EdgGuzKmKW5B6ylW9ED7XDY",
 			CompanyName: "GlobalLogic",
@@ -8437,8 +8284,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/qode-world/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/qode-world/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQHLTxtFgJZbYg/company-logo_100_100/0/1714039643512/qode_world_logo?e=1729728000&v=beta&t=-5H35UP0unh0xCY0ttj2cmx6Wjo-1wS3GbminoLPqGs",
 			CompanyName: "qode.world",
@@ -8500,8 +8346,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/symphonyai/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/symphonyai/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHRDfZ_eQ8eTg/company-logo_100_100/0/1688999862014/symphonyai_logo?e=1729728000&v=beta&t=2Xm0cgxWbWArlR0ZLVBUGv87MFZvdj-5uWJtyZl7wg8",
 			CompanyName: "SymphonyAI",
@@ -8561,8 +8406,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/maersk-group/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/maersk-group/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQFxaOJ8VzplhA/company-logo_100_100/0/1630463556967/maersk_group_logo?e=1729728000&v=beta&t=eNNg5ZOawNXB0hoBhfBANMS73m6Z48ZVfIouwnSUxXY",
 			CompanyName: "A.P. Moller - Maersk",
@@ -8582,8 +8426,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/upshoothrs/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/upshoothrs/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQGu6czITipvAg/company-logo_100_100/0/1630626924671/upshoothrs_logo?e=1729728000&v=beta&t=yJ6osydZUQ_MGYoUKed0drk-USyfK5XB32hS0aar-aU",
 			CompanyName: "Upshoot ",
@@ -8668,8 +8511,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/testingxperts/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/testingxperts/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQG5isCnZED68g/company-logo_100_100/0/1630608728720/testingxperts_logo?e=1729728000&v=beta&t=IHHqF_V7anb7PqVwDX67cRmG_9QNBCg3jZqujpWfOeI",
 			CompanyName: "TestingXperts",
@@ -8690,8 +8532,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/multi-recruit/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/multi-recruit/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEhfK8baBNJJw/company-logo_100_100/0/1633432903117/multi_recruit_logo?e=1729728000&v=beta&t=qpswiuKQygH2RaspfMmMNYXy7udZ6d1223kmA0WjLvk",
 			CompanyName: "Multi Recruit",
@@ -8774,8 +8615,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ibcscorp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ibcscorp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEQZDcFVFxXzQ/company-logo_100_100/0/1682510633665/ibcscorp_logo?e=1729728000&v=beta&t=bYi-zCEyWA60pOH4BD0nssqX093EKZfxQugYC-T9rs0",
 			CompanyName: "iBCScorp",
@@ -8816,8 +8656,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/domniclewis/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/domniclewis/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEadahMX1Ny8A/company-logo_100_100/0/1689596711032/technoscience_talent_search_logo?e=1729728000&v=beta&t=RSIANNEsCGjb9suBtNfmUYwIxdMZ3pWS6zIEWy1bzXU",
 			CompanyName: "Domnic Lewis International ",
@@ -8838,8 +8677,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/visionyle/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/visionyle/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGcOl_EokBlTA/company-logo_100_100/0/1630608618081/visionyle_logo?e=1729728000&v=beta&t=XmQ-VC73WpXjEsopET2vv7T44hkVBfp9h23__m0TsJQ",
 			CompanyName: "Visionyle Solutions",
@@ -8882,8 +8720,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/multi-recruit/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/multi-recruit/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEhfK8baBNJJw/company-logo_100_100/0/1633432903117/multi_recruit_logo?e=1729728000&v=beta&t=qpswiuKQygH2RaspfMmMNYXy7udZ6d1223kmA0WjLvk",
 			CompanyName: "Multi Recruit",
@@ -8904,8 +8741,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globaltalex/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globaltalex/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQFXvRQ1nTZfTA/company-logo_100_100/0/1666873182184/globaltalex_logo?e=1729728000&v=beta&t=5gbtibdXeoBV0kfJ0E3nO7klzqicuuU-j7OmO9AOezE",
 			CompanyName: "Global Talent Exchange",
@@ -8969,8 +8805,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/concentrix/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/concentrix/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQEI2aF8Itqj0g/company-logo_100_100/0/1713811406614/concentrix_logo?e=1729728000&v=beta&t=NxFK2DJ11WxeoVK0RwIU74olIiy3bc04d9d6ilkphH4",
 			CompanyName: "Concentrix",
@@ -8991,8 +8826,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/weareuplers/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/weareuplers/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQG6KMZp1zAiTA/company-logo_100_100/0/1630605289074/weareuplers_logo?e=1729728000&v=beta&t=CTfNCMxBRHLZ38kprpLLWjHoDe_YV4rz_V83o20OD38",
 			CompanyName: "Uplers",
@@ -9055,8 +8889,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/finva-tech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/finva-tech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFx0mzJF7F_6g/company-logo_100_100/0/1698060103504/finva_tech_logo?e=1729728000&v=beta&t=SU7a81qIxg940SGq0gh6sHY8Mzt-YXNHKsaHDk0S1SQ",
 			CompanyName: "Finva Tech Pvt Ltd",
@@ -9076,8 +8909,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/workipolar/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/workipolar/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQHi4RaZSp8FJw/company-logo_100_100/0/1689092241190?e=1729728000&v=beta&t=w0tx8YMESHKLVdZAw9sFvACqDCPqx7DCkmmqgEI3Tdc",
 			CompanyName: "WORKIPOLAR",
@@ -9118,8 +8950,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/deqtal-india/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/deqtal-india/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQF2xqbNsQjXRA/company-logo_100_100/0/1678606628902/deqtal_india_logo?e=1729728000&v=beta&t=-ZORwMfemXwnYYesysP0yNQsPD-txW08BcCe9Sh5djI",
 			CompanyName: "DEQTAL",
@@ -9160,8 +8991,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/spurtreetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/spurtreetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQFySn9HDMjZ-g/company-logo_100_100/0/1630583007100/spurtree_technologies_logo?e=1729728000&v=beta&t=FJ0EcspyfSWuTAtuMDaZkk1fPBKNNWg0LMw_5S4qs5E",
 			CompanyName: "SpurTree Technologies",
@@ -9182,8 +9012,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/jobworldindia/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/jobworldindia/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEiBsQAU5wLXQ/company-logo_100_100/0/1703010490127/jobworldindia_logo?e=1729728000&v=beta&t=6A7KZdpQ7HAVGdmfkwhUjhAxOG6z1g2WBU3jiW4ZoSs",
 			CompanyName: "JOBWORLD INDIA",
@@ -9204,8 +9033,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -9246,8 +9074,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -9389,8 +9216,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/spurtreetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/spurtreetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQFySn9HDMjZ-g/company-logo_100_100/0/1630583007100/spurtree_technologies_logo?e=1729728000&v=beta&t=FJ0EcspyfSWuTAtuMDaZkk1fPBKNNWg0LMw_5S4qs5E",
 			CompanyName: "SpurTree Technologies",
@@ -9496,8 +9322,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -9579,8 +9404,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -9663,8 +9487,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/juego-studios/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/juego-studios/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQG44qbt70YaTw/company-logo_100_100/0/1704176029808/juego_studios_logo?e=1729728000&v=beta&t=aTKZI6Mt2fKjtkGLhCM3Wy2XxeV7l5hNZzuOGnVRB6c",
 			CompanyName: "Juego Studios",
@@ -9831,8 +9654,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/euphotic-labs/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/euphotic-labs/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQFgq0smX0RDlA/company-logo_100_100/0/1630461762074?e=1729728000&v=beta&t=FR8SPOA8KIwSKjb4qSTqIsXdjSoQAGaJn3PEdqE5IbU",
 			CompanyName: "NOSH",
@@ -9889,8 +9711,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/multi-recruit/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/multi-recruit/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEhfK8baBNJJw/company-logo_100_100/0/1633432903117/multi_recruit_logo?e=1729728000&v=beta&t=qpswiuKQygH2RaspfMmMNYXy7udZ6d1223kmA0WjLvk",
 			CompanyName: "Multi Recruit",
@@ -10079,8 +9900,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/symphonyai/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/symphonyai/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHRDfZ_eQ8eTg/company-logo_100_100/0/1688999862014/symphonyai_logo?e=1729728000&v=beta&t=2Xm0cgxWbWArlR0ZLVBUGv87MFZvdj-5uWJtyZl7wg8",
 			CompanyName: "SymphonyAI",
@@ -10101,8 +9921,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -10123,8 +9942,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/bigideats/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/bigideats/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEuwC4TtcF0vg/company-logo_100_100/0/1662104410512/bigideats_logo?e=1729728000&v=beta&t=WrmqplZMdxx0X8N2LzX1o7cCd5cTd8yFGW7_Wm8qukU",
 			CompanyName: "BigIdea Technology Solutions",
@@ -10165,8 +9983,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/encorainc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/encorainc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHHECNoVhv0HA/company-logo_100_100/0/1663783801368/encorainc_logo?e=1729728000&v=beta&t=6gOJIw9MEB41p3nMT3MSBhwPGfQUq5svMm-rRU0rEHw",
 			CompanyName: "Encora Inc.",
@@ -10297,8 +10114,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/aptos-retail/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/aptos-retail/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEkU8m4EvxJpQ/company-logo_100_100/0/1631386120679?e=1729728000&v=beta&t=jrIyg1I-HXGt0y0UN7gCUMASmaIbL35zMfuyi-dtD0E",
 			CompanyName: "Aptos Retail",
@@ -10319,8 +10135,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/jpmorganchase/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/jpmorganchase/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQGxpntCyRgsuA/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1729728000&v=beta&t=BRIKvMZqtf-a8Lc3rsEgpvR8c-OsRWqZy8vGzIJOgDs",
 			CompanyName: "JPMorganChase",
@@ -10382,8 +10197,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globaltalex/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globaltalex/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQFXvRQ1nTZfTA/company-logo_100_100/0/1666873182184/globaltalex_logo?e=1729728000&v=beta&t=5gbtibdXeoBV0kfJ0E3nO7klzqicuuU-j7OmO9AOezE",
 			CompanyName: "Global Talent Exchange",
@@ -10404,8 +10218,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -10448,8 +10261,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/canopusgbs/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/canopusgbs/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQF1ejnxxEN2jA/company-logo_100_100/0/1696479509528/canopusgbs_logo?e=1729728000&v=beta&t=xgPuxBvSjrlJb8h7egxuGC1K0KsGHAAhHPpccVVSSGI",
 			CompanyName: "Canopus | IT Consulting | IT Services | Automation",
@@ -10529,8 +10341,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/qweensnetwork/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/qweensnetwork/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQG6tMARjLLQlw/company-logo_100_100/0/1631352610235?e=1729728000&v=beta&t=buwbLYs_a6LPoak17hnpnoNk5LMfJbx1VZZ83WqBPQM",
 			CompanyName: "Qween Network LLP",
@@ -10612,8 +10423,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/luxoft-india/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/luxoft-india/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQHxP2C37ZxEfQ/company-logo_100_100/0/1656590491445?e=1729728000&v=beta&t=dVJSAcpJlKpHS9JuCsz1MYAyqsPmqeRFbeDvkX1oZIU",
 			CompanyName: "Luxoft India",
@@ -10633,8 +10443,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/soltia-ab/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/soltia-ab/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQHpDYBmvg-mNg/company-logo_100_100/0/1718608866414/soltia_ab_logo?e=1729728000&v=beta&t=hCVYvt7Dc9XBLJdjOZc_PpIWZ4u6bA7hfs-94fs-igY",
 			CompanyName: "Aqilea (formerly Soltia)",
@@ -10762,8 +10571,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -10824,8 +10632,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -10850,8 +10657,7 @@ let unprocessedJobDataList = [
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHqfKJ_wWocQg/company-logo_100_100/0/1630645991493/ideslabs_pvt_ltd_logo?e=1729728000&v=beta&t=ZvS3TWWcc5nlFyPROHlWDv_XjyOETu8UrN63OqY-9Ds",
 			CompanyName: "IDESLABS PRIVATE LIMITED",
-			CompanyStrength:
-				"See recent hiring trends for IDESLABS PRIVATE LIMITED.",
+			CompanyStrength: "See recent hiring trends for IDESLABS PRIVATE LIMITED.",
 		},
 		Job: {
 			LinkedInPostUrl:
@@ -10889,8 +10695,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/scaleneworks/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/scaleneworks/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQHbiGA5WHQD8A/company-logo_100_100/0/1657000122801/scaleneworks_logo?e=1729728000&v=beta&t=MBtQJzEwK5qiIrgouO9fnvn23Oib44sHoBq3HNzKrng",
 			CompanyName: "ScaleneWorks People Solutions LLP",
@@ -10971,8 +10776,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/proem-sports/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/proem-sports/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQE9_Zfekf10HA/company-logo_100_100/0/1643436936147/proem_sports_logo?e=1729728000&v=beta&t=oz8G1TM04eS3B7bPalee7PRjdtQxQsGe4xsmPen8RPE",
 			CompanyName: "Proem Sports",
@@ -10992,8 +10796,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/zonesindia/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/zonesindia/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQHoAfaXOVDukA/company-logo_100_100/0/1676364423243/zonesindia_logo?e=1729728000&v=beta&t=T2WKn-Hx_e_IOHUExiEXmnInWtBKLS0gMUD0ocYiEP8",
 			CompanyName: "Zones India",
@@ -11057,8 +10860,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -11101,8 +10903,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/kudzuinfotech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/kudzuinfotech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQFJPOtSTlZD1Q/company-logo_100_100/0/1631300545748?e=1729728000&v=beta&t=VMUZraKCCCZ8SoJcdpW6pwLyk269PJNeBzxjsF_soEM",
 			CompanyName: "Kudzu Infotech",
@@ -11226,8 +11027,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/xandertalent/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/xandertalent/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHxpQwoXMoYhA/company-logo_100_100/0/1707473606812/xandertalent_logo?e=1729728000&v=beta&t=Q9aWyYUlkQ3xUeXGaby52urxM0k5_uk7ZWcl4v80nKs",
 			CompanyName: "Xander Talent",
@@ -11330,8 +11130,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ibcscorp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ibcscorp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEQZDcFVFxXzQ/company-logo_100_100/0/1682510633665/ibcscorp_logo?e=1729728000&v=beta&t=bYi-zCEyWA60pOH4BD0nssqX093EKZfxQugYC-T9rs0",
 			CompanyName: "iBCScorp",
@@ -11351,8 +11150,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -11372,8 +11170,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/microsoft/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/microsoft/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_100_100/0/1630652622688/microsoft_logo?e=1729728000&v=beta&t=fH3-IirmB0Zv8z-7EVn4f7r25rn2SeFnYr22vDRIBNQ",
 			CompanyName: "Microsoft",
@@ -11415,8 +11212,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/kudzuinfotech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/kudzuinfotech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQFJPOtSTlZD1Q/company-logo_100_100/0/1631300545748?e=1729728000&v=beta&t=VMUZraKCCCZ8SoJcdpW6pwLyk269PJNeBzxjsF_soEM",
 			CompanyName: "Kudzu Infotech",
@@ -11458,8 +11254,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ernstandyoung/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ernstandyoung/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGpRhkpxp5A9A/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=1729728000&v=beta&t=ZhTDHOSk1n8zRxtJfvJQX9waju3tLdFUZ-QQ-K-qzNE",
 			CompanyName: "EY",
@@ -11500,8 +11295,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -11585,8 +11379,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/reedwillow/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/reedwillow/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQElQncxD7uyjg/company-logo_100_100/0/1701258875685/reedwillow_logo?e=1729728000&v=beta&t=Q8XzE03bZ3Wc_sQpJ1UKFYQ3Spp3IXP5Crfk3VhHU7o",
 			CompanyName: "Reed & Willow ",
@@ -11650,8 +11443,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -11671,8 +11463,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/r3consultant/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/r3consultant/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQFRbht7SBhUtQ/company-logo_100_100/0/1711336255087/r3consultant_logo?e=1729728000&v=beta&t=_3NGKlP-BpNmAA5t4OoYCzNVjy9bCmiaNU2TcpP91Ig",
 			CompanyName: "r3 Consultant",
@@ -11692,8 +11483,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/encorainc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/encorainc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHHECNoVhv0HA/company-logo_100_100/0/1663783801368/encorainc_logo?e=1729728000&v=beta&t=6gOJIw9MEB41p3nMT3MSBhwPGfQUq5svMm-rRU0rEHw",
 			CompanyName: "Encora Inc.",
@@ -11756,8 +11546,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/tmi-network/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/tmi-network/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFA0BSpfxRQLw/company-logo_100_100/0/1688443107983/tmi_network_logo?e=1729728000&v=beta&t=Jl0v3Ucmn0QM5bee_nE1ZxOKGdgtD8uL3rRdjeOo5ZA",
 			CompanyName: "TMI Network",
@@ -11841,8 +11630,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/hyrezy.com/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/hyrezy.com/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQEWmw1OHyQIXA/company-logo_100_100/0/1631325591039?e=1729728000&v=beta&t=UeBCqmZwhdYFqNZeqT5Aq_D0uq6dphEIvv7x8X7-IUE",
 			CompanyName: "HyrEzy Talent Solutions LLP",
@@ -11862,8 +11650,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -11884,8 +11671,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ibcscorp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ibcscorp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEQZDcFVFxXzQ/company-logo_100_100/0/1682510633665/ibcscorp_logo?e=1729728000&v=beta&t=bYi-zCEyWA60pOH4BD0nssqX093EKZfxQugYC-T9rs0",
 			CompanyName: "iBCScorp",
@@ -11927,8 +11713,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -11947,8 +11732,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -11989,8 +11773,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/eci-1995/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/eci-1995/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQGMUmVSgo456g/company-logo_100_100/0/1690998792263/eci_1995_logo?e=1729728000&v=beta&t=8vVQ_PT36TqBM5LhuqKrCBcMWu-VNIrB779QS03a2wY",
 			CompanyName: "ECI",
@@ -12033,8 +11816,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/rupicard/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/rupicard/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEkVZWzXETffg/company-logo_100_100/0/1671094612617/rupicard_logo?e=1729728000&v=beta&t=WCXcnKqXwrtiHV_JHUyk9vpjrqvGmbhHU4W3xIYurds",
 			CompanyName: "Rupicard",
@@ -12055,8 +11837,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/omind-ai/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/omind-ai/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQELOARsFb8Leg/company-logo_100_100/0/1703938290560/omind_ai_logo?e=1729728000&v=beta&t=_dQdGRvAYfZxhOgeWgKcp7QTLRG_FON_BAxmKEqjI3M",
 			CompanyName: "Omind",
@@ -12099,8 +11880,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/jenoptik/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/jenoptik/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEoPIsbhrJCFw/company-logo_100_100/0/1630542222477/jenoptik_logo?e=1729728000&v=beta&t=zPzUyQH2PPb3p4PrarrrMGQxuULIa4qK4Bds754cOyE",
 			CompanyName: "JENOPTIK",
@@ -12267,8 +12047,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ibcscorp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ibcscorp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEQZDcFVFxXzQ/company-logo_100_100/0/1682510633665/ibcscorp_logo?e=1729728000&v=beta&t=bYi-zCEyWA60pOH4BD0nssqX093EKZfxQugYC-T9rs0",
 			CompanyName: "iBCScorp",
@@ -12374,8 +12153,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/changeleaders/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/changeleaders/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHJBk6qu2-dhw/company-logo_100_100/0/1630589478167/changeleaders_logo?e=1729728000&v=beta&t=zNUQ8Ivp3x7I8lnC2RO38MqF5RqZ6HEQi8IBlnCqE-8",
 			CompanyName: "Changeleaders.in",
@@ -12418,8 +12196,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -12440,8 +12217,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -12502,8 +12278,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/a3-hiring/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/a3-hiring/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFNjY_H88MIoA/company-logo_100_100/0/1630649532515/a3_hiring_logo?e=1729728000&v=beta&t=NSjvldM71uqAp5mH9adzv31jZGqc_EoaWj1I99ybEH4",
 			CompanyName: "A3 Hiring",
@@ -12564,8 +12339,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -12724,8 +12498,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -12766,8 +12539,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ibcscorp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ibcscorp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQEQZDcFVFxXzQ/company-logo_100_100/0/1682510633665/ibcscorp_logo?e=1729728000&v=beta&t=bYi-zCEyWA60pOH4BD0nssqX093EKZfxQugYC-T9rs0",
 			CompanyName: "iBCScorp",
@@ -12829,8 +12601,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/version-1/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/version-1/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHQ1InCpz1LRA/company-logo_100_100/0/1719386341697/version_1_logo?e=1729728000&v=beta&t=e2hXTG6UXGAxaRdxeR3gjWbEsvjJDmK8_YkKApK1unY",
 			CompanyName: "Version 1",
@@ -12867,8 +12638,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/changeleaders/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/changeleaders/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHJBk6qu2-dhw/company-logo_100_100/0/1630589478167/changeleaders_logo?e=1729728000&v=beta&t=zNUQ8Ivp3x7I8lnC2RO38MqF5RqZ6HEQi8IBlnCqE-8",
 			CompanyName: "Changeleaders.in",
@@ -12909,8 +12679,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -12952,8 +12721,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -13037,8 +12805,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/microsoft/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/microsoft/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_100_100/0/1630652622688/microsoft_logo?e=1729728000&v=beta&t=fH3-IirmB0Zv8z-7EVn4f7r25rn2SeFnYr22vDRIBNQ",
 			CompanyName: "Microsoft",
@@ -13057,8 +12824,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -13079,8 +12845,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ltimindtree/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ltimindtree/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQFHQWpJzXr2ng/company-logo_100_100/0/1719809529205/ltimindtree_logo?e=1729728000&v=beta&t=p9hY57z5ZWJR7yb5sasr_PodUjUCUJOANZ7hheGoPlQ",
 			CompanyName: "LTIMindtree",
@@ -13144,8 +12909,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ltimindtree/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ltimindtree/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQFHQWpJzXr2ng/company-logo_100_100/0/1719809529205/ltimindtree_logo?e=1729728000&v=beta&t=p9hY57z5ZWJR7yb5sasr_PodUjUCUJOANZ7hheGoPlQ",
 			CompanyName: "LTIMindtree",
@@ -13231,8 +12995,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -13252,8 +13015,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/luxoft-india/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/luxoft-india/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQHxP2C37ZxEfQ/company-logo_100_100/0/1656590491445?e=1729728000&v=beta&t=dVJSAcpJlKpHS9JuCsz1MYAyqsPmqeRFbeDvkX1oZIU",
 			CompanyName: "Luxoft India",
@@ -13274,8 +13036,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globallogic/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globallogic/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHfsFr91ekzrQ/company-logo_100_100/0/1630647080208/globallogic_logo?e=1729728000&v=beta&t=DsjuHbyJxM8t5ceX4Xs2EdgGuzKmKW5B6ylW9ED7XDY",
 			CompanyName: "GlobalLogic",
@@ -13317,8 +13078,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ltimindtree/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ltimindtree/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQFHQWpJzXr2ng/company-logo_100_100/0/1719809529205/ltimindtree_logo?e=1729728000&v=beta&t=p9hY57z5ZWJR7yb5sasr_PodUjUCUJOANZ7hheGoPlQ",
 			CompanyName: "LTIMindtree",
@@ -13339,8 +13099,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -13360,8 +13119,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ustglobal/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ustglobal/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEr-ib3Nn15Aw/company-logo_100_100/0/1648787427825/ustglobal_logo?e=1729728000&v=beta&t=0gGu8vI9HSl8MeG2uYiBvbQkI6UWhWphAcTM1MY2VQA",
 			CompanyName: "UST",
@@ -13405,8 +13163,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/a3-hiring/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/a3-hiring/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFNjY_H88MIoA/company-logo_100_100/0/1630649532515/a3_hiring_logo?e=1729728000&v=beta&t=NSjvldM71uqAp5mH9adzv31jZGqc_EoaWj1I99ybEH4",
 			CompanyName: "A3 Hiring",
@@ -13426,8 +13183,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/itc-infotech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/itc-infotech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQHChIp3T3c83w/company-logo_100_100/0/1631308626797?e=1729728000&v=beta&t=1NIWSogilj3uJdkXFqZPES2YXT-sXWVIkROP_Q-w_YI",
 			CompanyName: "ITC Infotech",
@@ -13470,8 +13226,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/jpmorganchase/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/jpmorganchase/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQGxpntCyRgsuA/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1729728000&v=beta&t=BRIKvMZqtf-a8Lc3rsEgpvR8c-OsRWqZy8vGzIJOgDs",
 			CompanyName: "JPMorganChase",
@@ -13596,8 +13351,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -13616,8 +13370,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -13666,8 +13419,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3837487188/?alternateChannel=search&refId=NUqGN%2BmErSz8N50UxwzxLQ%3D%3D&trackingId=gsqiMoMFtWrJFLiJBq9dxQ%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Senior Software Engineer(Fullstack) - C#, WPF/WinForms, SQL",
+			JobTitle: "Senior Software Engineer(Fullstack) - C#, WPF/WinForms, SQL",
 			Location: "Bangalore Urban, Karnataka, India",
 			PostTime: "Reposted 3 days ago",
 			TotalApplicant: "68 applicants",
@@ -13700,8 +13452,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -13722,8 +13473,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/successpact/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/successpact/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQHUAMFE7U3vQg/company-logo_100_100/0/1654686860233/successpact_logo?e=1729728000&v=beta&t=PgS6tC9hjVt26fsk-TPdDceJSp_9jCIHpGBiNflgS00",
 			CompanyName: "Success Pact Consulting Pvt. Ltd.",
@@ -13786,8 +13536,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/blackline/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/blackline/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHyAMZObZgGfA/company-logo_100_100/0/1720012825677/blackline_logo?e=1729728000&v=beta&t=QqK_ibE4iY4AgoIp20Au_yoEJ_pRorsVxaVSP8DdHK0",
 			CompanyName: "BlackLine",
@@ -13808,8 +13557,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/birlasoft/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/birlasoft/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFJ26tVfkJeKg/company-logo_100_100/0/1630606173796/birlasoft_logo?e=1729728000&v=beta&t=6Z4Isq6npan5LybgDj2qQhoYYII2j-LvWP7YkpQvUrA",
 			CompanyName: "Birlasoft",
@@ -13852,8 +13600,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/concentrix/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/concentrix/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQEI2aF8Itqj0g/company-logo_100_100/0/1713811406614/concentrix_logo?e=1729728000&v=beta&t=NxFK2DJ11WxeoVK0RwIU74olIiy3bc04d9d6ilkphH4",
 			CompanyName: "Concentrix",
@@ -13874,8 +13621,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/itc-infotech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/itc-infotech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQHChIp3T3c83w/company-logo_100_100/0/1631308626797?e=1729728000&v=beta&t=1NIWSogilj3uJdkXFqZPES2YXT-sXWVIkROP_Q-w_YI",
 			CompanyName: "ITC Infotech",
@@ -13906,8 +13652,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3955558054/?alternateChannel=search&refId=V5z47rn2zkLLjySPnaAGqw%3D%3D&trackingId=E6x6m3GxEDlPotP3sA9ikg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Angular, ASP.Net MVC Developer - Principal Software Engineer",
+			JobTitle: "Angular, ASP.Net MVC Developer - Principal Software Engineer",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "4 weeks ago",
 			TotalApplicant: "16 applicants",
@@ -13941,8 +13686,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/weareuplers/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/weareuplers/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQG6KMZp1zAiTA/company-logo_100_100/0/1630605289074/weareuplers_logo?e=1729728000&v=beta&t=CTfNCMxBRHLZ38kprpLLWjHoDe_YV4rz_V83o20OD38",
 			CompanyName: "Uplers",
@@ -14028,8 +13772,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infosys-bpm/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infosys-bpm/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFvDeZDuVlg7w/company-logo_100_100/0/1720429298805/infosys_bpm_logo?e=1729728000&v=beta&t=P8lSSUUfcLGY_TWEqOF7DNSHKP2Klgx7QkpXc3SyTgs",
 			CompanyName: "Infosys BPM",
@@ -14072,8 +13815,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/capgemini/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/capgemini/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQH-ZV832H4sdA/company-logo_100_100/0/1705572256355/capgemini_logo?e=1729728000&v=beta&t=tD0wGAIA7talsyOF9Jt4ukFmQ5j0xCDoV7qIW6x0OHE",
 			CompanyName: "Capgemini",
@@ -14094,8 +13836,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -14157,8 +13898,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ustglobal/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ustglobal/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEr-ib3Nn15Aw/company-logo_100_100/0/1648787427825/ustglobal_logo?e=1729728000&v=beta&t=0gGu8vI9HSl8MeG2uYiBvbQkI6UWhWphAcTM1MY2VQA",
 			CompanyName: "UST",
@@ -14180,8 +13920,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ustglobal/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ustglobal/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEr-ib3Nn15Aw/company-logo_100_100/0/1648787427825/ustglobal_logo?e=1729728000&v=beta&t=0gGu8vI9HSl8MeG2uYiBvbQkI6UWhWphAcTM1MY2VQA",
 			CompanyName: "UST",
@@ -14190,8 +13929,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3975171918/?alternateChannel=search&refId=V5z47rn2zkLLjySPnaAGqw%3D%3D&trackingId=f4VC2EBojSKlv5H1Z5iiZg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"C#.Net Windows Development--Lead I - Software Engineering",
+			JobTitle: "C#.Net Windows Development--Lead I - Software Engineering",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "5 days ago",
 			TotalApplicant: "9 applicants",
@@ -14312,8 +14050,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/weareuplers/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/weareuplers/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQG6KMZp1zAiTA/company-logo_100_100/0/1630605289074/weareuplers_logo?e=1729728000&v=beta&t=CTfNCMxBRHLZ38kprpLLWjHoDe_YV4rz_V83o20OD38",
 			CompanyName: "Uplers",
@@ -14436,8 +14173,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globallogic/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globallogic/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHfsFr91ekzrQ/company-logo_100_100/0/1630647080208/globallogic_logo?e=1729728000&v=beta&t=DsjuHbyJxM8t5ceX4Xs2EdgGuzKmKW5B6ylW9ED7XDY",
 			CompanyName: "GlobalLogic",
@@ -14560,8 +14296,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -14580,8 +14315,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -14660,8 +14394,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -14713,8 +14446,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3974995108/?alternateChannel=search&refId=kO3JWtahhbL7p9cWY%2FVxWA%3D%3D&trackingId=9uxIvZpiN3HRYeYLU5NGcA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Associate Developer  (Full Stack) - .NET Core and Angular",
+			JobTitle: "Associate Developer  (Full Stack) - .NET Core and Angular",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "Reposted 1 week ago",
 			TotalApplicant: "28 applicants",
@@ -14812,8 +14544,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -14918,8 +14649,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -14963,8 +14693,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -15004,8 +14733,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -15047,8 +14775,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -15068,8 +14795,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/changeleaders/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/changeleaders/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHJBk6qu2-dhw/company-logo_100_100/0/1630589478167/changeleaders_logo?e=1729728000&v=beta&t=zNUQ8Ivp3x7I8lnC2RO38MqF5RqZ6HEQi8IBlnCqE-8",
 			CompanyName: "Changeleaders.in",
@@ -15090,8 +14816,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globallogic/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globallogic/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHfsFr91ekzrQ/company-logo_100_100/0/1630647080208/globallogic_logo?e=1729728000&v=beta&t=DsjuHbyJxM8t5ceX4Xs2EdgGuzKmKW5B6ylW9ED7XDY",
 			CompanyName: "GlobalLogic",
@@ -15154,8 +14879,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/healthedge/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/healthedge/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHkdnObyvf-DQ/company-logo_100_100/0/1688241072184/healthedge_logo?e=1729728000&v=beta&t=1roueyshQmUvd2AeZ9B5YGxFq4W_i_O77eZeKyjH024",
 			CompanyName: "HealthEdge",
@@ -15216,8 +14940,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ustglobal/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ustglobal/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEr-ib3Nn15Aw/company-logo_100_100/0/1648787427825/ustglobal_logo?e=1729728000&v=beta&t=0gGu8vI9HSl8MeG2uYiBvbQkI6UWhWphAcTM1MY2VQA",
 			CompanyName: "UST",
@@ -15226,8 +14949,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3926627807/?alternateChannel=search&refId=tO%2BDVo8YoDMhIsI0N8M83Q%3D%3D&trackingId=rf5ZwMf5J4%2FC1WtxtylQ1Q%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Full Stack Developer ( React + .NET Core + Immediate joiner)",
+			JobTitle: "Full Stack Developer ( React + .NET Core + Immediate joiner)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "Reposted 5 days ago",
 			TotalApplicant: "Over 100 applicants",
@@ -15305,8 +15027,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/purestorage/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/purestorage/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHQ2h8UmRkbzw/company-logo_100_100/0/1720014761477/purestorage_logo?e=1729728000&v=beta&t=62L5RNH9GM11WCGzpuwxcb38Jee8OfoIcaQjINUP12s",
 			CompanyName: "Pure Storage",
@@ -15411,8 +15132,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -15432,8 +15152,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -15442,8 +15161,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3747076031/?alternateChannel=search&refId=v19BW3NVsJ1cyPPo4AtzMg%3D%3D&trackingId=Ejkd3wtxEBp6Q9NCLrWm8w%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				".Net Fullstack Developer (ASP.NET + Angular + Azure)_b_wt",
+			JobTitle: ".Net Fullstack Developer (ASP.NET + Angular + Azure)_b_wt",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "8 months ago",
 			TotalApplicant: "8 applicants",
@@ -15455,8 +15173,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -15497,8 +15214,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/multi-recruit/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/multi-recruit/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQEhfK8baBNJJw/company-logo_100_100/0/1633432903117/multi_recruit_logo?e=1729728000&v=beta&t=qpswiuKQygH2RaspfMmMNYXy7udZ6d1223kmA0WjLvk",
 			CompanyName: "Multi Recruit",
@@ -15541,8 +15257,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/styranglobal/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/styranglobal/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQGNKpsCHsYBLQ/company-logo_100_100/0/1630517801978/styranglobal_logo?e=1729728000&v=beta&t=4i0zH6_frjmoIpKFqXdGgeRWVwoV7CzkYpccgkTdsw0",
 			CompanyName: "STYRAN Global Lifesciences Pvt Ltd.",
@@ -15551,8 +15266,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978858922/?alternateChannel=search&refId=v19BW3NVsJ1cyPPo4AtzMg%3D%3D&trackingId=cHEvRI8Qx9Wiwwj0S4n%2BDw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Full Stack Engineer 9 Years Experience: Immediate Joiner",
+			JobTitle: "Full Stack Engineer 9 Years Experience: Immediate Joiner",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "4 applicants",
@@ -15627,8 +15341,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/visionyle/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/visionyle/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGcOl_EokBlTA/company-logo_100_100/0/1630608618081/visionyle_logo?e=1729728000&v=beta&t=XmQ-VC73WpXjEsopET2vv7T44hkVBfp9h23__m0TsJQ",
 			CompanyName: "Visionyle Solutions",
@@ -15648,8 +15361,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -15775,8 +15487,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/concentrix/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/concentrix/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQEI2aF8Itqj0g/company-logo_100_100/0/1713811406614/concentrix_logo?e=1729728000&v=beta&t=NxFK2DJ11WxeoVK0RwIU74olIiy3bc04d9d6ilkphH4",
 			CompanyName: "Concentrix",
@@ -15824,8 +15535,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3962500740/?alternateChannel=search&refId=v19BW3NVsJ1cyPPo4AtzMg%3D%3D&trackingId=098SQWSUZkoMOCiQHSaVsA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer (.Net FS) - Senior Associate - P&T Labs",
+			JobTitle: "Software Engineer (.Net FS) - Senior Associate - P&T Labs",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "Reposted 2 weeks ago",
 			TotalApplicant: "16 applicants",
@@ -15837,8 +15547,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/globallogic/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/globallogic/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHfsFr91ekzrQ/company-logo_100_100/0/1630647080208/globallogic_logo?e=1729728000&v=beta&t=DsjuHbyJxM8t5ceX4Xs2EdgGuzKmKW5B6ylW9ED7XDY",
 			CompanyName: "GlobalLogic",
@@ -15881,8 +15590,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ustglobal/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ustglobal/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEr-ib3Nn15Aw/company-logo_100_100/0/1648787427825/ustglobal_logo?e=1729728000&v=beta&t=0gGu8vI9HSl8MeG2uYiBvbQkI6UWhWphAcTM1MY2VQA",
 			CompanyName: "UST",
@@ -15946,8 +15654,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -15990,8 +15697,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/empower-india/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/empower-india/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQETBZSIS5vqqw/company-logo_100_100/0/1657569254292/empower_india_logo?e=1729728000&v=beta&t=szInSoyvhJLzr4qS3jDIohFS5wbv8xOKGauxEVP5kik",
 			CompanyName: "Empower India",
@@ -16012,8 +15718,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -16032,8 +15737,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/conduent/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/conduent/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHJKwSZO_5jQw/company-logo_100_100/0/1630567280380/conduent_logo?e=1729728000&v=beta&t=IRdHjHkvVSUq7LYS8butq_f-IXfij7KGeSGnfIPLmrE",
 			CompanyName: "Conduent",
@@ -16076,8 +15780,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -16136,8 +15839,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -16180,8 +15882,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/symphonyai/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/symphonyai/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHRDfZ_eQ8eTg/company-logo_100_100/0/1688999862014/symphonyai_logo?e=1729728000&v=beta&t=2Xm0cgxWbWArlR0ZLVBUGv87MFZvdj-5uWJtyZl7wg8",
 			CompanyName: "SymphonyAI",
@@ -16243,8 +15944,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/chain-sys/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/chain-sys/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQEepAH_0--jrw/company-logo_100_100/0/1630626380204/chain_sys_logo?e=1729728000&v=beta&t=FFubCAN_4LDbNBfcvFNF1bDSGFfXxVvhJlNu5JIuAv0",
 			CompanyName: "Chain-Sys Corporation",
@@ -16285,8 +15985,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -16307,8 +16006,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/version-1/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/version-1/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHQ1InCpz1LRA/company-logo_100_100/0/1719386341697/version_1_logo?e=1729728000&v=beta&t=e2hXTG6UXGAxaRdxeR3gjWbEsvjJDmK8_YkKApK1unY",
 			CompanyName: "Version 1",
@@ -16394,8 +16092,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/novotreeminds/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/novotreeminds/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEaAPECciZ-SA/company-logo_100_100/0/1705407052882?e=1729728000&v=beta&t=lE8Vu0Uqd5NGML5fzwByjWaMHnvmvVMch1cMTKosTh4",
 			CompanyName:
@@ -16503,8 +16200,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/empower-india/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/empower-india/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQETBZSIS5vqqw/company-logo_100_100/0/1657569254292/empower_india_logo?e=1729728000&v=beta&t=szInSoyvhJLzr4qS3jDIohFS5wbv8xOKGauxEVP5kik",
 			CompanyName: "Empower India",
@@ -16525,8 +16221,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -16546,8 +16241,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -16568,8 +16262,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -16590,8 +16283,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/trustcheckr/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/trustcheckr/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQFcfQ930MLvng/company-logo_100_100/0/1631311062150?e=1729728000&v=beta&t=88tm6AvYi8kfVG2bgPvtPriExQ_geAvjAx9wtJKpVnc",
 			CompanyName: "TrustCheckr (A Truecaller company)",
@@ -16633,8 +16325,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/thoughtfocus/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/thoughtfocus/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQFkI_ZkjbXhaQ/company-logo_100_100/0/1631330474919?e=1729728000&v=beta&t=VWSF4VpX2gw6Hs9sqvXwbHNrIeKUYumUW_zQ8WoDcJY",
 			CompanyName: "ThoughtFocus",
@@ -16655,8 +16346,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/jpmorganchase/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/jpmorganchase/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQGxpntCyRgsuA/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1729728000&v=beta&t=BRIKvMZqtf-a8Lc3rsEgpvR8c-OsRWqZy8vGzIJOgDs",
 			CompanyName: "JPMorganChase",
@@ -16695,8 +16385,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/boyenhaddin/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/boyenhaddin/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQFG2Jjzv2N55A/company-logo_100_100/0/1630635587964/boyenhaddin_logo?e=1729728000&v=beta&t=ZlapnS6EgoPn5fptvhr7NI1slpxUGMLeRIlKfMrvE10",
 			CompanyName:
@@ -16718,8 +16407,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -16799,8 +16487,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/cognitedata/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/cognitedata/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQGC13jzkSlNzA/company-logo_100_100/0/1630519344428/cognitedata_logo?e=1729728000&v=beta&t=kBilwqM7fyoWy9BY900VaNrpV3WQHG7g2-TynQsWg5s",
 			CompanyName: "Cognite",
@@ -16967,8 +16654,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/reedwillow/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/reedwillow/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQElQncxD7uyjg/company-logo_100_100/0/1701258875685/reedwillow_logo?e=1729728000&v=beta&t=Q8XzE03bZ3Wc_sQpJ1UKFYQ3Spp3IXP5Crfk3VhHU7o",
 			CompanyName: "Reed & Willow ",
@@ -17009,8 +16695,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/empower-india/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/empower-india/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQETBZSIS5vqqw/company-logo_100_100/0/1657569254292/empower_india_logo?e=1729728000&v=beta&t=szInSoyvhJLzr4qS3jDIohFS5wbv8xOKGauxEVP5kik",
 			CompanyName: "Empower India",
@@ -17053,8 +16738,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -17063,8 +16747,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3635146265/?alternateChannel=search&refId=v8HVkdccMU3f8qJhI4XuhQ%3D%3D&trackingId=8O6ZblF3Xz2IdqgxDeHlVg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				".NET  Full stack developers (3+ years)(Bangalore)_Bharti",
+			JobTitle: ".NET  Full stack developers (3+ years)(Bangalore)_Bharti",
 			Location: "Bagalur, Karnataka, India",
 			PostTime: "1 year ago",
 			JobRemotType: "On-site",
@@ -17075,8 +16758,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/codersbrain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/codersbrain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGx_KcGOkummQ/company-logo_100_100/0/1704959427870?e=1729728000&v=beta&t=di3GC6GXvHxN-kjcK-8zm54spl2N8Wi_kPw0UbLUiZI",
 			CompanyName: "CodersBrain",
@@ -17118,8 +16800,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/capgemini/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/capgemini/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQH-ZV832H4sdA/company-logo_100_100/0/1705572256355/capgemini_logo?e=1729728000&v=beta&t=tD0wGAIA7talsyOF9Jt4ukFmQ5j0xCDoV7qIW6x0OHE",
 			CompanyName: "Capgemini",
@@ -17162,8 +16843,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/epam-systems/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/epam-systems/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQERhwCA4aBweA/company-logo_100_100/0/1706845800358/epam_systems_logo?e=1729728000&v=beta&t=Px0El9CMycumq4Go5bZo2A1VnsDBFgPARuevhIABOf8",
 			CompanyName: "EPAM Systems",
@@ -17228,8 +16908,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/hireflex/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/hireflex/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHuXbKyTXAmjQ/company-logo_100_100/0/1630655187951/hireflex_logo?e=1729728000&v=beta&t=rYA8xSNhVRBIgb-DLCKOHU6So2tGfoAaXUGneLEHMno",
 			CompanyName: "HireFlex",
@@ -17313,8 +16992,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/prarlabs/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/prarlabs/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQHTLsvhG8JiFg/company-logo_100_100/0/1676883141602?e=1729728000&v=beta&t=apzwA1wW3wpnMykLHTpmjy7I2GBK3Iuo9lJxi0_j6ks",
 			CompanyName: "Prar Labs",
@@ -17334,8 +17012,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/peopleprimeww/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/peopleprimeww/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQEhOMDYqkC07Q/company-logo_100_100/0/1703746998153/peopleprimeww_logo?e=1729728000&v=beta&t=a-huzcAqKxwqTp2DjCruHgsUSRQrmyUSrU25LmleTIQ",
 			CompanyName: "People Prime Worldwide",
@@ -17356,8 +17033,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/boyenhaddin/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/boyenhaddin/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQFG2Jjzv2N55A/company-logo_100_100/0/1630635587964/boyenhaddin_logo?e=1729728000&v=beta&t=ZlapnS6EgoPn5fptvhr7NI1slpxUGMLeRIlKfMrvE10",
 			CompanyName:
@@ -17379,8 +17055,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/trypallet/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/trypallet/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQHk6xmdpVzfxA/company-logo_100_100/0/1714610193603/palletsystems_logo?e=1729728000&v=beta&t=v8XOo_hOjRkWOeRyG9Hk2Q1Koc3Xyn2TEy0rqA1ZXQo",
 			CompanyName: "Pallet",
@@ -17504,8 +17179,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/wavehireco/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/wavehireco/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQF91TMNTNlPSg/company-logo_100_100/0/1718968946037/wavehireco_logo?e=1729728000&v=beta&t=fO-Zt8ymPurAa1bcbQK-FlcirWzkBrDsTa-h6sgqBGU",
 			CompanyName: "WaveHire",
@@ -17526,8 +17200,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/casavo-softt/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/casavo-softt/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQHuf7Y3ByEaRg/company-logo_100_100/0/1689163938957/casavo_softt_logo?e=1729728000&v=beta&t=RnQXclCm_a7UzSbm42lmWQk5LgsQEkuB2UguDv5ik8M",
 			CompanyName: "Casavo Soft",
@@ -17591,8 +17264,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/workassist-in/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/workassist-in/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFGZf22_mNBYQ/company-logo_100_100/0/1712735246282/workassist_in_logo?e=1729728000&v=beta&t=KzqNKwqVZJAsBZldqr1xyZjxoR3WRnoHsSHQNEnCtv0",
 			CompanyName: "Workassist",
@@ -17613,8 +17285,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/reedwillow/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/reedwillow/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4D0BAQElQncxD7uyjg/company-logo_100_100/0/1701258875685/reedwillow_logo?e=1729728000&v=beta&t=Q8XzE03bZ3Wc_sQpJ1UKFYQ3Spp3IXP5Crfk3VhHU7o",
 			CompanyName: "Reed & Willow ",
@@ -17677,8 +17348,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/ustglobal/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/ustglobal/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4D0BAQEr-ib3Nn15Aw/company-logo_100_100/0/1648787427825/ustglobal_logo?e=1729728000&v=beta&t=0gGu8vI9HSl8MeG2uYiBvbQkI6UWhWphAcTM1MY2VQA",
 			CompanyName: "UST",
@@ -17720,8 +17390,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/jpmorganchase/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/jpmorganchase/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQGxpntCyRgsuA/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1729728000&v=beta&t=BRIKvMZqtf-a8Lc3rsEgpvR8c-OsRWqZy8vGzIJOgDs",
 			CompanyName: "JPMorganChase",
@@ -17741,8 +17410,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/jpmorganchase/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/jpmorganchase/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQGxpntCyRgsuA/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1729728000&v=beta&t=BRIKvMZqtf-a8Lc3rsEgpvR8c-OsRWqZy8vGzIJOgDs",
 			CompanyName: "JPMorganChase",
@@ -17762,8 +17430,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/vipanyglobal/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/vipanyglobal/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQFx-woQspbgow/company-logo_100_100/0/1692772192749/vipanyglobal_logo?e=1729728000&v=beta&t=vDQRRkzmewstm3crYcVDj-xBoFvUQNJXwBEP-KgDIBg",
 			CompanyName: "Vipany Global Solutions Pvt Ltd",
@@ -17804,8 +17471,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/unilog-inc/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/unilog-inc/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C4E0BAQHHo17gfCTKtg/company-logo_100_100/0/1674844558285/unilog_inc_logo?e=1729728000&v=beta&t=5DPLvNX22EnWhDQ9w9vu4TL0ENpdDG7R0qryScjNQqw",
 			CompanyName: "Unilog",
@@ -17827,8 +17493,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/jpmorganchase/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/jpmorganchase/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D4E0BAQGxpntCyRgsuA/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1729728000&v=beta&t=BRIKvMZqtf-a8Lc3rsEgpvR8c-OsRWqZy8vGzIJOgDs",
 			CompanyName: "JPMorganChase",
@@ -17887,8 +17552,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/rakuten-india/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/rakuten-india/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHQil44Xopueg/company-logo_100_100/0/1630632692436/rakuten_india_logo?e=1729728000&v=beta&t=MxxoOeBGI2tQcmarksCjLWT1YPY3tZG_77J7RDJLHw0",
 			CompanyName: "Rakuten India",
@@ -17909,8 +17573,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/weareuplers/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/weareuplers/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQG6KMZp1zAiTA/company-logo_100_100/0/1630605289074/weareuplers_logo?e=1729728000&v=beta&t=CTfNCMxBRHLZ38kprpLLWjHoDe_YV4rz_V83o20OD38",
 			CompanyName: "Uplers",
@@ -17992,8 +17655,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/erisn-tech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/erisn-tech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C560BAQGDk_DgqOZiog/company-logo_100_100/0/1630910612066/erisn_tech_logo?e=1729728000&v=beta&t=Nbk8bFlv2_6bYeJoYa06TOdhEYoaecr24X_xdci2yRE",
 			CompanyName: "ErisnTech ",
@@ -18013,8 +17675,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/quess-corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/quess-corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQGeN-Lp0d1f5g/company-logo_100_100/0/1700137944315/quess_corp_logo?e=1729728000&v=beta&t=xZxici2teh_LbBccLwEKHxDM86GqmO9f2lShtHs9hwo",
 			CompanyName: "Quess Corp Limited",
@@ -18082,8 +17743,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "7 minutes ago",
 			TotalApplicant: "0 applicants",
@@ -18145,8 +17805,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "17 hours ago",
 			TotalApplicant: "2 applicants",
@@ -18209,8 +17868,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "26 applicants",
@@ -18254,8 +17912,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "23 minutes ago",
 			TotalApplicant: "0 applicants",
@@ -18267,8 +17924,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -18289,8 +17945,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -18374,8 +18029,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -18529,8 +18183,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "1 applicant",
@@ -18630,8 +18283,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "13 minutes ago",
 			TotalApplicant: "1 applicant",
@@ -18693,8 +18345,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "17 hours ago",
 			TotalApplicant: "2 applicants",
@@ -18757,8 +18408,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -18802,8 +18452,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "28 minutes ago",
 			TotalApplicant: "0 applicants",
@@ -18815,8 +18464,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -18837,8 +18485,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -18922,8 +18569,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -19077,8 +18723,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -19159,8 +18804,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 minutes ago",
 			TotalApplicant: "2 applicants",
@@ -19222,8 +18866,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "17 hours ago",
 			TotalApplicant: "2 applicants",
@@ -19286,8 +18929,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -19331,8 +18973,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "33 minutes ago",
 			TotalApplicant: "0 applicants",
@@ -19344,8 +18985,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -19366,8 +19006,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -19451,8 +19090,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -19606,8 +19244,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -19688,8 +19325,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "23 minutes ago",
 			TotalApplicant: "2 applicants",
@@ -19751,8 +19387,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "17 hours ago",
 			TotalApplicant: "2 applicants",
@@ -19815,8 +19450,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -19860,8 +19494,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "38 minutes ago",
 			TotalApplicant: "0 applicants",
@@ -19873,8 +19506,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -19895,8 +19527,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -19980,8 +19611,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -20135,8 +19765,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -20217,8 +19846,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "28 minutes ago",
 			TotalApplicant: "3 applicants",
@@ -20280,8 +19908,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "17 hours ago",
 			TotalApplicant: "2 applicants",
@@ -20344,8 +19971,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -20389,8 +20015,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "43 minutes ago",
 			TotalApplicant: "0 applicants",
@@ -20402,8 +20027,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -20424,8 +20048,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -20509,8 +20132,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -20664,8 +20286,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -20746,8 +20367,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "33 minutes ago",
 			TotalApplicant: "4 applicants",
@@ -20809,8 +20429,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "17 hours ago",
 			TotalApplicant: "2 applicants",
@@ -20873,8 +20492,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -20918,8 +20536,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "48 minutes ago",
 			TotalApplicant: "0 applicants",
@@ -20931,8 +20548,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -20953,8 +20569,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -21038,8 +20653,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -21193,8 +20807,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -21275,8 +20888,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "38 minutes ago",
 			TotalApplicant: "6 applicants",
@@ -21338,8 +20950,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "17 hours ago",
 			TotalApplicant: "2 applicants",
@@ -21402,8 +21013,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -21447,8 +21057,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "53 minutes ago",
 			TotalApplicant: "0 applicants",
@@ -21460,8 +21069,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -21482,8 +21090,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -21567,8 +21174,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -21722,8 +21328,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -21804,8 +21409,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "43 minutes ago",
 			TotalApplicant: "6 applicants",
@@ -21867,8 +21471,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "17 hours ago",
 			TotalApplicant: "2 applicants",
@@ -21931,8 +21534,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -21976,8 +21578,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "58 minutes ago",
 			TotalApplicant: "1 applicant",
@@ -21989,8 +21590,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -22011,8 +21611,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -22096,8 +21695,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -22251,8 +21849,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -22333,8 +21930,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "48 minutes ago",
 			TotalApplicant: "6 applicants",
@@ -22396,8 +21992,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "17 hours ago",
 			TotalApplicant: "2 applicants",
@@ -22460,8 +22055,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -22505,8 +22099,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "1 applicant",
@@ -22518,8 +22111,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -22540,8 +22132,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -22625,8 +22216,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -22780,8 +22370,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -22862,8 +22451,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "53 minutes ago",
 			TotalApplicant: "6 applicants",
@@ -22925,8 +22513,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -22989,8 +22576,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -23034,8 +22620,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "1 applicant",
@@ -23047,8 +22632,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -23069,8 +22653,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -23154,8 +22737,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -23309,8 +22891,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -23391,8 +22972,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "58 minutes ago",
 			TotalApplicant: "7 applicants",
@@ -23454,8 +23034,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -23518,8 +23097,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -23563,8 +23141,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -23576,8 +23153,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -23598,8 +23174,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -23683,8 +23258,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -23838,8 +23412,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -23920,8 +23493,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "7 applicants",
@@ -23983,8 +23555,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -24047,8 +23618,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -24092,8 +23662,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -24105,8 +23674,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -24127,8 +23695,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -24212,8 +23779,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -24367,8 +23933,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -24449,8 +24014,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "8 applicants",
@@ -24512,8 +24076,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -24576,8 +24139,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "21 hours ago",
 			TotalApplicant: "26 applicants",
@@ -24621,8 +24183,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -24634,8 +24195,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -24656,8 +24216,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -24741,8 +24300,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -24896,8 +24454,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "1 applicant",
@@ -24978,8 +24535,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "12 applicants",
@@ -25041,8 +24597,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -25105,8 +24660,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -25150,8 +24704,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -25163,8 +24716,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -25185,8 +24737,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -25270,8 +24821,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -25425,8 +24975,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -25507,8 +25056,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "12 applicants",
@@ -25570,8 +25118,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -25634,8 +25181,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -25679,8 +25225,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -25692,8 +25237,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -25714,8 +25258,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -25799,8 +25342,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -25954,8 +25496,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -26036,8 +25577,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "16 applicants",
@@ -26099,8 +25639,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -26163,8 +25702,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -26208,8 +25746,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -26221,8 +25758,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -26243,8 +25779,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -26328,8 +25863,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -26483,8 +26017,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -26565,8 +26098,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "19 applicants",
@@ -26628,8 +26160,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -26692,8 +26223,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -26737,8 +26267,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -26750,8 +26279,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -26772,8 +26300,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -26857,8 +26384,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -27012,8 +26538,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -27094,8 +26619,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "20 applicants",
@@ -27157,8 +26681,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -27221,8 +26744,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -27266,8 +26788,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -27279,8 +26800,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -27301,8 +26821,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -27386,8 +26905,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -27541,8 +27059,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -27623,8 +27140,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "24 applicants",
@@ -27686,8 +27202,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -27750,8 +27265,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -27795,8 +27309,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -27808,8 +27321,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -27830,8 +27342,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -27915,8 +27426,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -28070,8 +27580,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -28152,8 +27661,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "24 applicants",
@@ -28215,8 +27723,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -28279,8 +27786,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -28324,8 +27830,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "2 applicants",
@@ -28337,8 +27842,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -28359,8 +27863,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -28444,8 +27947,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -28599,8 +28101,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -28681,8 +28182,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "24 applicants",
@@ -28744,8 +28244,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "18 hours ago",
 			TotalApplicant: "2 applicants",
@@ -28808,8 +28307,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -28853,8 +28351,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "2 hours ago",
 			TotalApplicant: "2 applicants",
@@ -28866,8 +28363,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -28888,8 +28384,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -28973,8 +28468,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -29128,8 +28622,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -29210,8 +28703,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "29 applicants",
@@ -29273,8 +28765,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "2 applicants",
@@ -29337,8 +28828,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -29382,8 +28872,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "2 hours ago",
 			TotalApplicant: "2 applicants",
@@ -29395,8 +28884,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -29417,8 +28905,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -29502,8 +28989,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -29657,8 +29143,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -29739,8 +29224,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "1 hour ago",
 			TotalApplicant: "33 applicants",
@@ -29802,8 +29286,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "2 applicants",
@@ -29866,8 +29349,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "26 applicants",
@@ -29911,8 +29393,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "2 hours ago",
 			TotalApplicant: "3 applicants",
@@ -29924,8 +29405,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -29946,8 +29426,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -30031,8 +29510,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -30186,8 +29664,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",
@@ -30268,8 +29745,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3981538319/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=gU6G5XUeARYkcZAlEJtilw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Software Engineer - UI Developer (Angular) - (2-3 Years)",
+			JobTitle: "Software Engineer - UI Developer (Angular) - (2-3 Years)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "2 hours ago",
 			TotalApplicant: "37 applicants",
@@ -30331,8 +29807,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978867862/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=0ftbKLQMM4irfe1D2QAvlA%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"MS Dynamics AX Developer (Senior Developer/Technical Lead)",
+			JobTitle: "MS Dynamics AX Developer (Senior Developer/Technical Lead)",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "19 hours ago",
 			TotalApplicant: "2 applicants",
@@ -30395,8 +29870,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978864296/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=kyD305IbC11Sq0IY6YAwWg%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Clojure/Clojurescript Developer/Lead- Multiple locations",
+			JobTitle: "Clojure/Clojurescript Developer/Lead- Multiple locations",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "22 hours ago",
 			TotalApplicant: "27 applicants",
@@ -30440,8 +29914,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978943953/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=KCoQER6sd2mfcKeUGB41%2Bw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
+			JobTitle: "Salesforce Mulesoft- Developer - Senior Associate - Bangalore",
 			Location: "Bengaluru, Karnataka, India",
 			PostTime: "2 hours ago",
 			TotalApplicant: "2 applicants",
@@ -30453,8 +29926,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/allimetech/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/allimetech/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/D560BAQECMC6EJq_eCw/company-logo_100_100/0/1699410192837/allimetech_logo?e=1729728000&v=beta&t=uUAi_Nay9Eo2uQprxJVVhgUeeW9YfJwWQdiyzL11YWc",
 			CompanyName: "Allime Tech Solutions",
@@ -30475,8 +29947,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/infogain/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/infogain/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQHzCj5jr24FAg/company-logo_100_100/0/1630622441363/infogain_logo?e=1729728000&v=beta&t=7WwU9SGmY76I3xc2sj3ZXIhK467a_Th6hsp9DWVzJz8",
 			CompanyName: "Infogain",
@@ -30560,8 +30031,7 @@ let unprocessedJobDataList = [
 	},
 	{
 		Company: {
-			CompanyLinkedInURL:
-				"https://www.linkedin.com/company/innowork4corp/life",
+			CompanyLinkedInURL: "https://www.linkedin.com/company/innowork4corp/life",
 			CompanyLogoUrl:
 				"https://media.licdn.com/dms/image/C510BAQGIQGPLgco6vQ/company-logo_100_100/0/1630579976228/innowork4corp_logo?e=1729728000&v=beta&t=GE36CqGYLlIk7zKYG6uMgpPUvGkrouVmmvuhJdKWnoA",
 			CompanyName: "INNOWORK - People & Performance",
@@ -30715,8 +30185,7 @@ let unprocessedJobDataList = [
 		Job: {
 			LinkedInPostUrl:
 				"https://www.linkedin.com/jobs/view/3978866655/?alternateChannel=search&refId=MOUQguI7P1GCFd%2F7R1PquQ%3D%3D&trackingId=qrwjtl1zFSmKAIuDxc9xNw%3D%3D&trk=d_flagship3_job_details",
-			JobTitle:
-				"Performance Engineer for IBM Storage Scale & Scale System",
+			JobTitle: "Performance Engineer for IBM Storage Scale & Scale System",
 			Location: "Bengaluru East, Karnataka, India",
 			PostTime: "20 hours ago",
 			TotalApplicant: "1 applicant",

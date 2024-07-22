@@ -26700,3 +26700,457 @@
         }
     }
 ]
+
+
+[
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/teamsoftway/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4E0BAQFVz8_5Kx_PRA/company-logo_100_100/0/1630643047279/teamsoftway_logo?e=1729728000&v=beta&t=Qp2WB8dfiWoYy1V8cr5eGZTOH2Zv1tlhmh2mZaNoRAs",
+            "CompanyName": "Softway",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3925576217/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=XqRuGby7Pblcb5uhqpbHdA%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": ".NET MAUI Developer",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "2 months ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "Hybrid",
+            "JobType": "Full-time",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/cdatasoftware/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQERj3kSs4Yq1A/company-logo_100_100/0/1631341724244?e=1729728000&v=beta&t=2_jYinpsKHsxXunPeyP6Z5NHTKVobI5chvlHJ_S85tQ",
+            "CompanyName": "CData Software",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3955469855/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=te%2B65Ci%2FARzEfK7iHxeYdA%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Software Development Engineer II_Dotnet",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "Reposted 5 days ago",
+            "TotalApplicant": "14 applicants",
+            "JobRemotType": "Full-time",
+            "JobType": "Mid-Senior level",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/camascope/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4E0BAQHo5ryGhL6Z6A/company-logo_100_100/0/1680124400295/camascope_logo?e=1729728000&v=beta&t=h7ijX0Iva-Zr2RCgpXKEGtGd93j9ptOQIvNGe67-RM0",
+            "CompanyName": "Camascope",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3939102364/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=fckNUAW8MPlAe1JrBnb8Pw%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Engineering Manager (C#.net, Azure)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "1 month ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "Hybrid",
+            "JobType": "Full-time",
+            "IsEasyApply": true
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/samsung-electro-mechanics/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C560BAQElcjyn6Rw9XQ/company-logo_100_100/0/1630657480009/samsung_electro_mechanics__logo?e=1729728000&v=beta&t=yhGPP3Ufheqv-LuQYXEvXLwCDqf3ehOyVHnCRAcIjAo",
+            "CompanyName": "Samsung Electro-Mechanics",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3963378106/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=ppwt74wVS35Sjt5rLNLggw%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "C# MVC Full Stack Developer",
+            "Location": "Greater Bengaluru Area",
+            "PostTime": "2 weeks ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "Hybrid",
+            "JobType": "Full-time",
+            "IsEasyApply": true
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/esko/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/D4E0BAQEx5sSYo-xfug/company-logo_100_100/0/1711126702508/esko_logo?e=1729728000&v=beta&t=OoS1PDQCZE7AiiSoXPNdb1pQPynKB_eT96KdEcNEkV0",
+            "CompanyName": "Esko",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3937217318/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=J8%2FT6XJIuF1fE4guXUh6%2Fw%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": ".Net Developer",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "Reposted 1 week ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "Hybrid",
+            "JobType": "Full-time",
+            "JobExperienceLavel": "Mid-Senior level",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/birlasoft/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4E0BAQFJ26tVfkJeKg/company-logo_100_100/0/1630606173796/birlasoft_logo?e=1729728000&v=beta&t=6Z4Isq6npan5LybgDj2qQhoYYII2j-LvWP7YkpQvUrA",
+            "CompanyName": "Birlasoft",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3946480845/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=b%2BonKHS4WDAOu976XXOCTQ%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": ".NET Developer (Immediate interviews)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "Reposted 1 month ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "Hybrid",
+            "JobType": "Full-time",
+            "JobExperienceLavel": "Mid-Senior level",
+            "IsEasyApply": true
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/innovaesi/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/D4D0BAQF7jQhezvnjpw/company-logo_100_100/0/1682440608060?e=1729728000&v=beta&t=QO7cXQfBrTEm8EOP_HxWP-fQKAo1U7n7GLZMXuyLo7Y",
+            "CompanyName": "Innova ESI",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3980031218/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=zeEUTfV0cunf1XeY45z1yg%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Dotnet Developer",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "8 minutes ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "On-site",
+            "JobType": "Full-time",
+            "IsEasyApply": true
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/agoda/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGBa_7QNZNwpw/company-logo_100_100/0/1656643826660/agoda_logo?e=1729728000&v=beta&t=N7_HKp0gNdKqkIUMyI-xhwO_TXbiUk1VZStscPvHw2k",
+            "CompanyName": "Agoda",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3981979536/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=SIl5B6%2FfRXMfg2GU3Rd20w%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Senior Software Engineer, Back End Team – (Gurugram based)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "13 minutes ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "Full-time",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/agoda/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGBa_7QNZNwpw/company-logo_100_100/0/1656643826660/agoda_logo?e=1729728000&v=beta&t=N7_HKp0gNdKqkIUMyI-xhwO_TXbiUk1VZStscPvHw2k",
+            "CompanyName": "Agoda",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3981979536/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=SIl5B6%2FfRXMfg2GU3Rd20w%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Senior Software Engineer, Back End Team – (Gurugram based)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "13 minutes ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "Full-time",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/agoda/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGBa_7QNZNwpw/company-logo_100_100/0/1656643826660/agoda_logo?e=1729728000&v=beta&t=N7_HKp0gNdKqkIUMyI-xhwO_TXbiUk1VZStscPvHw2k",
+            "CompanyName": "Agoda",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3981979536/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=SIl5B6%2FfRXMfg2GU3Rd20w%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Senior Software Engineer, Back End Team – (Gurugram based)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "13 minutes ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "Full-time",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/agoda/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGBa_7QNZNwpw/company-logo_100_100/0/1656643826660/agoda_logo?e=1729728000&v=beta&t=N7_HKp0gNdKqkIUMyI-xhwO_TXbiUk1VZStscPvHw2k",
+            "CompanyName": "Agoda",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3981979536/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=SIl5B6%2FfRXMfg2GU3Rd20w%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Senior Software Engineer, Back End Team – (Gurugram based)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "13 minutes ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "Full-time",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/agoda/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGBa_7QNZNwpw/company-logo_100_100/0/1656643826660/agoda_logo?e=1729728000&v=beta&t=N7_HKp0gNdKqkIUMyI-xhwO_TXbiUk1VZStscPvHw2k",
+            "CompanyName": "Agoda",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3981979536/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=SIl5B6%2FfRXMfg2GU3Rd20w%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Senior Software Engineer, Back End Team – (Gurugram based)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "13 minutes ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "Full-time",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/agoda/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGBa_7QNZNwpw/company-logo_100_100/0/1656643826660/agoda_logo?e=1729728000&v=beta&t=N7_HKp0gNdKqkIUMyI-xhwO_TXbiUk1VZStscPvHw2k",
+            "CompanyName": "Agoda",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3981979536/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=SIl5B6%2FfRXMfg2GU3Rd20w%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Senior Software Engineer, Back End Team – (Gurugram based)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "13 minutes ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "Full-time",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/agoda/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGBa_7QNZNwpw/company-logo_100_100/0/1656643826660/agoda_logo?e=1729728000&v=beta&t=N7_HKp0gNdKqkIUMyI-xhwO_TXbiUk1VZStscPvHw2k",
+            "CompanyName": "Agoda",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3981979536/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=SIl5B6%2FfRXMfg2GU3Rd20w%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Senior Software Engineer, Back End Team – (Gurugram based)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "13 minutes ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "Full-time",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/agoda/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGBa_7QNZNwpw/company-logo_100_100/0/1656643826660/agoda_logo?e=1729728000&v=beta&t=N7_HKp0gNdKqkIUMyI-xhwO_TXbiUk1VZStscPvHw2k",
+            "CompanyName": "Agoda",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3981979536/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=SIl5B6%2FfRXMfg2GU3Rd20w%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Senior Software Engineer, Back End Team – (Gurugram based)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "13 minutes ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "Full-time",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/capleo-global/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/D560BAQHWoI6g4TDhMw/company-logo_100_100/0/1719833952095/capleo_global_logo?e=1729728000&v=beta&t=eCl0UX7zJJg628fZ27ZU694OkTcMF1s_D5SDIFh-BEo",
+            "CompanyName": "Capleo Global",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3961413977/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=vJRUA1N6ZudyHCUBDuJKzg%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Senior Dotnet Developer",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "2 weeks ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "On-site",
+            "JobType": "Full-time",
+            "JobExperienceLavel": "Mid-Senior level",
+            "IsEasyApply": true
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/peoplelogic-business-solutions/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQHzT9vIplSEiw/company-logo_100_100/0/1631353481339?e=1729728000&v=beta&t=QL85hW9vMRcFisoDnNUvJKQeroHymde01UeiybVVkqo",
+            "CompanyName": "PeopleLogic ",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3976851189/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=Lm%2BvlAX7Zi7NDKYyHYbmxA%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": ".Net core developer",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "6 days ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobType": "Full-time",
+            "JobExperienceLavel": "Associate",
+            "IsEasyApply": true
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/aidewiser/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQF5hBhoMAduqw/company-logo_100_100/0/1675325258091?e=1729728000&v=beta&t=dEcTs2GpIruPkQSd57OQXcZdL1JJcExFJflyI6zn_8w",
+            "CompanyName": "AideWiser SolTek",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3968044818/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=GH8wUmhGejmWV3pEmO06SA%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Backend .Net",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "1 week ago",
+            "TotalApplicant": "0 applicants",
+            "JobType": "Contract",
+            "JobExperienceLavel": "Associate",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/agoda/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGBa_7QNZNwpw/company-logo_100_100/0/1656643826660/agoda_logo?e=1729728000&v=beta&t=N7_HKp0gNdKqkIUMyI-xhwO_TXbiUk1VZStscPvHw2k",
+            "CompanyName": "Agoda",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3981980429/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=ssqUNQgPT8lFRvEBdfAbKA%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Software Engineer, Back End Team – (Gurugram based)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "15 minutes ago",
+            "TotalApplicant": "1 applicant",
+            "JobRemotType": "Full-time",
+            "JobType": "Mid-Senior level",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/aveva/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/D4E0BAQG2pi9890d1cw/company-logo_100_100/0/1719911907486/aveva_logo?e=1729728000&v=beta&t=WNjF70eQY_pGWFRVeLSGg96XDC7Za0BCxAowQPuxLes",
+            "CompanyName": "AVEVA",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3911843692/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=9LeZjdZXQo1uWOay3QJpyQ%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": ".NET Developer",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "Reposted 2 days ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "Full-time",
+            "JobType": "Mid-Senior level",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/tigihr/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4D0BAQGLW9qW5g-H0A/company-logo_100_100/0/1675969755065/tigihr_logo?e=1729728000&v=beta&t=8lDAHN_f2YYd_td_Z6CghfnbbxOu8oGd5rCmp37z-zA",
+            "CompanyName": "TIGI HR ®",
+            "CompanyStrength": "\n                        "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3959993576/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=MhQmrK8mfSKrGT6ZH7H4WA%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Dotnet Developer",
+            "Location": "Bangalore Urban, Karnataka, India",
+            "PostTime": "3 weeks ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "On-site",
+            "JobType": "Full-time",
+            "JobExperienceLavel": "Associate",
+            "IsEasyApply": true
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/carl-zeiss-india-czi/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/D560BAQFu2OvDkb_gmA/company-logo_100_100/0/1709869746600?e=1729728000&v=beta&t=mDnASIxoau5jT7c4buQavnHLCKbV-LE5T-NMERNoEkc",
+            "CompanyName": "ZEISS India",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3971149132/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=fV0j6b%2FvZv5O2QhiN%2FgX6A%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "Backend Developer (Dotnet, C#)",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "1 week ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "On-site",
+            "JobType": "Full-time",
+            "JobExperienceLavel": "Mid-Senior level",
+            "IsEasyApply": true
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/gainwell-technologies/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/D560BAQGcFPkbuWj9Mw/company-logo_100_100/0/1720034743163/gainwell_technologies_logo?e=1729728000&v=beta&t=5ZWinvmkMJBkujeDcswr5XmUW3rdeVRi9gmFKvtJkgg",
+            "CompanyName": "Gainwell Technologies",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3927814253/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=Av8UP9lDjpLA%2F%2BpnmjWa3Q%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "ASP.Net Webforms Senior Professional",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "Reposted 1 week ago",
+            "TotalApplicant": "Over 100 applicants",
+            "JobRemotType": "Hybrid",
+            "JobType": "Full-time",
+            "JobExperienceLavel": "Mid-Senior level",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/cielhr/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/D560BAQFTSAylucXwjg/company-logo_100_100/0/1696601667881/cielhr_logo?e=1729728000&v=beta&t=1kYJUyzeRKNeViyKRPQWuSBVqXBJ4q7O6BjUs_sdWCY",
+            "CompanyName": "CIEL HR",
+            "CompanyStrength": "Actively recruiting"
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3888460948/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=OxnQshWo6K8eXZZ5c4cr8A%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": ".net core",
+            "Location": "Bengaluru, Karnataka, India",
+            "PostTime": "3 months ago",
+            "TotalApplicant": "0 applicants",
+            "JobRemotType": "Hybrid",
+            "JobType": "Full-time",
+            "JobExperienceLavel": "Entry level",
+            "IsEasyApply": false
+        }
+    },
+    {
+        "Company": {
+            "CompanyLinkedInURL": "https://www.linkedin.com/company/upshoothrs/life",
+            "CompanyLogoUrl": "https://media.licdn.com/dms/image/C4E0BAQGu6czITipvAg/company-logo_100_100/0/1630626924671/upshoothrs_logo?e=1729728000&v=beta&t=yJ6osydZUQ_MGYoUKed0drk-USyfK5XB32hS0aar-aU",
+            "CompanyName": "Upshoot ",
+            "CompanyStrength": "\n                            "
+        },
+        "Job": {
+            "LinkedInPostUrl": "https://www.linkedin.com/jobs/view/3943850888/?alternateChannel=search&refId=15DmZGziPhMY32skR8XNmA%3D%3D&trackingId=tVaZShx4JCageLaRbV%2FoqQ%3D%3D&trk=d_flagship3_job_details",
+            "JobTitle": "SSE- C# .Net Core /8-12 years/FTE/ @Bengaluru / Immediate Joiners",
+            "Location": "Bengaluru East, Karnataka, India",
+            "PostTime": "1 month ago",
+            "TotalApplicant": "15 applicants",
+            "JobRemotType": "On-site",
+            "JobType": "Full-time",
+            "JobExperienceLavel": "Mid-Senior level",
+            "IsEasyApply": true
+        }
+    }
+]
