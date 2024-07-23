@@ -50,21 +50,12 @@ const getJobData = (detailParentDivXPath) => {
 		jobObject.Job.PostTime = postTime;
 		jobObject.Job.TotalApplicant = totalApplicant;
 
-		let jobRemoteTypeJobTypeJobExperienceLavelCompanyStrengthCompanyDomainAndTotalApplicantNode =
+		let jobRemoteTypeJobTypeJobExperienceLavelAndTotalApplicantNode =
 			detailParentDivChildNodes[3];
-		let {
-			jobRemotType,
-			jobType,
-			jobExperienceLavel,
-			companyStrength,
-			companyDomain,
-		} =
-			getjobRemoteTypeJobTypeJobExperienceLavelCompanyStrengthCompanyDomainAndTotalApplicantNodeFromNode(
-				jobRemoteTypeJobTypeJobExperienceLavelCompanyStrengthCompanyDomainAndTotalApplicantNode
+		let { jobRemotType, jobType, jobExperienceLavel } =
+			getjobRemoteTypeJobTypeJobExperienceLavelAndTotalApplicantNodeFromNode(
+				jobRemoteTypeJobTypeJobExperienceLavelAndTotalApplicantNode
 			);
-
-		jobObject.Company.CompanyStrength = companyStrength;
-		jobObject.Company.CompanyDomain = companyDomain;
 		jobObject.Job.JobRemotType = jobRemotType;
 		jobObject.Job.JobType = jobType;
 		jobObject.Job.JobExperienceLavel = jobExperienceLavel;
@@ -91,45 +82,37 @@ const getIsEasyApplyFromNode = (applyAndSaveButtonNode) => {
 	}
 };
 
-const getjobRemoteTypeJobTypeJobExperienceLavelCompanyStrengthCompanyDomainAndTotalApplicantNodeFromNode =
-	(
-		jobRemoteTypeJobTypeJobExperienceLavelCompanyStrengthCompanyDomainAndTotalApplicantNode
-	) => {
-		try {
-			let detailsList =
-				jobRemoteTypeJobTypeJobExperienceLavelCompanyStrengthCompanyDomainAndTotalApplicantNode
-					?.children[0]?.children;
+const getjobRemoteTypeJobTypeJobExperienceLavelAndTotalApplicantNodeFromNode = (
+	jobRemoteTypeJobTypeJobExperienceLavelAndTotalApplicantNode
+) => {
+	try {
+		let detailsList =
+			jobRemoteTypeJobTypeJobExperienceLavelAndTotalApplicantNode?.children[0]
+				?.children;
 
-			let jobDetail = detailsList[0]?.children[1]?.children;
-			let jobRemotType = jobDetail[0]?.children[0]?.children[0]?.textContent;
-			let jobType =
-				jobDetail[1]?.children[0]?.children[0]?.textContent ??
-				jobDetail[1]?.childNodes[2]?.textContent;
+		let jobDetail = detailsList[0]?.children[1]?.children;
+		let jobRemotType = jobDetail[0]?.children[0]?.children[0]?.textContent;
+		let jobType =
+			jobDetail[1]?.children[0]?.children[0]?.textContent ??
+			jobDetail[1]?.childNodes[2]?.textContent;
 
-			let jobExperienceLavel = jobDetail[2]?.childNodes[2]?.textContent.replace(
-				"Matches your job preferences, job type is",
-				""
-			);
+		let jobExperienceLavel = jobDetail[2]?.childNodes[2]?.textContent.replace(
+			"Matches your job preferences, job type is",
+			""
+		);
 
-			let companyDetail =
-				detailsList[1]?.children[1]?.childNodes[2]?.textContent;
-			let companyStrength = companyDetail.split(" · ")[0];
-			let companyDomain = companyDetail.split(" · ")[1];
-
-			return {
-				jobRemotType: jobRemotType,
-				jobType: jobType,
-				jobExperienceLavel: jobExperienceLavel,
-				companyStrength: companyStrength,
-				companyDomain: companyDomain,
-			};
-		} catch (error) {
-			console.log(
-				"Error in getjobRemoteTypeJobTypeJobExperienceLavelCompanyStrengthCompanyDomainAndTotalApplicantNodeFromNode",
-				error
-			);
-		}
-	};
+		return {
+			jobRemotType: jobRemotType,
+			jobType: jobType,
+			jobExperienceLavel: jobExperienceLavel,
+		};
+	} catch (error) {
+		console.log(
+			"Error in getjobRemoteTypeJobTypeJobExperienceLavelAndTotalApplicantNodeFromNode",
+			error
+		);
+	}
+};
 const getJoblocationTotalApplicantAndPostTimeFromNode = (
 	locationTotalApplicantAndPostTimeNode
 ) => {
