@@ -41,99 +41,98 @@ var joblist = [
 	},
 ];
 
-for (const job of joblist) {
-}
+let companyWindow = window.open("", `_blank`);
+const getElementByXpath = (path) => {
+	try {
+		return document.evaluate(
+			path,
+			companyWindow.document,
+			null,
+			XPathResult.FIRST_ORDERED_NODE_TYPE,
+			null
+		).singleNodeValue;
+	} catch (error) {
+		console.log("Error in getElementByXpath", error);
+	}
+};
 
-for (let index = 0; index < joblist.length; index++) {
-	const job = joblist[index];
-
-	let url = job.Company.CompanyLinkedInURL.replace("life", "people");
-	console.log(url);
-
-	let companyWindow = window.open(url, `_blank${index}`);
-	console.log(companyWindow);
-	companyWindow.getElementByXpath = (path) => {
+const getEmployeDetails = () => {
+	return new Promise(async (resolve, reject) => {
 		try {
-			return document.evaluate(
-				path,
-				companyWindow.document,
-				null,
-				XPathResult.FIRST_ORDERED_NODE_TYPE,
-				null
-			).singleNodeValue;
-		} catch (error) {
-			console.log("Error in getElementByXpath", error);
-		}
-	};
+			let peopleListXpath =
+				"/html/body/div[4]/div[3]/div/div[2]/div/div[2]/main/div[2]/div/div[2]/div/div[1]/ul";
+			let peopleListParentNode =
+				companyWindow.getElementByXpath(peopleListXpath);
 
-	companyWindow.GetEmployeDetails = () => {
-		return new Promise((resolve, reject) => {
-			try {
-				let peopleListXpath =
-					"/html/body/div[4]/div[3]/div/div[2]/div/div[2]/main/div[2]/div/div[2]/div/div[1]/ul";
-				let peopleListParentNode =
-					companyWindow.getElementByXpath(peopleListXpath);
+			if ((peopleListParentNode != undefined || peopleListParentNode) != null) {
+				let needToCollectMenbers = 10;
+				let collectedMembers = [];
+				let scrolledMenbers = 0;
+				while (collectedMembers.length < needToCollectMenbers) {
+					//scroll
+					var body = companyWindow.getElementByXpath("/html/body");
+					window.scrollTo(0, body.scrollHeight);
+					await personWindow.wait(1000);
 
-				if (
-					(peopleListParentNode != undefined || peopleListParentNode) != null
-				) {
-					let needToCollectMenbers = 10;
-					let collectedMembers = [];
-					let scrolledMenbers = 0;
-					while (collectedMembers.length < needToCollectMenbers) {
-						//scroll
-						var body = companyWindow.getElementByXpath("/html/body");
-						window.scrollTo(0, body.scrollHeight);
+					let peopleNodeList = peopleListParentNode.children;
 
-						let peopleNodeList = peopleListParentNode.children;
-
-						while (scrolledMenbers < peopleNodeList.length) {
-							let personNode = peopleNodeList[scrolledMenbers];
-							let personInfoNode =
-								personNode.children[0]?.children[0]?.children[1]?.children[0]
-									?.children[1];
-							let personProfileUrl =
-								personInfoNode.children[0]?.children[0]?.href;
-							let personName =
-								personInfoNode?.children[0]?.children[0]?.children[0]
-									?.childNodes[2]?.textContent;
-							let personPosition =
-								personInfoNode.children[2].children[0].children[0].childNodes[2]
-									.textContent;
-							if (personName && personProfileUrl) {
-								collectedMembers.push({
-									memberName: personName,
-									memberProfileUrl: personProfileUrl,
-									memberPosition: personPosition,
-								});
-								scrolledMenbers++;
-							}
+					while (
+						scrolledMenbers < peopleNodeList.length &&
+						collectedMembers.length < needToCollectMenbers
+					) {
+						let personNode = peopleNodeList[scrolledMenbers];
+						let personInfoNode =
+							personNode.children[0]?.children[0]?.children[1]?.children[0]
+								?.children[1];
+						let personProfileUrl =
+							personInfoNode.children[0]?.children[0]?.href;
+						let personName =
+							personInfoNode?.children[0]?.children[0]?.children[0]
+								?.childNodes[2]?.textContent;
+						let personPosition =
+							personInfoNode.children[2].children[0].children[0].childNodes[2]
+								.textContent;
+						if (personName && personProfileUrl) {
+							collectedMembers.push({
+								memberName: personName,
+								memberProfileUrl: personProfileUrl,
+								memberPosition: personPosition,
+							});
+							scrolledMenbers++;
 						}
 					}
-					resolve(collectedMembers);
-				} else {
-					console.log("not found");
-					resolve([]);
 				}
-			} catch {
-				console.log("Error in : GetEmployeDetails");
+				resolve(collectedMembers);
+			} else {
+				console.log("not found");
 				resolve([]);
 			}
-		});
-	};
+		} catch {
+			console.log("Error in : GetEmployeDetails");
+			resolve([]);
+		}
+	});
+};
 
-	companyWindow.wait = (ms) => {
-		return new Promise(async (resolve, reject) => {
-			setTimeout(() => {
-				resolve();
-			}, ms);
-		});
-	};
+const wait = (ms) => {
+	return new Promise(async (resolve, reject) => {
+		setTimeout(() => {
+			resolve();
+		}, ms);
+	});
+};
 
-	await companyWindow.wait(10000);
-	var memberData = await companyWindow.GetEmployeDetails();
+for (const job of joblist) {
+	let url = job.Company.CompanyLinkedInURL.replace("life", "people");
+	companyWindow.location.href = url;
+	await wait(10000);
+	companyWindow.getElementByXpath = getElementByXpath;
+	companyWindow.getEmployeDetails = getEmployeDetails;
+	companyWindow.wait = wait;
+	var memberData = await companyWindow.getEmployeDetails();
 	console.log(memberData);
-	companyWindow.close();
-	await companyWindow.wait(2000);
+	await wait(2000);
 }
-console.log("New script appended!");
+
+console.log("New script completed!");
+companyWindow.close();
